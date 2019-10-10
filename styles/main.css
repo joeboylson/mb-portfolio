@@ -1,0 +1,127 @@
+:root {
+  --unit: 50px;
+  --background-shift: calc(50% - 13px);
+
+  --bg-color: #1370FB;
+  --dot-color: #3882E8;
+
+  --dot-size: 1px;
+  --dot-color: rgba(255, 255, 255, 0.15);
+
+  --grid-moz: -moz-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)), -moz-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)),#000;
+  --grid-webkit: -webkit-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)), -webkit-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)),#000;
+
+  --ttf: cubic-bezier(.68,0,.32,1);
+}
+
+
+
+* {
+  margin: 0;
+  cursor: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 20vh 0;
+  background: var(--grid-moz);
+  background: var(--grid-webkit);
+  background-position: calc(50% - 0px) calc(var(--unit) / 2);
+
+  -webkit-background-size: var(--unit)  var(--unit);
+  -moz-background-size: var(--unit)  var(--unit);
+  background-size: var(--unit)  var(--unit);
+
+  background-attachment: scroll;
+}
+
+p {
+  color: white;
+  line-height: calc(var(--unit) / 2)
+}
+
+#grid {
+  width: calc(22 * var(--unit));
+  margin: var(--unit) auto 0 auto;
+}
+
+/* test */
+#grid #hover-test {
+  width: calc(var(--unit) * 10);
+  height: calc(var(--unit) * 5);
+  background-color: white;
+  margin-bottom: var(--unit);
+  width: 100%;
+}
+
+/* ----- ----- ---- */
+/* NAV */
+/* ----- ----- ---- */
+
+#nav {
+  position: fixed;
+  width: calc(var(--unit) * 10);
+  height: 100vh;
+  top: 0;
+  left: 0;
+
+  transform: translateX(-90%);
+  animation-timing-function: var(--ttf);
+  transition-duration: 0.5s;
+
+  background-color: #e3e3e3;
+  z-index: 10;
+}
+
+#nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: calc( var(--unit) * 2) 0;
+}
+
+#nav-links a {
+  padding: 0 calc( var(--unit) * 2);
+}
+
+/* ----- ----- ---- */
+/* INTERSECTION OBSERVER */
+/* ----- ----- ---- */
+
+[data-highlight] {
+  opacity: 0.4;
+  transition-duration: 0.25s;
+}
+
+.in-viewport {
+  opacity: 1;
+}
+
+/* MEDIA QUERIES */
+
+/* 
+desktop: 1920-1200
+tablet: 1200-750
+mobile: 750-- 
+*/
+
+/* tablet styling */
+@media only screen and (max-width: 1200px) {
+  #grid {
+    width: calc(14 * var(--unit));
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #grid {
+    width: calc(10 * var(--unit));
+  }
+}
+
+
+
+
