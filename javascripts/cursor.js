@@ -5,7 +5,7 @@ class Cursor {
     this.hoverElements = Array.prototype.slice.call( document.querySelectorAll('[data-hover]') );
 
     this.setFollowCursor()
-    this.setHoverListeners(this.hoverElements)
+    this.setHoverListeners()
   }
 
 
@@ -32,22 +32,23 @@ class Cursor {
     })
 
     document.addEventListener('mouseleave', (e) => {
-      let opacity = {opacity: `0`} 
-      Object.assign(this.cursor.style, opacity );
+      Object.assign(this.cursor.style, {opacity: `0`}  );
     })
   }
 
 
   
-  setHoverListeners (elements) {
-    for (let ele of elements) {
+  setHoverListeners () {
+    for (let ele of this.hoverElements) {
       ele.addEventListener('mouseover', (e) => {
         this.cursorInner.classList.add('reveal-cursor')
         this.cursorInner.innerHTML = e.target.dataset.hover
+        Object.assign(this.cursor.childNodes[1].style, {opacity: `0`}  );
       })
 
       ele.addEventListener('mouseleave', (e) => {
         this.cursorInner.classList.remove('reveal-cursor')
+        Object.assign(this.cursor.childNodes[1].style, {opacity: `1`}  );
       })
     }
   }

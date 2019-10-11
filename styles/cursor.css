@@ -21,6 +21,7 @@
   top: 0;
   transform: translate(-10%, 0);
   pointer-events: none;
+  transition-duration: 0.5s;
 }
 
 /* #cursor-pointer {
@@ -37,20 +38,22 @@
 #cursor-inner {
   width: var(--unit);
   height: var(--unit);
-  color: red;
   opacity: 0;
-  text-align: right;
-  
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  
+
   transition-duration: 0.5s;
   transition-timing-function: var(--ttf);
   position: absolute;
-  left: var(--unit);
+  left: 0;
   top: 0;
-  transform: translate(0, -50%);
+  transform: translate(50%, -50%);
   pointer-events: none;
+
+  text-align: center;
+  line-height: var(--unit);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+
 }
 
 #cursor-inner, #cursor-inner * {

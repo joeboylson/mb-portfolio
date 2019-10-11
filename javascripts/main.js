@@ -1,30 +1,12 @@
 window.addEventListener('DOMContentLoaded', (event) => {
   const cursor = new Cursor(); 
   const nav = new Nav();
-  // const highlight = new Highlight();
+  const highlight = new Highlight();
 
-  const options = {
-    rootMargin: '-200px 0px -200px 0px',
-    threshold: 0.5
-  }
+  let projectImages = document.querySelectorAll('[data-image]');
 
-  targets = document.querySelectorAll('[data-highlight]');
+  projectImages.forEach(element => {
+    Object.assign(element.style, {backgroundImage: `url(${element.dataset.image})`});
+  });
 
-  observer = new IntersectionObserver((entries) => {
-
-      entries.forEach(entry => {
-
-          if(entry.intersectionRatio > 0.5) {
-            entry.target.classList.add('in-viewport')
-          }
-          else {
-            entry.target.classList.remove('in-viewport')
-          }
-      })
-
-  }, options)
-
-  targets.forEach(image => {
-      observer.observe(image)
-  })
 });

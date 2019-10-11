@@ -33,7 +33,7 @@ body {
   padding: calc(var(--unit) * 4) 0;
   background: var(--grid-moz);
   background: var(--grid-webkit);
-  background-position: calc(50% - 0px) calc(var(--unit) / 2);
+  background-position: calc(50% - (var(--unit)/2)) calc(var(--unit) / 2);
 
   -webkit-background-size: var(--unit)  var(--unit);
   -moz-background-size: var(--unit)  var(--unit);
@@ -47,20 +47,14 @@ p {
   line-height: calc(var(--unit) / 2)
 }
 
+img {
+  width: 100%;
+}
+
 #grid {
   width: calc(22 * var(--unit));
   margin: var(--unit) auto 0 auto;
-}
-
-/* test */
-#grid #hover-test {
-  width: calc(var(--unit) * 10);
-  height: calc(var(--unit) * 5);
-  background-color: #1f1f1f;
-  margin-bottom: var(--unit);
-  color: white;
-  width: 100%;
-  overflow: hidden;
+  padding-left: var(--unit);
 }
 
 .vertical {
@@ -159,9 +153,9 @@ p {
   transform: scaleX(0) !important;
 }
 
-/* ----- ----- ---- */
-/* INTERSECTION OBSERVER */
-/* ----- ----- ---- */
+/* ----- ----- ---- ----- */
+/* INTERSECTION OBSERVER  */
+/* ----- ----- ---- ----- */
 
 [data-highlight] {
   opacity: 0.4;
@@ -172,7 +166,10 @@ p {
   opacity: 1;
 }
 
-/* MEDIA QUERIES */
+
+/* ----- ----- ---- ----- */
+/* MEDIA QUERIES          */
+/* ----- ----- ---- ----- */
 
 /* 
 desktop: 1920-1200
@@ -185,6 +182,21 @@ mobile: 750--
   #grid {
     width: calc(14 * var(--unit));
   }
+
+  .project-text .title, .project-text .info {
+    flex: 0 0 50%;
+  }
+  
+  .project-text .info {
+    text-align: right;
+  }
+
+  .project-text .description {
+    padding-top: var(--unit);
+    box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,1);
+    flex: 0 0 100%;
+  }
+
 }
 
 @media only screen and (max-width: 800px) {

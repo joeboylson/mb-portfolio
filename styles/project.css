@@ -1,0 +1,99 @@
+
+/* ----- ----- ---- ----- */
+/* PROJECTS               */
+/* ----- ----- ---- ----- */
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: calc(var(--unit) * 4);
+  margin-bottom: var(--unit);
+}
+
+.project:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.project h1, .project p {
+  color: white;
+}
+
+.project-image {
+  flex: 0 0 50%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: imageFadeRight 1s calc(var(--delay) * 0.25s) forwards;
+}
+
+.project-text{
+  flex: 0 0 calc(50% - (var(--unit)));
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  opacity: 0;
+  animation: textFadeUp 1s calc(var(--delay) * 0.25s + 0.25s) forwards;
+}
+
+.project-text .title, .project-text .info {
+  flex: 0 0 25%;
+}
+
+.project-text .description {
+  flex: 0 0 50%;
+}
+
+@keyframes textFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes imageFadeRight {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* ----- ----- ---- ----- */
+/* MEDIA QUERIES          */
+/* ----- ----- ---- ----- */
+
+/* 
+desktop: 1920-1200
+tablet: 1200-750
+mobile: 750-- 
+*/
+
+/* tablet styling */
+@media only screen and (max-width: 1200px) {
+  .project-text .title, .project-text .info {
+    flex: 0 0 50%;
+  }
+  
+  .project-text .info {
+    text-align: right;
+  }
+
+  .project-text .description {
+    padding-top: var(--unit);
+    box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,1);
+    flex: 0 0 100%;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {}
