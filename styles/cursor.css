@@ -11,14 +11,15 @@
 }
 
 #cursor-pointer {
-  width: var(--unit);
-  height: var(--unit);
-  border-radius: 100%;
-  border: 3px solid red;
+  content: url('/public/cursor.svg');
+  width: calc(var(--unit) / 2);
+  height: calc(var(--unit) / 2);
+  /* border-radius: 100%; */
+  /* border: 3px solid red; */
   position: absolute;
   left: 0;
   top: 0;
-  transform: translate(-50%, -50%);
+  transform: translate(-10%, 0);
   pointer-events: none;
 }
 
@@ -27,11 +28,11 @@
   width: calc( var(--unit) / 2);
   height: calc( var(--unit) / 2);
   transform: translate(-50%, -50%);
-}
+} */
 
 #cursor-pointer, #cursor-pointer * {
   pointer-events: none;
-} */
+}
 
 #cursor-inner {
   width: var(--unit);

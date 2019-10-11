@@ -1,11 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
   const cursor = new Cursor(); 
   const nav = new Nav();
-  const highlight = new Highlight();
-
-  nav.element.addEventListener('click', () => {
-    nav.toggle()
-  })
+  // const highlight = new Highlight();
 
   const options = {
     rootMargin: '-200px 0px -200px 0px',

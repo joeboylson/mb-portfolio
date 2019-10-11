@@ -27,7 +27,6 @@ class Highlight {
       //   entry.boundingClientRect
       //   entry.intersectionRatio
       //   entry.intersectionRect
-      console.log(entry.isIntersecting)
       //   entry.rootBounds
       //   entry.target
       //   entry.time

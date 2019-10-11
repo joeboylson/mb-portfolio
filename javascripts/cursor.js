@@ -8,6 +8,8 @@ class Cursor {
     this.setHoverListeners(this.hoverElements)
   }
 
+
+  
   setInnerElements () {
     let cursorInner = document.createElement('span')
     cursorInner.id = 'cursor-inner'
