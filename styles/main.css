@@ -30,7 +30,7 @@
 
 body {
   margin: 0;
-  padding: 20vh 0;
+  padding: calc(var(--unit) * 4) 0;
   background: var(--grid-moz);
   background: var(--grid-webkit);
   background-position: calc(50% - 0px) calc(var(--unit) / 2);
@@ -60,6 +60,7 @@ p {
   margin-bottom: var(--unit);
   color: white;
   width: 100%;
+  overflow: hidden;
 }
 
 .vertical {
