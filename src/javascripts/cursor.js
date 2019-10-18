@@ -1,4 +1,4 @@
-class Cursor {
+export default Cursor = {
   constructor() {
     this.cursor = document.getElementById('cursor')
     this.cursorInner = this.setInnerElements();
@@ -6,10 +6,7 @@ class Cursor {
 
     this.setFollowCursor()
     this.setHoverListeners()
-  }
-
-
-  
+  },
   setInnerElements () {
     let cursorInner = document.createElement('span')
     cursorInner.id = 'cursor-inner'
@@ -20,10 +17,7 @@ class Cursor {
     this.cursor.appendChild(cursorPointer);
 
     return cursorInner;
-  }
-
-
-
+  },
   setFollowCursor () {
     this.cursor.id = 'cursor'
     document.addEventListener('mousemove', (e) => {
@@ -34,10 +28,7 @@ class Cursor {
     document.addEventListener('mouseleave', (e) => {
       Object.assign(this.cursor.style, {opacity: `0`}  );
     })
-  }
-
-
-  
+  },
   setHoverListeners () {
     for (let ele of this.hoverElements) {
       ele.addEventListener('mouseover', (e) => {
