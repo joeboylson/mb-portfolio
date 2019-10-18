@@ -15,7 +15,6 @@
     "typescript": "3.6.4"
   },
   "scripts": {
-    "heroku-postbuild": "yarn install && npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
