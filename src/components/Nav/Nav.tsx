@@ -39,14 +39,15 @@ const Nav: React.FC<NavProps> = (Props) => {
         </span>
 
       </div>
+      <h2 id={'toggle-text'}>Matt Boylson</h2>
     </div>
 
     <div id='nav-links'>
-      <a href="http://google.com">HOME</a>
-      <a href="http://google.com">DESIGN</a>
-      <a href="http://google.com">ILLUSTRATION</a>
-      <a href="http://google.com">PHOTOGRAPHY</a>
-      <a href="http://google.com">CONTACT</a>
+      <h2><a href="http://google.com">HOME</a></h2>
+      <h2><a href="http://google.com">DESIGN</a></h2>
+      <h2><a href="http://google.com">ILLUSTRATION</a></h2>
+      <h2><a href="http://google.com">PHOTOGRAPHY</a></h2>
+      <h2><a href="http://google.com">CONTACT</a></h2>
     </div>
 
   </div>

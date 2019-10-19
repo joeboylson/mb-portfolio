@@ -30,11 +30,13 @@ const Project: React.FC<ProjectProps> = (Props) => {
   }, [])
 
   const projectStyle = {
-    flexDirection: `${(Props.index % 2) > 0   ? 'row-reverse' : 'row'}`
+    flexDirection: `${(Props.index % 2) > 0   ? 'row-reverse' : 'row'}`,
+    "--delay": `${Props.index/5}s`
   } as React.CSSProperties;
 
   const projectImageStyle = {
-    backgroundImage: `url("${Props.image}")`  
+    backgroundImage: `url("${Props.image}")`,
+    transitionDelay: `${Props.index}s`
   } as React.CSSProperties;
 
   const projectFooterStyle = {
