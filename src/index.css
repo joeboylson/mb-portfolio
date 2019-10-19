@@ -17,8 +17,6 @@
   --nav-offset: .7778
 }
 
-
-
 * {
   margin: 0;
   cursor: none;
@@ -42,9 +40,46 @@ body {
   background-attachment: scroll;
 }
 
-p {
+h1 {
+  font-size: 55px;
+  line-height: 89px;
+  font-family: 'univers_cond';
+  font-weight: 300;
   color: white;
-  line-height: calc(var(--unit) / 2);
+}
+
+h2 {
+  font-size: 34px;
+  line-height: 55px;
+  font-family: 'univers_cond';
+  font-weight: 300;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+h3 {
+  font-size: 34px;
+  line-height: 55px;
+  font-family: 'univers_cond';
+  font-weight: 300;
+  color: white;
+}
+
+p {
+  font-size: 13px;
+  line-height: 34px;
+  font-family: 'univers_lght';
+  font-weight: 300;
+  color: white;
+}
+
+i {
+  font-size: 13px;
+  line-height: 34px;
+  font-family: 'univers_lght_obl';
+  font-weight: 300;
+  color: white;
 }
 
 img {

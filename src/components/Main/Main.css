@@ -4,4 +4,5 @@
 
 #main {
   padding-left: var(--unit);
+  transition-duration: 0.5s;
 }

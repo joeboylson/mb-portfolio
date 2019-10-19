@@ -9,14 +9,41 @@
   top: 0;
   left: 0;
   z-index: 10;
-  background-color: #e3e3e3;
   animation-timing-function: var(--ttf);
   transform: translateX(-90%);
   transition-duration: 0.5s;
 }
 
+#nav::before {
+  content: '';
+  width: 200vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  z-index: -2;
+  transition-duration: 0.5s;
+}
+
+#nav:after {
+  content: '';
+  width: calc(var(--unit) * 10);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: ghostwhite;
+  z-index: -1;
+}
+
 .nav-open {
   transform: translateX(0) !important;
+}
+
+.nav-open::before {
+  opacity: 1 !important;
 }
 
 

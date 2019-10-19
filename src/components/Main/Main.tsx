@@ -7,53 +7,65 @@ import Project from '../Project/Project';
 const projects = [
   {
     cursorText: '01',
-    image: 'https://via.placeholder.com/1500x500',
-    title: 'TITLE',
-    info: 'Branding<br/>June 2019',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ipsum aut sint quis repellat sit exercitationem reprehenderit eos! Voluptatibus voluptatem exercitationem quia consequatur eveniet, numquam deleniti totam incidunt, aliquid temporibus nihil ipsum.'
+    image: 'https://via.placeholder.com/1500x1500',
+    title: 'Local Post',
+    info: <span>Branding<br/>June 2019</span>,
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
   },
   {
-    cursorText: '01',
-    image: 'https://via.placeholder.com/1500x500',
-    title: 'TITLE',
-    info: 'Branding<br/>June 2019',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ipsum aut sint quis repellat sit exercitationem reprehenderit eos! Voluptatibus voluptatem exercitationem quia consequatur eveniet, numquam deleniti totam incidunt, aliquid temporibus nihil ipsum.'
+    cursorText: '02',
+    image: 'https://via.placeholder.com/1500x1500',
+    title: 'Local Post',
+    info: <span>Branding<br/>June 2019</span>,
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
   },
   {
-    cursorText: '01',
-    image: 'https://via.placeholder.com/1500x500',
-    title: 'TITLE',
-    info: 'Branding<br/>June 2019',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ipsum aut sint quis repellat sit exercitationem reprehenderit eos! Voluptatibus voluptatem exercitationem quia consequatur eveniet, numquam deleniti totam incidunt, aliquid temporibus nihil ipsum.'
+    cursorText: '03',
+    image: 'https://via.placeholder.com/1500x1500',
+    title: 'Local Post',
+    info: <span>Branding<br/>June 2019</span>,
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
   },
   {
-    cursorText: '01',
-    image: 'https://via.placeholder.com/1500x500',
-    title: 'TITLE',
-    info: 'Branding<br/>June 2019',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ipsum aut sint quis repellat sit exercitationem reprehenderit eos! Voluptatibus voluptatem exercitationem quia consequatur eveniet, numquam deleniti totam incidunt, aliquid temporibus nihil ipsum.'
+    cursorText: '04',
+    image: 'https://via.placeholder.com/1500x1500',
+    title: 'Local Post',
+    info: <span>Branding<br/>June 2019</span>,
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
   },
   {
-    cursorText: '01',
-    image: 'https://via.placeholder.com/1500x500',
-    title: 'TITLE',
-    info: 'Branding<br/>June 2019',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ipsum aut sint quis repellat sit exercitationem reprehenderit eos! Voluptatibus voluptatem exercitationem quia consequatur eveniet, numquam deleniti totam incidunt, aliquid temporibus nihil ipsum.'
+    cursorText: '05',
+    image: 'https://via.placeholder.com/1500x1500',
+    title: 'Local Post',
+    info: <span>Branding<br/>June 2019</span>,
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
   },
   {
-    cursorText: '01',
-    image: 'https://via.placeholder.com/1500x500',
-    title: 'TITLE',
-    info: 'Branding<br/>June 2019',
-    description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed ipsum aut sint quis repellat sit exercitationem reprehenderit eos! Voluptatibus voluptatem exercitationem quia consequatur eveniet, numquam deleniti totam incidunt, aliquid temporibus nihil ipsum.'
+    cursorText: '06',
+    image: 'https://via.placeholder.com/1500x1500',
+    title: 'Local Post',
+    info: <span>Branding<br/>June 2019</span>,
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
   }
 ]
 
-const Main: React.FC = () => {
+export interface MainProps {
+  style: React.CSSProperties
+}
+
+const Main: React.FC<MainProps> = (Props) => {
   return (
-    <div id='main'>
+    <div id='main' style={Props.style}>
 
       <div id="grid">
+
+        {/* <h1>Header 1</h1>
+        <h2>Header 2 (uppercase)</h2>
+        <h3>Header 3</h3>
+        <p>Paragraph</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit molestiae, labore quae ullam odit voluptatum cum expedita distinctio reprehenderit magni iusto, neque optio nam a sit perspiciatis totam numquam vel, veniam placeat?</p>
+        <p><i>Italics</i></p>
+        <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus hic, nobis consectetur unde architecto libero, sit veritatis ipsa aperiam laudantium deserunt asperiores. Blanditiis natus fuga ipsa commodi, explicabo ea mollitia doloribus maiores.</i></p> */}
 
         { projects.map( (project, index) => {
           return (
@@ -62,6 +74,10 @@ const Main: React.FC = () => {
                 cursorText={project.cursorText}
                 image={project.image}
                 index={index}
+                title={project.title}
+                info={project.info}
+                description={project.description}
+                themeColor={'red'}
               />
             </Highlight>
         )})}

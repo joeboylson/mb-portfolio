@@ -1,30 +1,62 @@
 import React from 'react';
 import './Project.css';
+import { AppContext } from '../App/AppContext';
 
 export interface ProjectProps {
   cursorText: string;
   image: string;
   index: number;
+  themeColor: string;
   title?: string;
-  info?: string;
+  info?: any;
   description?: string;
 }
 
 const Project: React.FC<ProjectProps> = (Props) => {
 
+  const context: any = React.useContext(AppContext)
+
+  const setCursorElement = context['setCursorElement']
+
+  const [footerDelay, setFooterDelay] = React.useState(true);
+
+  React.useEffect(() => {
+
+    let timeout = setTimeout(() => {
+      setFooterDelay(false)
+      clearTimeout(timeout)
+    }, 1500)
+
+  }, [])
+
+  const projectStyle = {
+    flexDirection: `${(Props.index % 2) > 0   ? 'row-reverse' : 'row'}`
+  } as React.CSSProperties;
+
   const projectImageStyle = {
-    backgroundImage: `url("${Props.image}")`,
-    height: '100px'
+    backgroundImage: `url("${Props.image}")`  
+  } as React.CSSProperties;
+
+  const projectFooterStyle = {
+    transform: `${footerDelay ? 'scaleX(0)' : ''}`,
+    backgroundColor: Props.themeColor
   } as React.CSSProperties;
 
   return (
-    <div className={'project'}>
+    <div 
+      className={'project'} 
+      style={projectStyle}
+      onMouseEnter={(e) => setCursorElement(<h2>{Props.cursorText}</h2>)}
+      onMouseLeave={(e) => setCursorElement(null)}  
+    >
       <div className={'project-image'} style={projectImageStyle}></div>
-        <div className={'project-text'}>
-          <h1 className={'title'}>TITLE</h1>
-          <p className={'info'}>Branding<br/>June 2019</p>
-          <p className={'description'}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam saepe, hic natus amet fuga animi illum accusamus possimus dolorum porro repellat est minima recusandae culpa officia ex iusto vitae eaque esse repudiandae!</p>
+      <div className={'project-text'}>
+        <h3 className={'title'}>{Props.title}</h3>
+        <p className={'info'}>{Props.info}</p>
+        <p className={'description'}>{Props.description}</p>
       </div>
+      <div className={'project-footer'} style={projectFooterStyle}></div>
+
     </div>
   );
 }

@@ -1,9 +1,15 @@
-import React from 'react';
+import React, { Dispatch, SetStateAction } from 'react';
 import './Nav.css';
 
-const Nav: React.FC = () => {
+export interface NavProps {
+  setMainPosition: Dispatch<SetStateAction<string>>
+}
+
+const Nav: React.FC<NavProps> = (Props) => {
 
   const [navIsOpen, setNavIsOpen] = React.useState(false);
+
+  Props.setMainPosition(navIsOpen ? '15%' : '0');
 
   return (
     <div id="nav" className={navIsOpen ? 'nav-open' : ''}>
