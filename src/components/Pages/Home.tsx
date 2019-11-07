@@ -1,6 +1,5 @@
 import React from 'react';
 
-import Highlight from '../Highlight/Highlight'
 import Project from '../Project/Project';
 
 const projects = [
@@ -50,31 +49,20 @@ const projects = [
 
 const Home: React.FC = () => {
 
-  const [hoverOneProject, setHoverOneProject] = React.useState(null);
-
-  console.log(hoverOneProject)
-
   return (
     <div>
       { projects.map( (project, index) => {
         return (
-          <Highlight 
+          <Project 
             key={index}
+            cursorText={project.cursorText}
+            image={project.image}
             index={index}
-            setHoverOneProject={setHoverOneProject}
-            hoverOneProject={hoverOneProject}
-            overrideHightlight={hoverOneProject === index}
-          >
-            <Project 
-              cursorText={project.cursorText}
-              image={project.image}
-              index={index}
-              title={project.title}
-              info={project.info}
-              description={project.description}
-              themeColor={'red'}
-            />
-          </Highlight>
+            title={project.title}
+            info={project.info}
+            description={project.description}
+            themeColor={'red'}
+          />
       )})}
     </div>
   );

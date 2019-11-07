@@ -46,7 +46,9 @@ const Project: React.FC<ProjectProps> = (Props) => {
     <div 
       className={'project'} 
       style={projectStyle}
+      data-highlight
     >
+
       <div 
         className={'project-image'} 
         style={projectImageStyle}

@@ -26,27 +26,6 @@ const Cursor: React.FC = () => {
 
   return (
     <div id='cursor'>
-
-
-      {/* { cursorElement ? (
-        <div id="cursor-element">
-          { cursorElement }
-        </div>
-      ) : (
-        <div id="cursor-pointer"></div>
-      ) } */}
-
-      {/* ----- */}
-
-      {/* { cursorElement &&
-        <div id="cursor-element">
-          { cursorElement }
-        </div> } */}
-
-      {/* <div id="cursor-pointer"></div> */}
-
-      {/* ----- */}
-
         <div id="cursor-pointer" style={{opacity: `${cursorElement ? 0 : 1}`}}></div>
         <div id="cursor-element" style={{opacity: `${cursorElement ? 1 : 0}`}}> { cursorElement } </div>
     </div>

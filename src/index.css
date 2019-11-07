@@ -22,8 +22,12 @@
   cursor: none;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   display: none;
+} */
+
+html {
+  height: auto;
 }
 
 body {
@@ -38,6 +42,9 @@ body {
   background-size: var(--unit)  var(--unit);
 
   background-attachment: scroll;
+
+  height: auto;
+
 }
 
 h1 {
@@ -177,4 +184,3 @@ mobile: 750--
   font-weight: 300;
   font-style: normal;
 }
-

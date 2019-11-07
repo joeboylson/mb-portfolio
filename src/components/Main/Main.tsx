@@ -17,39 +17,21 @@ const Main: React.FC<MainProps> = (Props) => {
 
   const context: any = React.useContext(RouterContext);
   
-  const getStyle = (name:string) => {
-    return {
-      position: 'absolute',
-      top: '0',
-      opacity: `${name === context['route'] ? 1 : 0}`,
-      transitionDuration: '0.5s',
-      pointerEvents: `${name === context['route'] ? 'initial' : 'none'}`
-    } as React.CSSProperties
-  }
+  const pages = [
+    { route: 'home', component: Home},
+    { route: 'design', component: Design},
+    { route: 'illustration', component: Illustration},
+    { route: 'photography', component: Photography},
+    { route: 'contact', component: Contact},
+  ]
+
+  const Component:any = pages.find((page:any) => page.route === context['route'])
 
   return (
     <div id='main' style={Props.style}>
       <div id="grid">
 
-        <div style={getStyle('home')}>
-          <Home/>
-        </div>
-
-        <div style={getStyle('design')}>
-          <Design/>
-        </div>
-
-        <div style={getStyle('illustration')}>
-          <Illustration/>
-        </div>
-
-        <div style={getStyle('photography')}>
-          <Photography/>
-        </div>
-
-        <div style={getStyle('contact')}>
-          <Contact/>
-        </div>
+        { Component && <Component.component/>}
 
       </div>
     </div>
@@ -57,47 +39,3 @@ const Main: React.FC<MainProps> = (Props) => {
 }
 
 export default Main;
-
-
-// import React from 'react';
-
-// export interface SwitcherProps {
-//   from?: any | null
-//   to: any
-//   delay: number
-// }
-
-// const Switcher: React.FC<SwitcherProps> = (Props) => {
-
-//   const [isSwitched, setIsSwitched] = React.useState(false)
-
-//   const returnEmpty = () => {
-//     return (
-//       <div></div>
-//     )
-//   }
-
-//   const From = Props.from ? Props.from : returnEmpty;
-//   const To = Props.to;
-
-//   React.useEffect(() => {
-//     let t = setTimeout(() => {
-//       setIsSwitched(true)
-//       clearTimeout(t)
-//     }, Props.delay)
-//   }, [Props.delay])
-
-//   return (
-//     <div>
-            
-//       { isSwitched ? (
-//         <To />
-//       ) : (
-//         <From />
-//       )}
-
-//     </div>
-//   );
-// }
-
-// export default Switcher;
