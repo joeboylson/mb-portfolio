@@ -1,16 +1,13 @@
 import React from 'react';
 import './Cursor.css';
-import { AppContext } from '../App/AppContext';
+import { CursorContext } from '../App/CursorContext';
 
 const Cursor: React.FC = () => {
 
   const [cursor, setCursor] = React.useState<HTMLElement | any>()
 
-  const context: any = React.useContext(AppContext)
+  const context: any = React.useContext(CursorContext)
   const cursorElement = context['cursorElement']
-
-  console.log(cursorElement)
-
 
   const setCursorPosition = () => {
     setCursor(document.getElementById('cursor'))

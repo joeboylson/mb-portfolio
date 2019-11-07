@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css';
-import { AppContext } from '../App/AppContext';
+import { CursorContext } from '../App/CursorContext';
 
 export interface ProjectProps {
   cursorText: string;
@@ -14,10 +14,8 @@ export interface ProjectProps {
 
 const Project: React.FC<ProjectProps> = (Props) => {
 
-  const context: any = React.useContext(AppContext)
-
+  const context: any = React.useContext(CursorContext)
   const setCursorElement = context['setCursorElement']
-
   const [footerDelay, setFooterDelay] = React.useState(true);
 
   React.useEffect(() => {
@@ -48,10 +46,13 @@ const Project: React.FC<ProjectProps> = (Props) => {
     <div 
       className={'project'} 
       style={projectStyle}
-      onMouseEnter={(e) => setCursorElement(<h2>{Props.cursorText}</h2>)}
-      onMouseLeave={(e) => setCursorElement(null)}  
     >
-      <div className={'project-image'} style={projectImageStyle}></div>
+      <div 
+        className={'project-image'} 
+        style={projectImageStyle}
+        onMouseEnter={(e) => setCursorElement(<h2>{Props.cursorText}</h2>)}
+        onMouseLeave={(e) => setCursorElement(null)}    
+      ></div>
       <div className={'project-text'}>
         <h3 className={'title'}>{Props.title}</h3>
         <p className={'info'}>{Props.info}</p>

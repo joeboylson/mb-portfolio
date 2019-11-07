@@ -1,5 +1,6 @@
 import React, { Dispatch, SetStateAction } from 'react';
 import './Nav.css';
+import { RouterContext } from '../App/RouterContext';
 
 export interface NavProps {
   setMainPosition: Dispatch<SetStateAction<string>>
@@ -7,9 +8,14 @@ export interface NavProps {
 
 const Nav: React.FC<NavProps> = (Props) => {
 
+  const context:any = React.useContext(RouterContext);
   const [navIsOpen, setNavIsOpen] = React.useState(false);
-
   Props.setMainPosition(navIsOpen ? '15%' : '0');
+  
+  const setRoute = (route:string) => {
+    setNavIsOpen(false)
+    context['setRoute'](route)
+  }
 
   return (
     <div id="nav" className={navIsOpen ? 'nav-open' : ''}>
@@ -43,11 +49,11 @@ const Nav: React.FC<NavProps> = (Props) => {
     </div>
 
     <div id='nav-links'>
-      <h2><a href="http://google.com">HOME</a></h2>
-      <h2><a href="http://google.com">DESIGN</a></h2>
-      <h2><a href="http://google.com">ILLUSTRATION</a></h2>
-      <h2><a href="http://google.com">PHOTOGRAPHY</a></h2>
-      <h2><a href="http://google.com">CONTACT</a></h2>
+      <h2 onClick={() => setRoute('home')}>HOME</h2>
+      <h2 onClick={() => setRoute('design')}>DESIGN</h2>
+      <h2 onClick={() => setRoute('illustration')}>ILLUSTRATION</h2>
+      <h2 onClick={() => setRoute('photography')}>PHOTOGRAPHY</h2>
+      <h2 onClick={() => setRoute('contact')}>CONTACT</h2>
     </div>
 
   </div>

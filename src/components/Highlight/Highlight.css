@@ -1,8 +1,19 @@
 [data-highlight] {
   opacity: 0.4;
-  transition-duration: 0.25s;
+  transition-duration: 1s;
 }
 
 .in-viewport {
   opacity: 1;
+}
+
+
+/* OVERRIDE HIGHLIGHT */
+
+.override-highlight {
+  opacity: 0.4 !important;
+}
+
+.override-highlight-hover {
+  opacity: 1 !important;
 }

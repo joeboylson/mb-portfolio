@@ -4,7 +4,8 @@ import './App.css';
 import Nav from '../Nav/Nav';
 import Main from '../Main/Main';
 import Cursor from '../Cursor/Cursor';
-import AppContext from './AppContext';
+import CursorContext from './CursorContext';
+import RouterContext from './RouterContext';
 
 const App: React.FC = () => {
 
@@ -16,13 +17,15 @@ const App: React.FC = () => {
   
   return (
     <div>
-      <AppContext>
+      <CursorContext>
+        <RouterContext>
 
         <Nav setMainPosition={setMainPosition}/>
         <Main style={mainStyle}/>
         <Cursor />
 
-      </AppContext>
+        </RouterContext>
+      </CursorContext>
     </div>
   );
 }

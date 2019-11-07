@@ -1,7 +1,14 @@
 import React from 'react';
 import './Highlight.css';
 
-const Highlight: React.FC = (Props) => {
+export interface HighlightProps {
+  index: number;
+  hoverOneProject: any
+  setHoverOneProject: any;
+  overrideHightlight: boolean;
+}
+
+const Highlight: React.FC<HighlightProps> = (Props) => {
   
   const options = {
     rootMargin: '-200px 0px -200px 0px',
@@ -33,7 +40,12 @@ const Highlight: React.FC = (Props) => {
   }, [observer])
 
   return (
-    <div data-highlight>
+    <div
+      data-highlight
+      className={Props.hoverOneProject ? (Props.overrideHightlight ? 'override-highlight-hover' : 'override-highlight') : ''}
+      onMouseEnter={(e) => Props.setHoverOneProject(Props.index)}
+      onMouseLeave={(e) => Props.setHoverOneProject(null)}    
+    >
       {Props.children}
     </div>
   );
