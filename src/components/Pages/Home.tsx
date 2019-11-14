@@ -50,7 +50,7 @@ const projects = [
 const Home: React.FC = () => {
 
   return (
-    <div>
+    <div id={'home'}>
       { projects.map( (project, index) => {
         return (
           <Project 

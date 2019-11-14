@@ -1,9 +1,11 @@
 import React from 'react';
 import './Main.css';
+import '../Pages/Pages.css';
 import { RouterContext } from '../App/RouterContext';
 
 // pages
 import Home from '../Pages/Home';
+import About from '../Pages/About';
 import Design from '../Pages/Design';
 import Illustration from '../Pages/Illustration'
 import Photography from '../Pages/Photography'
@@ -19,6 +21,7 @@ const Main: React.FC<MainProps> = (Props) => {
   
   const pages = [
     { route: 'home', component: Home},
+    { route: 'about', component: About},
     { route: 'design', component: Design},
     { route: 'illustration', component: Illustration},
     { route: 'photography', component: Photography},

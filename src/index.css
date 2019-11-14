@@ -73,7 +73,7 @@ h3 {
   color: white;
 }
 
-p {
+p, li {
   font-size: 13px;
   line-height: 34px;
   font-family: 'univers_lght';
@@ -81,9 +81,9 @@ p {
   color: white;
 }
 
-i {
+i, label {
   font-size: 13px;
-  line-height: 34px;
+  line-height: 21px;
   font-family: 'univers_lght_obl';
   font-weight: 300;
   color: white;
@@ -91,6 +91,10 @@ i {
 
 img {
   width: 100%;
+}
+
+ul, ol {
+  padding-inline-start: 0;
 }
 
 #grid {

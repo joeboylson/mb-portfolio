@@ -16,7 +16,7 @@ const App: React.FC = () => {
   } as React.CSSProperties;
   
   return (
-    <div>
+    <div id={'app'}>
       <CursorContext>
         <RouterContext>
 

@@ -4,7 +4,7 @@ export const RouterContext = React.createContext({})
 
 const RouterProvider: React.FC = (Props) => {
 
-  const [route, setRoute] = React.useState('home');
+  const [route, setRoute] = React.useState('about');
 
   const context = {
     route: route,
