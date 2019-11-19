@@ -115,12 +115,19 @@ const About: React.FC = () => {
         </div>
         <div className={'col col-3'}>
           <ol>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
-            <li>-</li>
+            <li>Meet Clint Eastwood</li>
+            <li>Skydive</li>
+            <li>Visit all 50 States</li>
+            <li>Visit every National Park</li>
+            <li>Have space pizza with Elon Musk</li>
+            <li>Become proficient at woodcut and linoleum printing</li>
+            <li>Teach part-time at my alma-mater (DAAP)</li>
+            <li>
+              Take pictures of my child every day for 18 years so I can create an awesome
+              timelapse of a human being growing to adulthood
+            </li>
+            <li>Have a child</li>
+            <li>Produce a script for an original feature length film</li>
           </ol>
         </div>
 
@@ -134,7 +141,7 @@ const About: React.FC = () => {
             emerged into the design world. Here's is where I've worked.
           </p>
         </div>
-        <div className={'col-16'}>
+        <div className={'col-4'}>
           <div id={'edu-exp'}>
             <h1>Education / Experience</h1>
 

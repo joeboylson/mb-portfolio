@@ -37,6 +37,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-left: calc(var(--unit))
 }
 
 #edu-exp h1 {
@@ -101,6 +102,11 @@
 
 .col-8 {
   flex: 0 0 40%;
+  margin-right: var(--unit);
+}
+
+.col-15 {
+  flex: 0 0 75%;
   margin-right: var(--unit);
 }
 
@@ -177,13 +183,17 @@ mobile: 750--
     margin-right: 0;
   }
   
-  .col-8, .col-16 {
+  .col-8, .col-15, .col-16 {
     flex: 0 0 100%;
     margin-right: 0;
   }
 
   .collapse-2 {
     display: block !important;
+  }
+
+  #edu-exp {
+    margin-left: 0;
   }
 
   #edu-exp .item p:first-child::after { content: ""; }
@@ -204,7 +214,7 @@ mobile: 750--
     margin-bottom: calc(var(--unit) * 2);
   }
 
-  .col-3, .col-4, .col-5, .col-6, .col-8, .col-16  {
+  .col-3, .col-4, .col-5, .col-6, .col-8, .col-15, .col-16  {
     flex: 0 0 100%;
     margin-right: 0;
   }
