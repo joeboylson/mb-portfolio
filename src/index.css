@@ -8,8 +8,8 @@
   --dot-size: 1px;
   --dot-color: rgba(255, 255, 255, 0.15);
 
-  --grid-moz: -moz-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)), -moz-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)),#000;
-  --grid-webkit: -webkit-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)), -webkit-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)),#000;
+  --grid-moz: -moz-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)), -moz-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)),yellow;
+  --grid-webkit: -webkit-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)), -webkit-radial-gradient(var(--dot-color) var(--dot-size), transparent var(--dot-size)), var(--theme-color);
 
   --ttf: cubic-bezier(.68,0,.32,1);
 

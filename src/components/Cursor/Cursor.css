@@ -29,16 +29,8 @@
 
 #cursor-element {
   position: absolute;
-  /* transform: translate(-50%, -50%); */
   transition-duration: 0.25s;
 }
-
-/* #cursor-pointer {
-  content: url('/public/cursor.svg');
-  width: calc( var(--unit) / 2);
-  height: calc( var(--unit) / 2);
-  transform: translate(-50%, -50%);
-} */
 
 #cursor-pointer, #cursor-pointer * {
   pointer-events: none;

@@ -11,6 +11,9 @@ import Illustration from '../Pages/Illustration'
 import Photography from '../Pages/Photography'
 import Contact from '../Pages/Contact'
 
+// projects
+import Localpost from '../Project/Localpost'
+
 export interface MainProps {
   style: React.CSSProperties
 }
@@ -26,9 +29,17 @@ const Main: React.FC<MainProps> = (Props) => {
     { route: 'illustration', component: Illustration},
     { route: 'photography', component: Photography},
     { route: 'contact', component: Contact},
+    { route: 'localpost', component: Localpost, themeColor: 'red'},
   ]
 
   const Component:any = pages.find((page:any) => page.route === context['route'])
+
+  React.useEffect(() => {
+
+    let root:any = document.documentElement;
+    root.style.setProperty('--theme-color', `${Component.themeColor || 'black'}`)
+
+  }, [Component.themeColor])
 
   return (
     <div id='main' style={Props.style}>

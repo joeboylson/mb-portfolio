@@ -12,7 +12,7 @@ const App: React.FC = () => {
   const [mainPosition, setMainPosition] = React.useState('')
 
   const mainStyle = {
-    transform: `translateX(${mainPosition})`
+    transform: `translate${mainPosition} 0)`
   } as React.CSSProperties;
   
   return (

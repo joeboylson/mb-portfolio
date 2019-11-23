@@ -4,7 +4,6 @@
 /* ----- ----- ---- ----- */
 
 .project {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -80,16 +79,32 @@
   opacity: 0.4;
 }
 
-/* #scroll-helper {
-  pointer-events: none;
+
+
+/* LOCALPOST */
+
+#localpost-loading-page {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100vw;
-  border: 1px solid red;
-  top: 50%;
-  transform: translateY(-50%);
-} */
+  height: 100vh;
+  background-color: black;
+  z-index: +1;
+  padding: 89px;
+}
 
+#localpost #overview-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 
+#overview-canvas-spacer {
+  height: 275vh;
+  width: 100%;
+}
 
 /* KEYFRAMES */
 

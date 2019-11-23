@@ -1,3 +1,66 @@
+/* ----- ----- ----- ----- */
+/* PAGE STYLES - GENERAL   */
+/* ----- ----- ----- ----- */
+
+.row {
+  margin-bottom: calc(var(--unit) * 4);
+  width: calc(100% - var(--unit));
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row .col:last-child {
+  margin-right: 0 !important;
+}
+
+.col-3 {
+  flex: 0 0 15%;
+  margin-right: var(--unit);
+}
+
+.col-4 {
+  flex: 0 0 20%;
+  margin-right: var(--unit);
+}
+
+.col-5 {
+  flex: 0 0 25%;
+  margin-right: var(--unit);
+}
+
+.col-6 {
+  flex: 0 0 30%;
+  margin-right: var(--unit);
+}
+
+.col-8 {
+  flex: 0 0 40%;
+  margin-right: var(--unit);
+}
+
+.col-15 {
+  flex: 0 0 75%;
+  margin-right: var(--unit);
+}
+
+.col-16 {
+  flex: 0 0 80%;
+  margin-right: var(--unit);
+}
+
+.fake-link {
+  text-decoration: underline !important;
+  transition-duration: 0.25s;
+}
+
+.fake-link:hover {
+  color: red;
+}
+
+.text-right {
+  text-align: right;
+}
+
 /* ----- ----- ---- */
 /* HOME             */
 /* ----- ----- ---- */
@@ -68,65 +131,6 @@
 #edu-exp .item p:first-child::after { content: " ─ "; }
 
 .collapse-1 { display: block !important; }
-
-.row {
-  margin-bottom: calc(var(--unit) * 4);
-  width: calc(100% - var(--unit));
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.row .col:last-child {
-  margin-right: 0 !important;
-}
-
-.col-3 {
-  flex: 0 0 15%;
-  margin-right: var(--unit);
-}
-
-.col-4 {
-  flex: 0 0 20%;
-  margin-right: var(--unit);
-}
-
-.col-5 {
-  flex: 0 0 25%;
-  margin-right: var(--unit);
-}
-
-.col-6 {
-  flex: 0 0 30%;
-  margin-right: var(--unit);
-}
-
-.col-8 {
-  flex: 0 0 40%;
-  margin-right: var(--unit);
-}
-
-.col-15 {
-  flex: 0 0 75%;
-  margin-right: var(--unit);
-}
-
-.col-16 {
-  flex: 0 0 80%;
-  margin-right: var(--unit);
-}
-
-.fake-link {
-  text-decoration: underline !important;
-  transition-duration: 0.25s;
-}
-
-.fake-link:hover {
-  color: red;
-}
-
-.text-right {
-  text-align: right;
-}
 
 /* ----- ----- ---- ----- */
 /* KEYFRAMES              */
