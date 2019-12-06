@@ -1,75 +1,22 @@
 import React from 'react';
 
-let overviewCanvas:any, overviewCtx:any;
-let images:any = [];
-let loadedImageCount = 0;
-
-const render = (image:any) => {
-  let offset = window.scrollY/3 < window.innerHeight/3 ? window.scrollY/3 : window.innerHeight/3
-  try {
-    overviewCtx.clearRect(0, 0, 10000, 10000)
-    overviewCtx.drawImage(image, 0, window.innerHeight/3 - offset, image.width, image.height);
-  }
-  catch(e) {
-    console.log(e)
-  }
-}
-
-const onScroll = () => {
-  if (window.scrollY > window.innerHeight/3) {  
-    let scrollIndex = Math.ceil((window.scrollY - window.innerHeight/3) / 12)
-    
-    if (scrollIndex < images.length) {
-      render(images[scrollIndex])
-    }
-
-  }
-}
+// utils
+import { loadImages } from '../utils/loadImages.js'
+import { OverviewCanvas, CoasterCanvas } from '../utils/canvas.js'
 
 const Localpost: React.FC = () => {
 
   let [loading, setLoading] = React.useState(true)
+  let overviewCanvasRef:any = React.useRef(null);
+  let coasterCanvasRef:any = React.useRef(null);
 
   React.useEffect(() => {
-
-    // get the canvas
-    overviewCanvas = document.getElementById('overview-canvas')
-    overviewCanvas.width = window.innerWidth;
-    overviewCanvas.height = window.innerHeight * 4;
-
-    overviewCtx = overviewCanvas.getContext('2d');
-
-    // load the images
-    // overview = 181
-    if (images.length < 181) {
-      images = [];
-      for (let i=0; i<=180; i++) {
-        
-        let newImage = new Image()
-        let imagesSuffix = `00${i+90}`.slice(-4);
-        newImage.src = `${process.env.PUBLIC_URL}/images/overview/allItemsAlpha${imagesSuffix}.jpg`
-        images.push(newImage)
-        
-        newImage.addEventListener('load', () => {
-          loadedImageCount++;
-
-          if (loadedImageCount >= 181) {
-            setLoading(false)
-          }
-        })
-      }
-    }
-
-    // render the first one
-    images[0].onload = () => {
-      render(images[0])
-    }
-    
-    // set up event listener
-    window.addEventListener('scroll', onScroll);
-
+    let [loadedCoasterImages, loadedOverviewImages] = loadImages()
+    new OverviewCanvas(overviewCanvasRef.current, loadedOverviewImages);
+    new CoasterCanvas(coasterCanvasRef.current, loadedCoasterImages);
+    setLoading(false)
   }, [])
-
+  
   return (
     <div id={'localpost'}>
 
@@ -101,8 +48,8 @@ const Localpost: React.FC = () => {
       </div>
 
       <div>
-        <canvas id={'overview-canvas'}></canvas>
-        <div id={'overview-canvas-spacer'}></div>
+        <canvas ref={overviewCanvasRef} id={'overview-canvas'}></canvas>
+        <div style={{height: `${window.innerHeight*3}px`}}></div>
       </div>
 
       {/* COASTERS */}
@@ -110,7 +57,8 @@ const Localpost: React.FC = () => {
       <div className={'row'}>
 
         <div className={'col col-8'}>
-          <canvas id={'coaster-canvas'}></canvas>
+          <canvas ref={coasterCanvasRef} id={'coaster-canvas'}></canvas>
+          <div style={{height: `640px`}}></div>
         </div>
 
         <div className={'col col-3'}>
@@ -120,7 +68,7 @@ const Localpost: React.FC = () => {
         <div className={'col col-3'}>
           <p>
             As much as its a restaurant, it's a bar.
-            So obviously, we needed to develop some coasters/
+            So obviously, we needed to develop some coasters.
             </p>
         </div>
 
@@ -128,6 +76,28 @@ const Localpost: React.FC = () => {
           <p>
             Another cheap takeaway for customers, these coasters serve a dual purpose.
             </p>
+        </div>
+
+      </div>
+
+      <div className={'row'}>
+
+        <div className={'col col-3'}>
+          <h2>Post Cards</h2>
+        </div>
+
+        <div className={'col col-3'}>
+          <p>
+            One of the activation strategies  we created was a series od Local Post post cards.
+            These takeaways are prganic marketing materials that customers
+          </p>
+        </div>
+
+        <div className={'col col-3'}>
+          <p>
+            of Localpost can mail to their friends and family. They can simply leave it and the Local
+            Post staff will mail it.  
+          </p>
         </div>
 
       </div>
