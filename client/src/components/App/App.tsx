@@ -17,6 +17,8 @@ import Contact from '../Pages/Contact'
 // projects
 import Localpost from '../Project/Localpost'
 
+const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://localhost:5000' : ''
+
 const routes:any = {
   home: { component: Home },
   about: { component: About },
@@ -65,3 +67,4 @@ const App: React.FC = () => {
 }
 
 export default App;
+export { apiUrl }

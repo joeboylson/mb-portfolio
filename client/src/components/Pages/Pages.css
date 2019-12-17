@@ -48,6 +48,11 @@
   margin-right: var(--unit);
 }
 
+.col-20 {
+  flex: 0 0 100%;
+  margin-right: 0;
+}
+
 .fake-link {
   text-decoration: underline !important;
   transition-duration: 0.25s;
@@ -64,6 +69,49 @@
 /* ----- ----- ---- */
 /* HOME             */
 /* ----- ----- ---- */
+
+
+
+/* ----- ----- ---- */
+/* CONTACT          */
+/* ----- ----- ---- */
+
+#contact-form {
+  flex-direction: column;
+}
+
+#contact-form .col {
+  padding: var(--unit) 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form input, #contact-form textarea, #contact-form button {
+  padding: 25px;
+}
+
+.invalid {
+  box-shadow: 0px 10px 0px 0px yellow;
+}
+
+.valid {
+  box-shadow: 0px 10px 0px 0px green;
+}
+
+/* .row, .col {
+  background-color: rgba(255, 255, 255, 0.25);
+} */
+
+.contact-response {
+  padding: var(--unit) 0;
+}
+
+.contact-response .col {
+  padding: var(--unit) 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 
 
 /* ----- ----- ---- */
