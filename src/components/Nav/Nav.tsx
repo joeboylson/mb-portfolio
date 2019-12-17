@@ -4,17 +4,17 @@ import { RouterContext } from '../App/RouterContext';
 
 export interface NavProps {
   setMainPosition: Dispatch<SetStateAction<string>>
+  setRoute: Dispatch<SetStateAction<string>>
 }
 
 const Nav: React.FC<NavProps> = (Props) => {
 
-  const context:any = React.useContext(RouterContext);
   const [navIsOpen, setNavIsOpen] = React.useState(false);
   Props.setMainPosition(navIsOpen ? '15%' : '0');
   
   const setRoute = (route:string) => {
     setNavIsOpen(false)
-    context['setRoute'](route)
+    Props.setRoute(route)
   }
 
   return (
