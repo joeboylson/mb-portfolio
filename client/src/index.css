@@ -109,7 +109,6 @@ input, textarea {
 #grid {
   width: calc(22 * var(--unit));
   margin: var(--unit) auto 0 auto;
-  padding-left: var(--unit);
 }
 
 .vertical {
@@ -133,20 +132,20 @@ mobile: 750--
     width: calc(14 * var(--unit));
   }
 
-  .project-text .title, .project-text .info {
-    flex: 0 0 50%;
-  }
-  
-  .project-text .info {
-    text-align: right;
+  .project {
+    margin-bottom: calc(2 * var(--unit));
   }
 
-  .project-text .description {
-    padding-top: var(--unit);
-    box-shadow: inset 0px 0px 0px 1px rgba(255,255,255,1);
+  .project .project-image {
     flex: 0 0 100%;
+    height: calc(4 * var(--unit));
+    margin-bottom: var(--unit);
   }
 
+  .project .project-text {
+    flex: 0 0 100%;
+    margin-bottom: var(--unit);
+  }
 }
 
 @media only screen and (max-width: 800px) {
