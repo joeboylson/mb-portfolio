@@ -141,12 +141,14 @@ const About: React.FC = () => {
             emerged into the design world. Here's is where I've worked.
           </p>
         </div>
-        <div className={'col-4'}>
+        <div className={'col-8'}>
           <div id={'edu-exp'}>
             <h1>Education / Experience</h1>
 
             <div className={'item'}>
-              <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              <div>
+                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              </div>
               <div>
                 <p>Associates in Graphic Design</p>
                 <p className={'collapse-2'}>May 2013</p>
@@ -155,7 +157,9 @@ const About: React.FC = () => {
             </div>
 
             <div className={'item'}>
-              <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              <div>
+                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              </div>
               <div>
                 <p>Design Intern</p>
                 <p className={'collapse-2'}>January 2015 - May 2015</p>
@@ -164,7 +168,9 @@ const About: React.FC = () => {
             </div>
 
             <div className={'item'}>
-              <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              <div>
+                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              </div>
               <div>
                 <p>Design Intern Folger's Team</p>
                 <p className={'collapse-2'}>May 2016 - August 2016</p>
@@ -173,7 +179,9 @@ const About: React.FC = () => {
             </div>
 
             <div className={'item'}>
-              <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              <div>
+                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              </div>
               <div>
                 <p>Design Intern, NERF Team ?</p>
                 <p className={'collapse-2'}>August 2017 - January 2018</p>
@@ -181,7 +189,9 @@ const About: React.FC = () => {
             </div>
 
             <div className={'item'}>
-              <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              <div>
+                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              </div>
               <div>
                 <p>BA in Communication Design</p>
                 <p className={'collapse-2'}>April 2018</p>
@@ -190,7 +200,9 @@ const About: React.FC = () => {
             </div>
 
             <div className={'item'}>
-              <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              <div>
+                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+              </div>
               <div>
                 <p>Graphic Designer ?</p>
                 <p className={'collapse-2'}>June 2019 - Current</p>
