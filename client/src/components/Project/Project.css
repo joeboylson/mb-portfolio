@@ -7,7 +7,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: calc(var(--unit) * 4);
+  min-height: calc(var(--unit) * 4) !important;
   margin-bottom: calc(var(--unit) * 2);
   transition-duration: 1s;
 }
@@ -43,14 +43,14 @@
 }
 
 .project-footer {
-  position: absolute;
-  bottom: -25px;
+  margin-top: 5px;
   height: 20px;
-  width: 50%;
-  order: 3;
+  width: 100%;
+  
+  background-color: red;
+  
   transition-duration: 0.5s;
   transform-origin: left center;
-
   transform: scaleX(0);
   opacity: 0;
   animation-timing-function: var(--ttf);

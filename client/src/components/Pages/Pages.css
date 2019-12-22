@@ -98,10 +98,6 @@
   box-shadow: 0px 10px 0px 0px green;
 }
 
-/* .row, .col {
-  background-color: rgba(255, 255, 255, 0.25);
-} */
-
 .contact-response {
   padding: var(--unit) 0;
 }
