@@ -43,7 +43,10 @@ const Nav: React.FC<NavProps> = (Props) => {
         </span>
 
       </div>
-      <h2 id={'toggle-text'}>Matt Boylson</h2>
+      <h2 
+        id={'toggle-text'}
+        onClick={() => setRoute('home')}
+      >Matt Boylson</h2>
     </div>
 
     <div id='nav-links'>
