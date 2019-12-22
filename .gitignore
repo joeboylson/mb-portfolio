@@ -27,3 +27,4 @@ yarn-error.log*
 _old
 ref
 config.json
+request/continuous_request.py
