@@ -41,6 +41,7 @@ body {
   background-size: var(--unit)  var(--unit);
   background-attachment: scroll;
   height: auto;
+  transition-duration: 1s;
 }
 
 #main-spacer {
