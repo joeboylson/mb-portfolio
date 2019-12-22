@@ -59,7 +59,11 @@ const App: React.FC = () => {
     <div id={'app'}>
       <CursorContext>
         <Nav setMainPosition={setMainPosition} setRoute={setRoute}/>
-        <Main style={mainStyle} component={Component.component}/>
+        <Main 
+          style={mainStyle} 
+          component={Component.component} 
+          setRoute={setRoute}
+        />
         <Cursor />
       </CursorContext>
     </div>

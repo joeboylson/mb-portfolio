@@ -5,6 +5,7 @@ import '../Pages/Pages.css';
 export interface MainProps {
   style: React.CSSProperties;
   component: any;
+  setRoute: any;
 }
 
 const Main: React.FC<MainProps> = (Props) => {
@@ -14,7 +15,7 @@ const Main: React.FC<MainProps> = (Props) => {
   return (
     <div id='main' style={Props.style}>
       <div id="grid">
-        <Component />
+        <Component setRoute={Props.setRoute}/>
       </div>
     </div>
   );

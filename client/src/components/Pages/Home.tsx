@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Project from '../Project/Project';
 
 const projects = [
@@ -53,7 +52,11 @@ const projects = [
   }
 ]
 
-const Home: React.FC = () => {
+export interface HomeProps {
+  setRoute: any;
+}
+
+const Home: React.FC<HomeProps> = (Props) => {
 
   return (
     <div id={'home'}>
@@ -69,6 +72,7 @@ const Home: React.FC = () => {
             info={project.info}
             description={project.description}
             themeColor={'red'}
+            setRoute={Props.setRoute}
           />
       )})}
     </div>

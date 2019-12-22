@@ -1,7 +1,6 @@
 import React from 'react';
 import './Project.css';
 import { CursorContext } from '../App/CursorContext';
-import { RouterContext } from '../App/RouterContext';
 
 export interface ProjectProps {
   route: string;
@@ -12,14 +11,10 @@ export interface ProjectProps {
   title?: string;
   info?: any;
   description?: string;
+  setRoute: any;
 }
 
 const Project: React.FC<ProjectProps> = (Props) => {
-
-  // router
-  const routerContext: any = React.useContext(RouterContext)
-  const setRoute = routerContext['setRoute']
-
 
   // cursor
   const cursorContext: any = React.useContext(CursorContext)
@@ -35,7 +30,7 @@ const Project: React.FC<ProjectProps> = (Props) => {
 
   const navigate = (route:string) => {
     setCursorElement(null)
-    setRoute(route)
+    Props.setRoute(route)
   }
 
   const projectStyle = {

@@ -1,7 +1,5 @@
 import React, { Dispatch, SetStateAction } from 'react';
 import './Nav.css';
-import { RouterContext } from '../App/RouterContext';
-
 export interface NavProps {
   setMainPosition: Dispatch<SetStateAction<string>>
   setRoute: Dispatch<SetStateAction<string>>
