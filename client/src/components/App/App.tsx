@@ -16,6 +16,7 @@ import Contact from '../Pages/Contact'
 
 // projects
 import Localpost from '../Project/Localpost'
+import Metro from '../Project/Metro'
 
 const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://localhost:5000' : ''
 
@@ -26,7 +27,8 @@ const routes:any = {
   illustration: { component: Illustration },
   photography: { component: Photography },
   contact: { component: Contact },
-  localpost: { component: Localpost, themeColor: '#E52354'}
+  localpost: { component: Localpost, themeColor: '#E52354'},
+  metro: { component: Metro, themeColor: '#B6BCBF'}
 }
 
 const App: React.FC = () => {

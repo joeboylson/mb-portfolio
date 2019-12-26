@@ -43,13 +43,10 @@
 }
 
 .project-footer {
-  margin-top: 5px;
   height: 20px;
-  width: 100%;
+  width: 50%;
   
-  background-color: red;
-  
-  transition-duration: 0.5s;
+  transition-duration: 0.25s;
   transform-origin: left center;
   transform: scaleX(0);
   opacity: 0;
@@ -107,7 +104,7 @@
 }
 
 #localpost .row {
-  margin-top: 89px;
+  margin-top: 100px;
 }
 
 /* KEYFRAMES */
@@ -132,4 +129,15 @@
     opacity: 1;
     transform: translateX(0);
   }
+}
+
+
+/* METRO */
+
+#metro * {
+  color: #2B2D30;
+}
+
+#metro .row {
+  margin-top: 100px;
 }

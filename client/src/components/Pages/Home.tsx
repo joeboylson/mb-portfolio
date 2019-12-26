@@ -12,13 +12,13 @@ const projects = [
     themeColor: '#E52354'    
   },
   {
-    route: 'localpost',
+    route: 'metro',
     cursorText: '02',
     image: 'https://via.placeholder.com/1500x1500',
-    title: 'Local Post',
+    title: 'Cincinnati Metro',
     info: <span>Branding<br/>June 2019</span>,
     description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
-    themeColor: '#ffffff'
+    themeColor: '#B6BCBF'
   },
   {
     route: 'localpost',
