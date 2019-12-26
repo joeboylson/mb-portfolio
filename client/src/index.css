@@ -148,9 +148,9 @@ mobile: 750--
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
   #grid {
-    width: calc(10 * var(--unit));
+    width: calc(100% - 50px);
   }
 }
 
