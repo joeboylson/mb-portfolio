@@ -60,20 +60,9 @@
 
 
 
-/* PROJECT LIST MOBILE */
-
-@media only screen and (max-width: 600px) {
-  .project-text .title, .project-text .info, .project-text .description {
-    flex: 0 0 100%;
-    margin-bottom: 25px;
-  }
-  .project-footer {
-    display: none;
-  }
-}
-
-
-/* SCROLL / HOVER BEHAVIOR */
+/* ----- ----- ---- ----- */
+/* SCROLL-HOVER BEHAVIOR  */
+/* ----- ----- ---- ----- */
 
 .in-view {
   opacity: 1;
@@ -92,7 +81,9 @@
 
 
 
-/* LOCALPOST */
+/* ----- ----- ---- ----- */
+/* LOCALPOST              */
+/* ----- ----- ---- ----- */
 
 #localpost-loading-page {
   position: fixed;
@@ -123,7 +114,9 @@
 
 
 
-/* METRO */
+/* ----- ----- ---- ----- */
+/* METRO                  */
+/* ----- ----- ---- ----- */
 
 #metro * {
   color: #2B2D30;
@@ -135,7 +128,31 @@
 
 
 
-/* KEYFRAMES */
+/* ----- ----- ---- ----- */
+/* MEDIA QUERIES          */
+/* ----- ----- ---- ----- */
+
+@media only screen and (max-width: 1200px) {
+  .project-footer {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-text .title, .project-text .info, .project-text .description {
+    flex: 0 0 100%;
+    margin-bottom: 25px;
+  }
+  .project-footer {
+    display: none;
+  }
+}
+
+
+
+/* ----- ----- ---- ----- */
+/* KEYFRAMES              */
+/* ----- ----- ---- ----- */
 
 @keyframes textFadeUp {
   from {
