@@ -8,7 +8,8 @@ const projects = [
     image: 'https://via.placeholder.com/1500x1500',
     title: 'Local Post',
     info: <span>Branding<br/>June 2019</span>,
-    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    themeColor: '#E52354'    
   },
   {
     route: 'localpost',
@@ -16,7 +17,8 @@ const projects = [
     image: 'https://via.placeholder.com/1500x1500',
     title: 'Local Post',
     info: <span>Branding<br/>June 2019</span>,
-    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    themeColor: '#ffffff'
   },
   {
     route: 'localpost',
@@ -24,7 +26,8 @@ const projects = [
     image: 'https://via.placeholder.com/1500x1500',
     title: 'Local Post',
     info: <span>Branding<br/>June 2019</span>,
-    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    themeColor: '#E52354' 
   },
   {
     route: 'localpost',
@@ -32,7 +35,8 @@ const projects = [
     image: 'https://via.placeholder.com/1500x1500',
     title: 'Local Post',
     info: <span>Branding<br/>June 2019</span>,
-    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    themeColor: '#E52354' 
   },
   {
     route: 'localpost',
@@ -40,7 +44,8 @@ const projects = [
     image: 'https://via.placeholder.com/1500x1500',
     title: 'Local Post',
     info: <span>Branding<br/>June 2019</span>,
-    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    themeColor: '#E52354' 
   },
   {
     route: 'localpost',
@@ -48,7 +53,8 @@ const projects = [
     image: 'https://via.placeholder.com/1500x1500',
     title: 'Local Post',
     info: <span>Branding<br/>June 2019</span>,
-    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.'
+    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    themeColor: '#E52354' 
   }
 ]
 
@@ -71,7 +77,7 @@ const Home: React.FC<HomeProps> = (Props) => {
             title={project.title}
             info={project.info}
             description={project.description}
-            themeColor={'red'}
+            themeColor={project.themeColor}
             setRoute={Props.setRoute}
           />
       )})}

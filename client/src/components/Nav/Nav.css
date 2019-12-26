@@ -1,3 +1,7 @@
+:root {
+  --navhc: #6D7177;
+}
+
 /* ----- ----- ---- */
 /* NAV              */
 /* ----- ----- ---- */
@@ -116,7 +120,7 @@
 
 
 #nav-links h2:hover {
-  color: red;
+  color: var(--navhc);
 }
 
 
@@ -125,7 +129,7 @@
 /* ----- ----- ----- ----- */
 
 #nav-toggle:hover polygon {
-  fill: red !important;
+  fill: var(--navhc) !important;
 }
 
 #nav-toggle span {

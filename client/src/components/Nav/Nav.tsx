@@ -18,10 +18,10 @@ const Nav: React.FC<NavProps> = (Props) => {
   return (
     <div id="nav" className={navIsOpen ? 'nav-open' : ''}>
 
-    <div id='sidebar'>
+    <div id='sidebar'
+    onMouseEnter={() => setNavIsOpen(!navIsOpen)}>
       <div 
-        id='nav-toggle' 
-        onClick={() => setNavIsOpen(!navIsOpen)}
+        id='nav-toggle'
       >
 
         <span id='toggle-1' className={navIsOpen ? 'toggle-1-open' : ''}>

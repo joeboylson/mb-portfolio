@@ -26,7 +26,7 @@ const routes:any = {
   illustration: { component: Illustration },
   photography: { component: Photography },
   contact: { component: Contact },
-  localpost: { component: Localpost, themeColor: 'red'}
+  localpost: { component: Localpost, themeColor: '#E52354'}
 }
 
 const App: React.FC = () => {
@@ -48,7 +48,7 @@ const App: React.FC = () => {
     if (mainSpacer) mainSpacer.scrollIntoView();
 
     let root:any = document.documentElement;
-    if (Component) root.style.setProperty('--theme-color', `${Component.themeColor ? Component.themeColor : 'black'}`)
+    if (Component) root.style.setProperty('--theme-color', `${Component.themeColor ? Component.themeColor : '#2B2D30'}`)
   }, [Component])
 
   const mainStyle = {
