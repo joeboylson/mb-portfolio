@@ -28,7 +28,7 @@ const routes:any = {
   photography: { component: Photography },
   contact: { component: Contact },
   localpost: { component: Localpost, themeColor: '#E52354'},
-  metro: { component: Metro, themeColor: '#B6BCBF'}
+  metro: { component: Metro, themeColor: '#B6BCBF', dotColor: 'rgba(0, 0, 0, 0.1)' }
 }
 
 const App: React.FC = () => {
@@ -50,7 +50,10 @@ const App: React.FC = () => {
     if (mainSpacer) mainSpacer.scrollIntoView();
 
     let root:any = document.documentElement;
-    if (Component) root.style.setProperty('--theme-color', `${Component.themeColor ? Component.themeColor : '#2B2D30'}`)
+    if (Component) {
+      root.style.setProperty('--theme-color', `${Component.themeColor ? Component.themeColor : '#2B2D30'}`)
+      root.style.setProperty('--dot-color', `${Component.dotColor ? Component.dotColor : 'rgba(255, 255, 255, 0.1)'}`)
+    }
   }, [Component])
 
   const mainStyle = {
