@@ -59,7 +59,7 @@
 }
 
 .fake-link:hover {
-  color: red;
+  color: #E52354;
 }
 
 .text-right {
@@ -118,10 +118,11 @@
 
 #about {
   padding: 0 calc(var(--unit)/2);
+  margin-bottom: -300px;
 }
 
 #about h1 {
-  font-size: 34px;
+  font-size: 35px;
   line-height: 55px;
   font-family: 'univers_lght';
   font-weight: 300;
@@ -140,6 +141,11 @@
 #list {
   /* width: calc( var(--unit) * 15); */
   justify-content: center;
+}
+
+#list li {
+  margin-bottom: 20px;
+  line-height: 26px;
 }
 
 #edu-exp {
@@ -173,12 +179,10 @@
 }
 
 #edu-exp .item p { 
-  display: inline;
+  display: block;
   margin: 0;
   padding: 0;
 }
-
-#edu-exp .item p:first-child::after { content: " ─ "; }
 
 .collapse-1 { display: block !important; }
 
@@ -214,6 +218,10 @@ mobile: 750--
 
 /* tablet styling */
 @media only screen and (max-width: 1200px) {
+
+  #about {
+    margin-bottom: -100px;
+  }
 
   .row {
     margin-bottom: calc(var(--unit) * 2);
@@ -254,6 +262,9 @@ mobile: 750--
 }
 
 @media only screen and (max-width: 800px) {
+  #about {
+    margin-bottom: -100px;
+  }
 
   .row {
     margin-bottom: 0

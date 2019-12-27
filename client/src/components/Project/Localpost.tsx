@@ -33,9 +33,12 @@ const Localpost: React.FC = () => {
         </div>
 
         <div className={'col col-4'}>
-          <h3>Project Type: Branding</h3>
-          <h3>Client: Local Post</h3>
-          <h3>Tools Used: Illustrator, Photoshop, Cinema 4D</h3>
+          <h4>Project Type:</h4>
+          <h3>Branding</h3>
+          <h4>Client:</h4>
+          <h3>Local Post</h3>
+          <h4>Tools Used:</h4>
+          <h3>Illustrator, Photoshop, Cinema 4D</h3>
         </div>
 
         <div className={'col col-4'}>

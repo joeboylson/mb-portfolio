@@ -24,8 +24,8 @@ const About: React.FC = () => {
           <p>
             My name is Matt and I am a creator.
             While my formal training is in Graphic Design (at the University of Cincinnati),
-            my interests and profficiencies extend far beyond that of traditional design.
-            I like to be very good at a couple of things and pretty good at a lot of things
+            my interests and proficiencies extend far beyond that of traditional design.
+            I like to be very good at a couple of things and pretty good at a lot of things.
           </p>
           <p>
             My other capabilities are mostly complimentary to branding and design,
@@ -34,7 +34,7 @@ const About: React.FC = () => {
         </div>
 
         <div id={'image'} className={'col col-8'}>
-          <img src="https://via.placeholder.com/1500x1500" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`} />
           <label htmlFor="image">
             If you don't want to look at my face, <span className={'fake-link'}>
               <strong>click here</strong>
@@ -137,8 +137,8 @@ const About: React.FC = () => {
         <div className={'col col-4'}>
           <p>
             Throughout my college career, I was fortunate enough to have 5 semester (two full years)
-            of full-time coop work. This experience prepared me greatly for the workplace when I
-            emerged into the design world. Here's is where I've worked.
+            of full-time co-op work. This experience prepared me greatly for the workplace when I
+            emerged into the design world. Here's is where I've studied and worked.
           </p>
         </div>
         <div className={'col-8'}>
@@ -147,7 +147,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+                <img src={`${process.env.PUBLIC_URL}/images/about/cincyState.png`} />
               </div>
               <div>
                 <p>Associates in Graphic Design</p>
@@ -158,7 +158,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+                <img src={`${process.env.PUBLIC_URL}/images/about/gaig.png`} />
               </div>
               <div>
                 <p>Design Intern</p>
@@ -169,7 +169,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+                <img src={`${process.env.PUBLIC_URL}/images/about/lpk.png`}/>
               </div>
               <div>
                 <p>Design Intern Folger's Team</p>
@@ -180,17 +180,17 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+                <img src={`${process.env.PUBLIC_URL}/images/about/hasbro.png`} />
               </div>
               <div>
-                <p>Design Intern, NERF Team ?</p>
+                <p>Design Intern, NERF Team</p>
                 <p className={'collapse-2'}>August 2017 - January 2018</p>
               </div>
             </div>
 
             <div className={'item'}>
               <div>
-                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+                <img src={`${process.env.PUBLIC_URL}/images/about/uc.png`} />
               </div>
               <div>
                 <p>BA in Communication Design</p>
@@ -201,11 +201,11 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src="https://via.placeholder.com/1500x500" alt="https://via.placeholder.com/1500x500" />
+                <img src={`${process.env.PUBLIC_URL}/images/about/z.png`} />
               </div>
               <div>
-                <p>Graphic Designer ?</p>
-                <p className={'collapse-2'}>June 2019 - Current</p>
+                <p>Graphic Designer</p>
+                <p className={'collapse-2'}>June 2018 - January 2020</p>
               </div>
             </div>
 

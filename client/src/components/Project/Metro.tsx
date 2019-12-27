@@ -29,13 +29,13 @@ const Metro: React.FC = () => {
       <div className={'row'}>
 
         <div className={'col col-4'}>
-          <h1>Local Post, 2018</h1>
+          <h1>Cincinnati Metro, 2016</h1>
         </div>
 
         <div className={'col col-4'}>
           <h3>Project Type: Branding</h3>
-          <h3>Client: Local Post</h3>
-          <h3>Tools Used: Illustrator, Photoshop, Cinema 4D</h3>
+          <h3>Client: Student Work</h3>
+          <h3>Tools Used: Illustrator, Photoshop, After Effects</h3>
         </div>
 
         <div className={'col col-4'}>

@@ -45,16 +45,16 @@ body {
 }
 
 h1 {
-  font-size: 55px;
-  line-height: 89px;
+  font-size: 60px;
+  line-height: 60px;
   font-family: 'univers_cond';
   font-weight: 300;
   color: white;
 }
 
 h2 {
-  font-size: 34px;
-  line-height: 55px;
+  font-size: 35px;
+  line-height: 35px;
   font-family: 'univers_cond';
   font-weight: 300;
   color: white;
@@ -63,9 +63,18 @@ h2 {
 
 
 h3 {
-  font-size: 34px;
-  line-height: 55px;
-  font-family: 'univers_cond';
+  font-size: 25px;
+  line-height: 35px;
+  font-family: 'univers_lght';
+  font-weight: 300;
+  color: white;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 14px;
+  line-height: 35px;
+  font-family: 'univers_lght_obl';
   font-weight: 300;
   color: white;
 }

@@ -5,7 +5,7 @@ const projects = [
   {
     route: 'localpost',
     cursorText: '01',
-    image: 'https://via.placeholder.com/1500x1500',
+    image: `${process.env.PUBLIC_URL}/images/home/localPost.png`,
     title: 'Local Post',
     info: <span>Branding<br/>June 2019</span>,
     description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
@@ -14,26 +14,26 @@ const projects = [
   {
     route: 'metro',
     cursorText: '02',
-    image: 'https://via.placeholder.com/1500x1500',
+    image: `${process.env.PUBLIC_URL}/images/home/metro.png`,
     title: 'Cincinnati Metro',
-    info: <span>Branding<br/>June 2019</span>,
+    info: <span>Branding<br/>June 2016</span>,
     description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
     themeColor: '#B6BCBF'
   },
   {
     route: 'localpost',
     cursorText: '03',
-    image: 'https://via.placeholder.com/1500x1500',
-    title: 'Local Post',
-    info: <span>Branding<br/>June 2019</span>,
+    image: `${process.env.PUBLIC_URL}/images/home/vs.png`,
+    title: 'Veronica Stanton',
     description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    info: <span>Branding, Photography, Illustration and Videography<br/>August 2019</span>,
     themeColor: '#E52354' 
   },
   {
     route: 'localpost',
     cursorText: '04',
-    image: 'https://via.placeholder.com/1500x1500',
-    title: 'Local Post',
+    image: `${process.env.PUBLIC_URL}/images/home/sda.png`,
+    title: 'SDA',
     info: <span>Branding<br/>June 2019</span>,
     description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
     themeColor: '#E52354' 
@@ -41,7 +41,7 @@ const projects = [
   {
     route: 'localpost',
     cursorText: '05',
-    image: 'https://via.placeholder.com/1500x1500',
+    image: `${process.env.PUBLIC_URL}/images/home/localPost.png`,
     title: 'Local Post',
     info: <span>Branding<br/>June 2019</span>,
     description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
@@ -50,7 +50,7 @@ const projects = [
   {
     route: 'localpost',
     cursorText: '06',
-    image: 'https://via.placeholder.com/1500x1500',
+    image: `${process.env.PUBLIC_URL}/images/home/localPost.png`,
     title: 'Local Post',
     info: <span>Branding<br/>June 2019</span>,
     description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
