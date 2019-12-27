@@ -50,7 +50,7 @@ const Localpost: React.FC = () => {
         </div>
       </div>
 
-      <img src={`${process.env.PUBLIC_URL}/images/LocalPost/DSCF7780.jpg`} />
+      <img src={`${process.env.PUBLIC_URL}/images/LocalPost/lp1.png`} />
 
       {/* <div>
         <canvas ref={overviewCanvasRef} id={'overview-canvas'}></canvas>
