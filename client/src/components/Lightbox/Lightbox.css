@@ -1,0 +1,36 @@
+.lightbox-image {
+  transition-duration: 0.25s;
+}
+
+.lightbox-image:hover {
+  opacity: 0.8 !important;
+}
+
+.lightbox-open-image {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.lightbox-open-image img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  height: 90vh;
+}
+
+.lightbox-open-image::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.75;
+  z-index: -1;
+}

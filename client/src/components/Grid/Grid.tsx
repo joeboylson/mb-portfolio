@@ -3,6 +3,9 @@ import React from 'react';
 // styling
 import './Grid.css'
 
+// lightbox
+import Lightbox from '../Lightbox/Lightbox'
+
 export interface GridItemProps {
   image: string;
 }
@@ -24,7 +27,7 @@ const Grid: React.FC<GridProps> = (Props) => {
             className={'grid-item fadeUp'}
             style={{ animationDelay: `${(index+1)/10}s`}} 
           >
-            <img src={item.image}/>
+            <Lightbox image={item.image}/>
           </div>
 
         )
