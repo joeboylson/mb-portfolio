@@ -38,6 +38,11 @@
   margin-right: var(--unit);
 }
 
+.col-12 {
+  flex: 0 0 60%;
+  margin-right: var(--unit);
+}
+
 .col-15 {
   flex: 0 0 75%;
   margin-right: var(--unit);

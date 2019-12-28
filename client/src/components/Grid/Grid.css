@@ -1,0 +1,21 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid .grid-item {
+  margin-right: var(--unit);
+  margin-bottom: var(--unit);
+  width: calc(50% - (var(--unit) /2) );
+}
+
+.grid .grid-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .grid .grid-item {
+    margin-right: 0;
+    width: 100%;
+  }
+}
