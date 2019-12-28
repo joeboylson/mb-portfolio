@@ -1,30 +1,9 @@
 import React from 'react';
 
-// utils
-import { loadImages } from '../utils/loadImages.js'
-import { OverviewCanvas, CoasterCanvas } from '../utils/canvas.js'
-
 const Metro: React.FC = () => {
-
-  let [loading, setLoading] = React.useState(true)
-  let overviewCanvasRef:any = React.useRef(null);
-  let coasterCanvasRef:any = React.useRef(null);
-
-  React.useEffect(() => {
-    // let [loadedCoasterImages, loadedOverviewImages] = loadImages()
-    // new OverviewCanvas(overviewCanvasRef.current, loadedOverviewImages);
-    // new CoasterCanvas(coasterCanvasRef.current, loadedCoasterImages);
-    setLoading(false)
-  }, [])
   
   return (
     <div id={'metro'}>
-
-      { loading &&
-        <div id={'localpost-loading-page'}>
-          <h3>Loading images . . .</h3>
-        </div>
-      }
 
       <div className={'row'}>
 
@@ -47,23 +26,13 @@ const Metro: React.FC = () => {
         </div>
       </div>
 
-      <img src={`${process.env.PUBLIC_URL}/images/LocalPost/DSCF7780.jpg`} />
-
-      {/* <div>
-        <canvas ref={overviewCanvasRef} id={'overview-canvas'}></canvas>
-        <div style={{height: `${window.innerHeight*3}px`}}></div>
-      </div> */}
+      <img src={`${process.env.PUBLIC_URL}/images/LocalPost/DSCF7780.jpg`} alt={''}/>
 
       {/* COASTERS */}
 
       <div className={'row'}>
 
-        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace1.jpg`} /></div>
-
-        {/* <div className={'col col-8'}>
-          <canvas ref={coasterCanvasRef} id={'coaster-canvas'}></canvas>
-          <div style={{height: `640px`}}></div>
-        </div> */}
+        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace1.jpg`} alt={''}/></div>
 
         <div className={'col col-3'}>
           <h2>Coasters</h2>
@@ -103,7 +72,7 @@ const Metro: React.FC = () => {
             Post staff will mail it.  
           </p>
         </div>
-        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace2.jpg`} /></div>
+        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace2.jpg`} alt={''}/></div>
 
       </div>
 

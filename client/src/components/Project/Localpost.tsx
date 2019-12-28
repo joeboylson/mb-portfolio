@@ -1,30 +1,9 @@
 import React from 'react';
 
-// utils
-import { loadImages } from '../utils/loadImages.js'
-import { OverviewCanvas, CoasterCanvas } from '../utils/canvas.js'
-
 const Localpost: React.FC = () => {
-
-  let [loading, setLoading] = React.useState(true)
-  let overviewCanvasRef:any = React.useRef(null);
-  let coasterCanvasRef:any = React.useRef(null);
-
-  React.useEffect(() => {
-    // let [loadedCoasterImages, loadedOverviewImages] = loadImages()
-    // new OverviewCanvas(overviewCanvasRef.current, loadedOverviewImages);
-    // new CoasterCanvas(coasterCanvasRef.current, loadedCoasterImages);
-    setLoading(false)
-  }, [])
   
   return (
     <div id={'localpost'}>
-
-      { loading &&
-        <div id={'localpost-loading-page'}>
-          <h3>Loading images . . .</h3>
-        </div>
-      }
 
       <div className={'row'}>
 
@@ -50,7 +29,7 @@ const Localpost: React.FC = () => {
         </div>
       </div>
 
-      <img src={`${process.env.PUBLIC_URL}/images/LocalPost/lp1.png`} />
+      <img src={`${process.env.PUBLIC_URL}/images/LocalPost/lp1.png`} alt={''}/>
 
       {/* <div>
         <canvas ref={overviewCanvasRef} id={'overview-canvas'}></canvas>
@@ -61,7 +40,7 @@ const Localpost: React.FC = () => {
 
       <div className={'row'}>
 
-        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace1.jpg`} /></div>
+        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace1.jpg`} alt={''}/></div>
 
         {/* <div className={'col col-8'}>
           <canvas ref={coasterCanvasRef} id={'coaster-canvas'}></canvas>
@@ -106,7 +85,7 @@ const Localpost: React.FC = () => {
             Post staff will mail it.  
           </p>
         </div>
-        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace2.jpg`} /></div>
+        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace2.jpg`} alt={''}/></div>
 
       </div>
 

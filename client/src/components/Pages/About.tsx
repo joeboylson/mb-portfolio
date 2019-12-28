@@ -34,7 +34,7 @@ const About: React.FC = () => {
         </div>
 
         <div id={'image'} className={'col col-8'}>
-          <img src={`${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`} />
+          <img src={`${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`} alt={''}/>
           <label htmlFor="image">
             If you don't want to look at my face, <span className={'fake-link'}>
               <strong>click here</strong>
@@ -147,7 +147,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/cincyState.png`} />
+                <img src={`${process.env.PUBLIC_URL}/images/about/cincyState.png`} alt={''}/>
               </div>
               <div>
                 <p>Associates in Graphic Design</p>
@@ -158,7 +158,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/gaig.png`} />
+                <img src={`${process.env.PUBLIC_URL}/images/about/gaig.png`} alt={''}/>
               </div>
               <div>
                 <p>Design Intern</p>
@@ -169,7 +169,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/lpk.png`}/>
+                <img src={`${process.env.PUBLIC_URL}/images/about/lpk.png`} alt={''}/>
               </div>
               <div>
                 <p>Design Intern Folger's Team</p>
@@ -180,7 +180,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/hasbro.png`} />
+                <img src={`${process.env.PUBLIC_URL}/images/about/hasbro.png`} alt={''}/>
               </div>
               <div>
                 <p>Design Intern, NERF Team</p>
@@ -190,7 +190,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/uc.png`} />
+                <img src={`${process.env.PUBLIC_URL}/images/about/uc.png`} alt={''}/>
               </div>
               <div>
                 <p>BA in Communication Design</p>
@@ -201,7 +201,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/z.png`} />
+                <img src={`${process.env.PUBLIC_URL}/images/about/z.png`} alt={''}/>
               </div>
               <div>
                 <p>Graphic Designer</p>

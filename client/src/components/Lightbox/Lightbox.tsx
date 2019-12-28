@@ -18,6 +18,7 @@ const Lightbox: React.FC<LightboxProps> = (Props) => {
     <div>
       <img 
         src={Props.image} 
+        alt={''}
         className={'lightbox-image'}
         onClick={() => setIsVisible(true)} 
       />
@@ -27,6 +28,7 @@ const Lightbox: React.FC<LightboxProps> = (Props) => {
           <div className={'lightbox-open-image'}>
             <img 
               src={Props.image} 
+              alt={''}
               onClick={() => setIsVisible(false)} 
             />
           </div>,
