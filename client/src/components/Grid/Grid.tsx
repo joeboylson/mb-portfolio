@@ -13,7 +13,7 @@ export interface GridProps {
 
 const Grid: React.FC<GridProps> = (Props) => {
   return (
-    <div className={'grid'}>
+    <div className={'grid fadeUp'}>
 
       { Props.items && Props.items.map((item:any, index:number) => {
 
@@ -21,7 +21,8 @@ const Grid: React.FC<GridProps> = (Props) => {
         
           <div
             key={index} 
-            className={'grid-item'} 
+            className={'grid-item fadeUp'}
+            style={{ animationDelay: `${(index+1)/10}s`}} 
           >
             <img src={item.image}/>
           </div>
