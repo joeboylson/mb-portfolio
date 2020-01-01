@@ -4,13 +4,15 @@ import { doPost } from '../utils/doPost';
 const ContactForm: React.FC = () => {
 
   const [loading, setLoading] = React.useState(false);
-  const [hasSubmit, setHasSubmit] = React.useState(true);
-  const [success, setSuccess] = React.useState(true);
+  const [hasSubmit, setHasSubmit] = React.useState(false);
+  const [success, setSuccess] = React.useState(false);
 
   const [email, setEmail] = React.useState();
   const [subject, setSubject] = React.useState();
   const [message, setMessage] = React.useState();
   const [mol, setMol] = React.useState();
+
+  
 
   const [emailInputClass, setEmailInputClass] = React.useState('')
   const [subjectInputClass, setSubjectInputClass] = React.useState('')
