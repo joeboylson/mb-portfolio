@@ -54,13 +54,14 @@ app.get('/download', (req, res) => {
 
 app.post('/contact', async (req, res) => {
 
-  if (req.body.name && req.body.email && req.body.message) {
+  // {email, subject, message, mol}
+  if (req.body.email && req.body.subject && req.body.message) {
 
     const msg = {
       to: 'joeboylson@gmail.com',
       from: req.body.email,
-      subject: `New Message from Website`,
-      text: `Name: ${req.body.name} \n Message: ${req.body.message}`,
+      subject: req.body.subject,
+      text: `Message: ${req.body.message} \n\n Meaning of Life: ${req.body.mol || 'Not Anwsered'}`,
     };
 
     try {

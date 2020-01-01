@@ -83,37 +83,118 @@
 /* CONTACT          */
 /* ----- ----- ---- */
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#contact #header {
+  display: flex;
+  align-items: baseline;
+  width: calc(var(--unit) * 8);
+  justify-content: space-between;  
+  margin-bottom: var(--unit);
+}
+
+#contact #content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#contact #content #form {
+  flex: 0 0 59%;
+  margin-right: var(--unit);
+}
+
+#contact #details {
+  margin-bottom: var(--unit);
+}
+
+#contact #details p {
+  margin-bottom: calc(var(--unit)/2);
+}
+
+#contact p, #contact li {
+  line-height: 18px;
+}
+
+#contact .status-block {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: var(--unit);
+  min-height: calc(var(--unit) * 3);
+}
+
+#contact .status-block div {
+  margin-bottom: calc(var(--unit)/2);
+}
+
+#contact .status-block button {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: calc(var(--unit)/4);
+  width: calc(var(--unit) * 2);
+  color: white;
+}
+
+#contact .status-block .saved-message {
+  background-color: white;
+  color: black;
+  padding: calc(var(--unit)/2);
+  margin: calc(var(--unit)/2) 0;
+}
+
+/* FORM */
+
 #contact-form {
-  flex-direction: column;
-}
-
-#contact-form .col {
-  padding: var(--unit) 0;
   display: flex;
   flex-direction: column;
 }
 
-#contact-form input, #contact-form textarea, #contact-form button {
-  padding: 25px;
+#contact-form h3 {
+  margin: 0;
 }
 
-.invalid {
-  box-shadow: 0px 10px 0px 0px yellow;
+#contact-form input, #contact-form textarea {
+  padding: 8px;
+  margin-bottom: calc(var(--unit)/2);
+  color: black;
 }
 
-.valid {
-  box-shadow: 0px 10px 0px 0px green;
+#contact-form textarea {
+  height: 125px;
 }
 
-.contact-response {
-  padding: var(--unit) 0;
+#contact-form button {
+  height: var(--unit);
+  width: calc(var(--unit) * 4);
 }
 
-.contact-response .col {
-  padding: var(--unit) 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+#contact-form input, #contact-form textarea, #contact-form button {  
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.invalid { background-color: red !important; }
+.valid { background-color: green !important; }
+
+@media only screen and (max-width: 1200px) {
+  #contact #content {
+    flex-direction: column-reverse;
+  }
+
+  #contact #content #form {
+    flex: 0 0 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #contact #header {
+    flex-direction: column;
+  }
 }
 
 

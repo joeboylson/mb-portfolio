@@ -105,9 +105,10 @@ ul, ol {
 
 input, textarea {
   font-size: 13px;
-  line-height: 21px;
+  line-height: 13px;
   font-family: 'univers_lght';
   font-weight: 300;
+  color: white;
 }
 
 #grid {
