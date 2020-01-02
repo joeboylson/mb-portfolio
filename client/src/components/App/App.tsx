@@ -9,7 +9,7 @@ import CursorContext from './CursorContext';
 // pages
 import Home from '../Pages/Home';
 import About from '../Pages/About';
-import Design from '../Pages/Design';
+import Reel from '../Pages/Reel';
 import Illustration from '../Pages/Illustration'
 import Photography from '../Pages/Photography'
 import Contact from '../Pages/Contact'
@@ -23,7 +23,7 @@ const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://localhost:5000' :
 const routes:any = {
   home: { component: Home },
   about: { component: About },
-  design: { component: Design },
+  reel: { component: Reel },
   illustration: { component: Illustration },
   photography: { component: Photography },
   contact: { component: Contact },
