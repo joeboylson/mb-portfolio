@@ -41,18 +41,18 @@ const projects = [
   {
     route: 'localpost',
     cursorText: '05',
-    image: `${process.env.PUBLIC_URL}/images/home/localPost.png`,
-    title: 'Local Post',
-    info: <span>Branding<br/>June 2019</span>,
+    image: `${process.env.PUBLIC_URL}/images/home/roamio.png`,
+    title: 'Roamio',
+    info: <span>UX Design<br/>Continuous</span>,
     description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
     themeColor: '#E52354' 
   },
   {
     route: 'localpost',
     cursorText: '06',
-    image: `${process.env.PUBLIC_URL}/images/home/localPost.png`,
-    title: 'Local Post',
-    info: <span>Branding<br/>June 2019</span>,
+    image: `${process.env.PUBLIC_URL}/images/home/motion.gif`,
+    title: 'Kinetic Reel',
+    info: <span>Motion Design<br/>Continuous</span>,
     description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
     themeColor: '#E52354' 
   }

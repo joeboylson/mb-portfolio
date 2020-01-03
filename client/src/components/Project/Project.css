@@ -63,7 +63,6 @@
 }
 
 .image-fullscreen {
-
 }
 
 
@@ -209,5 +208,6 @@
 
 .img-fullscreen {
   width: 100vw !important;
-  transform: translateX(calc( (-100% + var(--grid-width)) + ((100vw - var(--grid-width)) / 2 ) ))
+  transform: translateX(calc( (-100% + var(--grid-width)) + ((100vw - var(--grid-width)) / 2 ) )) translateY(-200px);
+  margin-bottom: -268px;
 }

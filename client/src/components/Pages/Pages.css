@@ -265,7 +265,8 @@ button:focus {
 
 #edu-exp {
   width: 100%;
-  margin-left: calc(var(--unit))
+  margin-left: calc(var(--unit));
+  margin-bottom: calc( var(--unit) * -2);
 }
 
 #edu-exp h1 {

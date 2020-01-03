@@ -45,7 +45,86 @@ const About: React.FC = () => {
           </label>
         </div>
       </div>
+      <div className={'row'} style={getAnimationDelay(4)}>
+        <div className={'col col-4'}>
+          <p>
+            Throughout my college career, I was fortunate enough to have 5 semester (two full years)
+            of full-time co-op work. This experience prepared me greatly for the workplace when I
+            emerged into the design world. Here's is where I've studied and worked.
+          </p>
+        </div>
+        <div className={'col-8'}>
+          <div id={'edu-exp'}>
+            <h1>Education / Experience</h1>
 
+            <div className={'item'}>
+              <div>
+                <img src={`${process.env.PUBLIC_URL}/images/about/cincyState.png`} alt={''}/>
+              </div>
+              <div>
+                <p>Associates in Graphic Design</p>
+                <p className={'collapse-2'}>May 2013</p>
+                <p className={'collapse-1'}>3.4 GPA</p>
+              </div>
+            </div>
+
+            <div className={'item'}>
+              <div>
+                <img src={`${process.env.PUBLIC_URL}/images/about/gaig.png`} alt={''}/>
+              </div>
+              <div>
+                <p>Design Intern</p>
+                <p className={'collapse-2'}>January 2015 - May 2015</p>
+                <p className={'collapse-1'}>August 2015 - January 2016</p>
+              </div>
+            </div>
+
+            <div className={'item'}>
+              <div>
+                <img src={`${process.env.PUBLIC_URL}/images/about/lpk.png`} alt={''}/>
+              </div>
+              <div>
+                <p>Design Intern Folger's Team</p>
+                <p className={'collapse-2'}>May 2016 - August 2016</p>
+                <p className={'collapse-1'}>January 2017 - May 2017</p>
+              </div>
+            </div>
+
+            <div className={'item'}>
+              <div>
+                <img src={`${process.env.PUBLIC_URL}/images/about/hasbro.png`} alt={''}/>
+              </div>
+              <div>
+                <p>Design Intern, NERF Team</p>
+                <p className={'collapse-2'}>August 2017 - January 2018</p>
+              </div>
+            </div>
+
+            <div className={'item'}>
+              <div>
+                <img src={`${process.env.PUBLIC_URL}/images/about/uc.png`} alt={''}/>
+              </div>
+              <div>
+                <p>BA in Communication Design</p>
+                <p className={'collapse-2'}>April 2018</p>
+                <p className={'collapse-1'}>3.7 GPA</p>
+              </div>
+            </div>
+
+            <div className={'item'}>
+              <div>
+                <img src={`${process.env.PUBLIC_URL}/images/about/z.png`} alt={''}/>
+              </div>
+              <div>
+                <p>Graphic Designer</p>
+                <p className={'collapse-2'}>June 2018 - January 2020</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
       <div className={'row fadeUp'} style={getAnimationDelay(2)}>
         <div className={'col col-16'}>
           <h1>
@@ -129,87 +208,6 @@ const About: React.FC = () => {
             <li>Have a child</li>
             <li>Produce a script for an original feature length film</li>
           </ol>
-        </div>
-
-      </div>
-
-      <div className={'row'} style={getAnimationDelay(4)}>
-        <div className={'col col-4'}>
-          <p>
-            Throughout my college career, I was fortunate enough to have 5 semester (two full years)
-            of full-time co-op work. This experience prepared me greatly for the workplace when I
-            emerged into the design world. Here's is where I've studied and worked.
-          </p>
-        </div>
-        <div className={'col-8'}>
-          <div id={'edu-exp'}>
-            <h1>Education / Experience</h1>
-
-            <div className={'item'}>
-              <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/cincyState.png`} alt={''}/>
-              </div>
-              <div>
-                <p>Associates in Graphic Design</p>
-                <p className={'collapse-2'}>May 2013</p>
-                <p className={'collapse-1'}>3.4 GPA</p>
-              </div>
-            </div>
-
-            <div className={'item'}>
-              <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/gaig.png`} alt={''}/>
-              </div>
-              <div>
-                <p>Design Intern</p>
-                <p className={'collapse-2'}>January 2015 - May 2015</p>
-                <p className={'collapse-1'}>August 2015 - January 2016</p>
-              </div>
-            </div>
-
-            <div className={'item'}>
-              <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/lpk.png`} alt={''}/>
-              </div>
-              <div>
-                <p>Design Intern Folger's Team</p>
-                <p className={'collapse-2'}>May 2016 - August 2016</p>
-                <p className={'collapse-1'}>January 2017 - May 2017</p>
-              </div>
-            </div>
-
-            <div className={'item'}>
-              <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/hasbro.png`} alt={''}/>
-              </div>
-              <div>
-                <p>Design Intern, NERF Team</p>
-                <p className={'collapse-2'}>August 2017 - January 2018</p>
-              </div>
-            </div>
-
-            <div className={'item'}>
-              <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/uc.png`} alt={''}/>
-              </div>
-              <div>
-                <p>BA in Communication Design</p>
-                <p className={'collapse-2'}>April 2018</p>
-                <p className={'collapse-1'}>3.7 GPA</p>
-              </div>
-            </div>
-
-            <div className={'item'}>
-              <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/z.png`} alt={''}/>
-              </div>
-              <div>
-                <p>Graphic Designer</p>
-                <p className={'collapse-2'}>June 2018 - January 2020</p>
-              </div>
-            </div>
-
-          </div>
         </div>
 
       </div>
