@@ -18,7 +18,7 @@ const Photography: React.FC = () => {
       <div className={'row fadeUp'}>
 
         <div className={'col col-4'}>
-          <h1>Photography</h1>
+          <h1>PHOTOGRAPHY</h1>
         </div>
 
         <div className={'col col-12'}>

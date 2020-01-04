@@ -9,8 +9,7 @@ const Contact: React.FC = () => {
     <div id={'contact'}>
 
       <div id={'header'} className={'col col-8'}>
-        <h1>Contact Me</h1>
-        <p>Drop me a line! Unless you're my ex.</p>
+        <h1>CONTACT ME</h1>
       </div>
 
       <div id={'content'}>
@@ -20,6 +19,7 @@ const Contact: React.FC = () => {
         </div>
 
         <div id={'details'}>
+        <p>Drop me a line! Unless you're my ex.</p><br/>
           <p>mjboylson@gmail.com <br/> +1 513 502 4549</p>
           <p>Other acceptable forms of contact:</p>
           <ul>

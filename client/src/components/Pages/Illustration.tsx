@@ -4,8 +4,8 @@ import React from 'react';
 import Grid from '../Grid/Grid';
 
 const illustrationItems = [
-  { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
-  { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
+  { image: `${process.env.PUBLIC_URL}/images/illustration/neilArmstong1.jpeg`},
+  { image: `${process.env.PUBLIC_URL}/images/illustration/illustration1.jpg`},
   { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
   { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
   { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`}
@@ -18,7 +18,7 @@ const Illustration: React.FC = () => {
       <div className={'row'}>
 
         <div className={'col col-4'}>
-          <h1>Illustration</h1>
+          <h1>ILLUSTRATION</h1>
         </div>
 
         <div className={'col col-12'}>
