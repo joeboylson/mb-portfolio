@@ -115,10 +115,6 @@
   z-index: -1;
 }
 
-#localpost .row {
-  margin-top: 100px;
-}
-
 
 
 /* ----- ----- ---- ----- */
@@ -209,5 +205,6 @@
 .img-fullscreen {
   width: 100vw !important;
   transform: translateX(calc( (-100% + var(--grid-width)) + ((100vw - var(--grid-width)) / 2 ) )) translateY(-200px);
-  margin-bottom: -268px;
+  margin-bottom: -100px;
+  margin-top: 100px;
 }

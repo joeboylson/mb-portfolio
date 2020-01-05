@@ -12,9 +12,12 @@ const Metro: React.FC = () => {
         </div>
 
         <div className={'col col-4'}>
-          <h3>Project Type: Branding</h3>
-          <h3>Client: Student Work</h3>
-          <h3>Tools Used: Illustrator, Photoshop, After Effects</h3>
+          <h4>Project Type:</h4>
+          <h3>Branding</h3>
+          <h4>Client:</h4>
+          <h3> Student Work</h3>
+          <h4>Tools Used:</h4>
+          <h3>Illustrator, Photoshop, After Effects</h3>
         </div>
 
         <div className={'col col-4'}>
@@ -26,7 +29,7 @@ const Metro: React.FC = () => {
         </div>
       </div>
 
-      <img src={`${process.env.PUBLIC_URL}/images/LocalPost/DSCF7780.jpg`} alt={''}/>
+      <img src={`${process.env.PUBLIC_URL}/images/metro/metro1.png`} alt={''}/>
 
       {/* COASTERS */}
 

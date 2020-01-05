@@ -35,6 +35,31 @@ const Localpost: React.FC = () => {
         alt={''}  
       />
 
+      <div className={'row'}>
+
+      <div className={'col col-3'}>
+        <h2>Menu</h2>
+      </div>
+
+      <div className={'col col-3'}>
+        <p>
+          One of the activation strategies we created was a series of Local Post post cards.
+          These takeaways are organic marketing materials that customers
+        </p>
+      </div>
+
+      <div className={'col col-3'}>
+        <p>
+          of Local Post can mail to their friends and family. They can simply leave it and the Local
+          Post staff will mail it.  
+        </p>
+      </div>
+
+      </div>
+      <div className={'row'}>
+      <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/menu.png`} alt={''} style={{marginTop: '-100px'}}/></div>
+      </div>
+
       {/* <div>
         <canvas ref={overviewCanvasRef} id={'overview-canvas'}></canvas>
         <div style={{height: `${window.innerHeight*3}px`}}></div>
@@ -44,7 +69,7 @@ const Localpost: React.FC = () => {
 
       <div className={'row'}>
 
-        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace1.jpg`} alt={''}/></div>
+        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/coasters.png`} alt={''}/></div>
 
         {/* <div className={'col col-8'}>
           <canvas ref={coasterCanvasRef} id={'coaster-canvas'}></canvas>
@@ -65,7 +90,7 @@ const Localpost: React.FC = () => {
         <div className={'col col-3'}>
           <p>
             Another cheap takeaway for customers, these coasters serve a dual purpose.
-            </p>
+          </p>
         </div>
 
       </div>
@@ -78,19 +103,21 @@ const Localpost: React.FC = () => {
 
         <div className={'col col-3'}>
           <p>
-            One of the activation strategies  we created was a series od Local Post post cards.
-            These takeaways are prganic marketing materials that customers
+            One of the activation strategies we created was a series of Local Post post cards.
+            These takeaways are organic marketing materials that customers
           </p>
         </div>
 
         <div className={'col col-3'}>
           <p>
-            of Localpost can mail to their friends and family. They can simply leave it and the Local
+            of Local Post can mail to their friends and family. They can simply leave it and the Local
             Post staff will mail it.  
           </p>
         </div>
-        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace2.jpg`} alt={''}/></div>
 
+      </div>
+      <div className={'row'}>
+        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/postcard.png`} alt={''}/></div>
       </div>
 
     </div>

@@ -3,7 +3,7 @@
 /* ----- ----- ----- ----- */
 
 .row {
-  margin-bottom: calc(var(--unit) * 4);
+  margin-bottom: calc(var(--unit) * 2);
   width: calc(100% - var(--unit));
   display: flex;
   flex-wrap: wrap;
@@ -15,7 +15,7 @@
 
 .col-3 {
   flex: 0 0 15%;
-  margin-right: var(--unit);
+  margin-right: 25px;
 }
 
 .col-4 {
@@ -35,6 +35,11 @@
 
 .col-8 {
   flex: 0 0 40%;
+  margin-right: var(--unit);
+}
+
+.col-10 {
+  flex: 0 0 45%;
   margin-right: var(--unit);
 }
 
