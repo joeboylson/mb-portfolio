@@ -21,40 +21,79 @@ const Metro: React.FC = () => {
         </div>
 
         <div className={'col col-4'}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum a deserunt, earum debitis, obcaecati rerum quia culpa molestias necessitatibus sequi corrupti magnam quidem? Odit non deleniti necessitatibus ea consequatur, quia est pariatur, quaerat quasi vero aliquam excepturi, delectus harum doloremque placeat blanditiis! Officia a nulla dolores earum ad quod adipisci!</p>
+          <p>In a three month long project with <a href="http://www.lillianclifton.com/" target="blank">Lillian Clifton,</a> <a href="http://alyssagardner.com/index.html" target="blank">Alyssa Gardner</a> and <a href="https://www.emilyhofmeyer.co/" target="blank">Emily Hofmeyer,</a> we were faced with the challenge of increasing ridership on the Cincinnati Metro. We planned to accomplish this by</p>
         </div>
 
         <div className={'col col-4'}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum a deserunt, earum debitis, obcaecati rerum quia culpa molestias necessitatibus sequi corrupti magnam quidem? Odit non deleniti necessitatibus ea consequatur, quia est pariatur, quaerat quasi vero aliquam excepturi, delectus harum doloremque placeat blanditiis! Officia a nulla dolores earum ad quod adipisci!</p>
+          <p>improving processes of the Metro. With the proposed changes in processes, a proposed rebrand was very important. That was my focus on the project. Below is the result of the rebrand I managed.</p>
         </div>
       </div>
 
       <img src={`${process.env.PUBLIC_URL}/images/metro/metro1.png`} alt={''}/>
 
-      {/* COASTERS */}
+      <img 
+        className={'img-fullscreen'}
+        src={`${process.env.PUBLIC_URL}/images/metro/metro2.png`} 
+        alt={''}
+        style={{marginBottom: '-200px'}}  
+      />
 
+        <div className={'row'}>
+
+        <div className={'col col-3'}>
+          <h3>Bus Schedule</h3>
+        </div>
+
+        <div className={'col col-3'}>
+          <p>
+            Overhauling the existing schedule and map was essential to making ridership simpler for people.
+          </p>
+        </div>
+
+        <div className={'col col-3'}>
+          <p>
+            The two core colors are used to seperate inbound vs outbound busses, and this treatment follows on to the signage.  
+          </p>
+        </div>
+
+        </div>
+        <div className={'row'}>
+        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/metro/metro3.png`} alt={''} style={{marginTop: '-100px'}}/></div>
+        </div>
+        <img 
+          className={'img-fullscreen'}
+          src={`${process.env.PUBLIC_URL}/images/metro/metro4.png`} 
+          alt={''}
+          style={{marginBottom: '-200px', marginTop: '200px'}}  
+        />
       <div className={'row'}>
 
-        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace1.jpg`} alt={''}/></div>
+        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/metro/metro5.png`} alt={''}/></div>
 
         <div className={'col col-3'}>
-          <h2>Coasters</h2>
+          <h3>Bus Stop Signs</h3>
         </div>
 
         <div className={'col col-3'}>
           <p>
-            As much as its a restaurant, it's a bar.
-            So obviously, we needed to develop some coasters.
+            As stated above, the inbound and outbound routes are differentiated on the schedule and in the
+
+ 
             </p>
         </div>
 
         <div className={'col col-3'}>
           <p>
-            Another cheap takeaway for customers, these coasters serve a dual purpose.
-            </p>
+          environment, using the blue and red – the two primary Metro brand colors.
+          </p>
         </div>
 
       </div>
+
+      <div id="video-wrapper">
+        <iframe src="https://player.vimeo.com/video/383131613?api=1"></iframe>
+      </div>
+
 
       <div className={'row'}>
 

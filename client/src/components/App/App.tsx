@@ -28,7 +28,7 @@ const routes:any = {
   photography: { component: Photography },
   contact: { component: Contact },
   localpost: { component: Localpost, themeColor: '#E52354'},
-  metro: { component: Metro, themeColor: '#B6BCBF', dotColor: 'rgba(0, 0, 0, 0.1)' }
+  metro: { component: Metro, themeColor: '#d9dde0', dotColor: 'rgba(0, 0, 0, 0.1)' }
 }
 
 const App: React.FC = () => {

@@ -129,6 +129,17 @@
   margin-top: 100px;
 }
 
+#metro #video-wrapper {
+  width: var(--grid-width);
+  height: calc( (var(--grid-width) / 16) * 9);
+}
+
+#metro #video-wrapper iframe {
+  width: var(--grid-width);
+  height: calc( (var(--grid-width) / 16) * 9);
+  border: none;
+}
+
 
 
 /* ----- ----- ---- ----- */
