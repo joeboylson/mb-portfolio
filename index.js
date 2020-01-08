@@ -58,7 +58,7 @@ app.post('/contact', async (req, res) => {
   if (req.body.email && req.body.subject && req.body.message) {
 
     const msg = {
-      to: 'joeboylson@gmail.com',
+      to: 'mjboylson@gmail.com',
       from: req.body.email,
       subject: req.body.subject,
       text: `Message: ${req.body.message} \n\n Meaning of Life: ${req.body.mol || 'Not Anwsered'}`,
