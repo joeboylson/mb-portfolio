@@ -6,11 +6,16 @@ import './Lightbox.css'
 
 export interface LightboxProps {
   image: string;
+  cropOffset?: number;
 }
 
 const Lightbox: React.FC<LightboxProps> = (Props) => {
 
   const [isVisible, setIsVisible] = React.useState(false)
+
+  const lightBoxStyle = {
+    transform: `translateY(${Props.cropOffset || 0}px)`
+  } as React.CSSProperties
 
   // if lightbox is closed
   return (
@@ -21,6 +26,7 @@ const Lightbox: React.FC<LightboxProps> = (Props) => {
         alt={''}
         className={'lightbox-image'}
         onClick={() => setIsVisible(true)} 
+        style={lightBoxStyle}
       />
 
       { isVisible && 

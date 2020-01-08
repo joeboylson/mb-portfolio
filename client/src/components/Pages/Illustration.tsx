@@ -3,9 +3,14 @@ import React from 'react';
 // grid
 import Grid from '../Grid/Grid';
 
+/*
+ARGS:
+- image: the url of the image
+- cropOffset: vertical offset of the image within the grid preview 
+*/
 const illustrationItems = [
   { image: `${process.env.PUBLIC_URL}/images/illustration/neilArmstong1.jpeg`},
-  { image: `${process.env.PUBLIC_URL}/images/illustration/illustration1.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/illustration/illustration1.jpg`, cropOffset: -100},
   { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
   { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
   { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`}
