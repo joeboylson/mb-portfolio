@@ -21,25 +21,25 @@ const projects = [
     themeColor: '#B6BCBF'
   },
   {
-    route: 'localpost',
+    route: 'veronica',
     cursorText: '03',
     image: `${process.env.PUBLIC_URL}/images/home/vs.png`,
     title: 'Veronica Stanton',
     description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
     info: <span>Branding, Photography, Illustration and Videography<br/>August 2019</span>,
-    themeColor: '#E52354' 
+    themeColor: '#f0ddd1' 
   },
   {
-    route: 'localpost',
+    route: 'sda',
     cursorText: '04',
     image: `${process.env.PUBLIC_URL}/images/home/sda.png`,
     title: 'SDA',
-    info: <span>Branding<br/>June 2019</span>,
+    info: <span>Branding<br/>February 2019</span>,
     description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
-    themeColor: '#E52354' 
+    themeColor: '#407EC9' 
   },
   {
-    route: 'localpost',
+    route: 'roamio',
     cursorText: '05',
     image: `${process.env.PUBLIC_URL}/images/home/roamio.png`,
     title: 'Roamio',

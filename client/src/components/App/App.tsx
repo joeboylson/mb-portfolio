@@ -17,6 +17,9 @@ import Contact from '../Pages/Contact'
 // projects
 import Localpost from '../Project/Localpost'
 import Metro from '../Project/Metro'
+import Veronica from '../Project/Veronica'
+import SDA from '../Project/SDA'
+import Roamio from '../Project/Roamio'
 
 const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://localhost:5000' : ''
 
@@ -28,7 +31,10 @@ const routes:any = {
   photography: { component: Photography },
   contact: { component: Contact },
   localpost: { component: Localpost, themeColor: '#E52354'},
-  metro: { component: Metro, themeColor: '#d9dde0', dotColor: 'rgba(0, 0, 0, 0.1)' }
+  metro: { component: Metro, themeColor: '#d9dde0', dotColor: 'rgba(0, 0, 0, 0.1)' },
+  veronica: { component: Veronica, themeColor: '#f0ddd1', dotColor: 'rgba(0, 0, 0, 0.1)' },
+  sda: { component: SDA, themeColor: '#407EC9', dotColor: 'rgba(0, 0, 0, 0.1)' },
+  roamio: { component: Roamio, themeColor: '#f0ddd1'}
 }
 
 const App: React.FC = () => {

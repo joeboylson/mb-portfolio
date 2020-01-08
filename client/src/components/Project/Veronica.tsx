@@ -3,21 +3,21 @@ import React from 'react';
 const Localpost: React.FC = () => {
   
   return (
-    <div id={'localpost'}>
+    <div id={'veronica'}>
 
       <div className={'row'}>
 
         <div className={'col col-4'}>
-          <h1>Local Post, 2018</h1>
+          <h1>Veronica Stanton, 2019</h1>
         </div>
 
         <div className={'col col-4'}>
           <h4>Project Type:</h4>
-          <h3>Branding</h3>
+          <h3>Photography, Illustration and Videography</h3>
           <h4>Client:</h4>
-          <h3>Local Post</h3>
+          <h3>Veronica Stanton</h3>
           <h4>Tools Used:</h4>
-          <h3>Illustrator, Photoshop, Cinema 4D</h3>
+          <h3>Illustrator, Photoshop, After Effects</h3>
         </div>
 
         <div className={'col col-4'}>
@@ -122,17 +122,17 @@ const Localpost: React.FC = () => {
 
         <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/byop.png`} alt={''}/></div>
 
-        <div className={'col col-3'} style={{marginTop: '150px'}}>
+        <div className={'col col-3'}>
           <h3>Build Your Own Pizza Worksheet</h3>
         </div>
 
-        <div className={'col col-3'} style={{marginTop: '150px'}}>
+        <div className={'col col-3'}>
           <p>
             With a "build your own" pizza offering the highest profit margin to the restaurant, we wanted
             </p>
         </div>
 
-        <div className={'col col-3'} style={{marginTop: '150px'}}>
+        <div className={'col col-3'}>
           <p>
             to make that experience more interactive and fun to encourage customers to order this way.
           </p>

@@ -70,11 +70,11 @@ const Metro: React.FC = () => {
 
         <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/metro/metro5.png`} alt={''}/></div>
 
-        <div className={'col col-3'}>
+        <div className={'col col-3'} style={{marginTop: '200px'}}>
           <h3>Bus Stop Signs</h3>
         </div>
 
-        <div className={'col col-3'}>
+        <div className={'col col-3'} style={{marginTop: '200px'}}>
           <p>
             As stated above, the inbound and outbound routes are differentiated on the schedule and in the
 
@@ -82,7 +82,7 @@ const Metro: React.FC = () => {
             </p>
         </div>
 
-        <div className={'col col-3'}>
+        <div className={'col col-3'} style={{marginTop: '200px'}}>
           <p>
           environment, using the blue and red – the two primary Metro brand colors.
           </p>
@@ -98,23 +98,51 @@ const Metro: React.FC = () => {
       <div className={'row'}>
 
         <div className={'col col-3'}>
-          <h2>Post Cards</h2>
+          <h3>Bus Graphics</h3>
         </div>
 
         <div className={'col col-3'}>
           <p>
-            One of the activation strategies  we created was a series od Local Post post cards.
-            These takeaways are prganic marketing materials that customers
+            A great expression of the pattern we created was on the wraps on the bus.
           </p>
         </div>
 
         <div className={'col col-3'}>
           <p>
-            of Localpost can mail to their friends and family. They can simply leave it and the Local
-            Post staff will mail it.  
+            This familiar graphic asset helps reinforce the new brand and it's new processes.
           </p>
         </div>
-        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/palace2.jpg`} alt={''}/></div>
+
+      <img 
+          className={'img-fullscreen'}
+          src={`${process.env.PUBLIC_URL}/images/metro/metro6.png`} 
+          alt={''}
+          style={{marginBottom: '-200px', marginTop: '200px'}}  
+        />
+
+      </div>
+
+      <div className={'row'}>
+
+        <div className={'col col-3'}>
+          <h3>Onboard Digital Signage</h3>
+        </div>
+
+        <div className={'col col-3'}>
+          <p>
+            While the rider is on the bus, a companion to the bus stop signs and the map helps guide them to their stop.
+          </p>
+        </div>
+
+        <div className={'col col-3'}>
+          <p>
+            This screen informs the rider what stops are upcoming, what busses stop there, and what things there are to see around it.
+          </p>
+        </div>
+
+        <div id={'video-wrapper'}>
+          <iframe src="https://player.vimeo.com/video/383624951?api=1" title={'metro-video'} style={{marginTop: '100px'}}></iframe>
+        </div>
 
       </div>
 

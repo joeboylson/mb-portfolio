@@ -122,17 +122,17 @@ const Localpost: React.FC = () => {
 
         <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/byop.png`} alt={''}/></div>
 
-        <div className={'col col-3'} style={{marginTop: '150px'}}>
+        <div className={'col col-3'}>
           <h3>Build Your Own Pizza Worksheet</h3>
         </div>
 
-        <div className={'col col-3'} style={{marginTop: '150px'}}>
+        <div className={'col col-3'}>
           <p>
             With a "build your own" pizza offering the highest profit margin to the restaurant, we wanted
             </p>
         </div>
 
-        <div className={'col col-3'} style={{marginTop: '150px'}}>
+        <div className={'col col-3'}>
           <p>
             to make that experience more interactive and fun to encourage customers to order this way.
           </p>
