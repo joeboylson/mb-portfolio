@@ -92,9 +92,6 @@
   margin-right: 150px;
 }
 
-/* --grid-width: calc(22 * var(--unit)); */
-
-
 #reel #video-wrapper {
   width: var(--grid-width);
   height: calc( (var(--grid-width) / 16) * 9);

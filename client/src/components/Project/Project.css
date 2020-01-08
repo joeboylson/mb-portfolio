@@ -24,8 +24,8 @@
 
 .project-text {
   flex: 0 0 calc(50% - 50px);
-
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 
   opacity: 0;
@@ -156,6 +156,7 @@
   .project-text .title, .project-text .info, .project-text .description {
     flex: 0 0 100%;
     margin-bottom: 25px;
+    margin-left: 0;
   }
   .project-footer {
     display: none;
