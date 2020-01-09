@@ -140,6 +140,15 @@ const Localpost: React.FC = () => {
 
         </div>
 
+        <div className={'row'} style={{marginTop: '200px'}}>
+          <div className={'col col-10'}>
+            <h2>&lt; &emsp; Motion Design</h2>
+          </div>
+          <div className={'col col-10'} style={{textAlign: "right"}}>
+            <h2>Cincinnati Metro &emsp; &gt;</h2>
+          </div>
+        </div>
+
     </div>
     
   );

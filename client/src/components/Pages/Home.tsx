@@ -25,7 +25,7 @@ const projects = [
     cursorText: '03',
     image: `${process.env.PUBLIC_URL}/images/home/vs.png`,
     title: 'Veronica Stanton',
-    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    description: 'Veronica, an incredible artist out of Nashville, came to me for help developing her brand. We created an identity, photography, a music video, a gig poster and more.',
     info: <span>Branding, Photography, Illustration and Videography<br/>August 2019</span>,
     themeColor: '#f0ddd1' 
   },
@@ -35,7 +35,7 @@ const projects = [
     image: `${process.env.PUBLIC_URL}/images/home/sda.png`,
     title: 'SDA',
     info: <span>Branding<br/>February 2019</span>,
-    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    description: 'SDA is a member organization who supports those in administrative roles at design and architecture firms. They needed a visual overhaul of their brand.',
     themeColor: '#407EC9' 
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     image: `${process.env.PUBLIC_URL}/images/home/roamio.png`,
     title: 'Roamio',
     info: <span>UX Design<br/>Continuous</span>,
-    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    description: 'What began as a senior capstone in college is now my personal obsession. I continue to develop it and work to have it made availble to the public.',
     themeColor: '#E52354' 
   },
   {
@@ -53,7 +53,7 @@ const projects = [
     image: `${process.env.PUBLIC_URL}/images/home/motion.gif`,
     title: 'Kinetic Reel',
     info: <span>Motion Design<br/>Continuous</span>,
-    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    description: 'If a photo is worth a thousand words, what is a video worth? I have had a great deal of experience working on motion design projects.',
     themeColor: '#E52354' 
   }
 ]
