@@ -38,57 +38,21 @@ const Localpost: React.FC = () => {
 
       <div className={'row'}>
 
-      <div className={'col col-3'}>
-        <h3>Menu</h3>
-      </div>
-
-      <div className={'col col-3'}>
-        <p>
-          Essential to a restaurant and bar with such diverse and interesting offerings, the menu we created
-        </p>
-      </div>
-
-      <div className={'col col-3'}>
-        <p>
-          clearly and simply displays the delicious items availble, leveraging the brand in effective ways.  
-        </p>
-      </div>
-
-      </div>
-      <div className={'row'}>
-      <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/menu.png`} alt={''} style={{marginTop: '-100px'}}/></div>
-      </div>
-
-      {/* <div>
-        <canvas ref={overviewCanvasRef} id={'overview-canvas'}></canvas>
-        <div style={{height: `${window.innerHeight*3}px`}}></div>
-      </div> */}
-
-      {/* COASTERS */}
-
-      <div className={'row'}>
-
-        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/coasters.png`} alt={''}/></div>
-
-        {/* <div className={'col col-8'}>
-          <canvas ref={coasterCanvasRef} id={'coaster-canvas'}></canvas>
-          <div style={{height: `640px`}}></div>
-        </div> */}
+        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio2.gif`} alt={''}/></div>
 
         <div className={'col col-3'}>
-          <h3>Coasters</h3>
+          <h3>Interviews &amp; Surveys</h3>
         </div>
 
         <div className={'col col-3'}>
           <p>
-            As much as its a restaurant, it's a bar.
-            So obviously, we needed to develop some coasters.
-            </p>
+            After determining the subject of the app, I began interviewing individuals and collecting survey results.
+          </p>
         </div>
 
         <div className={'col col-3'}>
           <p>
-            Another cheap takeaway for customers, these coasters serve a dual purpose.
+            These experiences were incredibly insightful and directed much of the trajectory of Roamio.
           </p>
         </div>
 
@@ -97,49 +61,54 @@ const Localpost: React.FC = () => {
       <div className={'row'}>
 
         <div className={'col col-3'}>
-          <h3>Post Cards</h3>
+          <h3>Personas &amp; Journey Mapping</h3>
         </div>
 
         <div className={'col col-3'}>
           <p>
-            One of the activation strategies we created was a series of Local Post post cards.
-            These takeaways are organic marketing materials that customers
+            The result of the interviews and surveys was the creation of three unique personas. Each decision made from here would be with these three – the synthesis of my research, in consideration.
           </p>
         </div>
 
         <div className={'col col-3'}>
           <p>
-            of Local Post can mail to their friends and family. They can simply leave it and the Local
-            Post staff will mail it.  
+            Using these personas, I created a series of user journey maps, both current and ideal states. Identifying each step of the user journey and what is working and what isn't was essential to determining the scope of Roamio. 
+          </p>
+        </div>
+
+        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio3.png`} alt={''}/></div>
+
+      </div>
+
+      <div className={'row'}>
+        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio4.png`} alt={''} style={{marginTop: '-75px'}}/></div>
+      </div>
+
+      <div className={'row'}>
+
+        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio5.png`} alt={''}/></div>
+
+        <div className={'col col-3'}>
+          <h3>Wireframe Sketching &amp; Rapid Prototyping</h3>
+        </div>
+
+        <div className={'col col-3'}>
+          <p>
+            The next step was to begin designing some of the functions I decided were essential for the app. A great deal of hand sketching wireframes,
+          </p>
+        </div>
+
+        <div className={'col col-3'}>
+          <p>
+            rapid prototyping and user testing with paper prototypes revealed tons of opportunities for the design.
           </p>
         </div>
 
       </div>
-      <div className={'row'}>
-        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/postcard.png`} alt={''}/></div>
+
+      <div id={'video-wrapper'}>
+        <iframe src="https://player.vimeo.com/video/384099008?api=1" title={'metro-video'}></iframe>
       </div>
-
-      <div className={'row'}>
-
-        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/byop.png`} alt={''}/></div>
-
-        <div className={'col col-3'}>
-          <h3>Build Your Own Pizza Worksheet</h3>
-        </div>
-
-        <div className={'col col-3'}>
-          <p>
-            With a "build your own" pizza offering the highest profit margin to the restaurant, we wanted
-            </p>
-        </div>
-
-        <div className={'col col-3'}>
-          <p>
-            to make that experience more interactive and fun to encourage customers to order this way.
-          </p>
-        </div>
-
-        </div>
 
     </div>
     

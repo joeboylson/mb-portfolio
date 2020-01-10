@@ -156,6 +156,21 @@
   color: #2B2D30;
 }
 
+/* ----- ----- ---- ----- */
+/* Roamio               */
+/* ----- ----- ---- ----- */
+
+#roamio #video-wrapper {
+  width: var(--grid-width);
+  height: calc( (var(--grid-width) / 16) * 12);
+}
+
+#roamio #video-wrapper iframe {
+  width: var(--grid-width);
+  height: calc( (var(--grid-width) / 16) * 12);
+  border: none;
+}
+
 
 
 /* ----- ----- ---- ----- */
