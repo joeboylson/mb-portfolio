@@ -177,6 +177,18 @@
   .project-footer {
     display: none;
   }
+  p {
+    font-size: 18px;
+  }
+  img {
+    width: 100%;
+  }
+  #main-spacer {
+    height: calc(var(--unit) * 0);
+  }
+  .project {
+    margin-bottom: 0;
+  }
 }
 
 
