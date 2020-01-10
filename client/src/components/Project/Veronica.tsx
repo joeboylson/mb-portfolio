@@ -31,25 +31,25 @@ const Localpost: React.FC = () => {
 
       <img 
         className={'img-fullscreen'}
-        src={`${process.env.PUBLIC_URL}/images/LocalPost/lp1.png`} 
+        src={`${process.env.PUBLIC_URL}/images/vs/vs1.png`} 
         alt={''}  
       />
 
       <div className={'row'}>
 
       <div className={'col col-3'}>
-        <h3>Menu</h3>
+        <h3>Brand Development</h3>
       </div>
 
       <div className={'col col-3'}>
         <p>
-          Essential to a restaurant and bar with such diverse and interesting offerings, the menu we created
+          In order to begin developing Veronica's brand, we pulled a bit of inspiration and curated it
         </p>
       </div>
 
       <div className={'col col-3'}>
         <p>
-          clearly and simply displays the delicious items availble, leveraging the brand in effective ways.  
+          into visual groups. The final brand would end up reflecting elements from all three main groups.  
         </p>
       </div>
 
@@ -58,21 +58,10 @@ const Localpost: React.FC = () => {
       <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/menu.png`} alt={''} style={{marginTop: '-100px'}}/></div>
       </div>
 
-      {/* <div>
-        <canvas ref={overviewCanvasRef} id={'overview-canvas'}></canvas>
-        <div style={{height: `${window.innerHeight*3}px`}}></div>
-      </div> */}
-
-      {/* COASTERS */}
 
       <div className={'row'}>
 
         <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/coasters.png`} alt={''}/></div>
-
-        {/* <div className={'col col-8'}>
-          <canvas ref={coasterCanvasRef} id={'coaster-canvas'}></canvas>
-          <div style={{height: `640px`}}></div>
-        </div> */}
 
         <div className={'col col-3'}>
           <h3>Coasters</h3>

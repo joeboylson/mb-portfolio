@@ -31,7 +31,7 @@ const Localpost: React.FC = () => {
 
       <img 
         className={'img-fullscreen'}
-        src={`${process.env.PUBLIC_URL}/images/LocalPost/lp1.png`} 
+        src={`${process.env.PUBLIC_URL}/images/LocalPost/lp2.png`} 
         alt={''}  
       />
 

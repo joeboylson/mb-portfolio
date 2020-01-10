@@ -3,36 +3,37 @@ import React from 'react';
 const Localpost: React.FC = () => {
   
   return (
-    <div id={'localpost'}>
+    <div id={'roamio'}>
 
       <div className={'row'}>
 
         <div className={'col col-4'}>
-          <h1>Local Post, 2018</h1>
+          <h1>Roamio, 2020</h1>
         </div>
 
         <div className={'col col-4'}>
           <h4>Project Type:</h4>
-          <h3>Branding</h3>
+          <h3>UX Design, Motion Design, Branding</h3>
           <h4>Client:</h4>
-          <h3>Local Post</h3>
+          <h3>Personal Project</h3>
           <h4>Tools Used:</h4>
-          <h3>Illustrator, Photoshop, Cinema 4D</h3>
+          <h3>Sketch, Adobe XD, Principle, Illustrator, After Effects</h3>
         </div>
 
         <div className={'col col-4'}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum a deserunt, earum debitis, obcaecati rerum quia culpa molestias necessitatibus sequi corrupti magnam quidem? Odit non deleniti necessitatibus ea consequatur, quia est pariatur, quaerat quasi vero aliquam excepturi, delectus harum doloremque placeat blanditiis! Officia a nulla dolores earum ad quod adipisci!</p>
+          <p>Roamio is a travel planning and collaboration app I designed for my senior capstone at the University of Cincinnati's College of Design. I am continually working on Roamio and meeting with developers and investors. I created Roamio because I am obsessed with two things – travel and improving things.</p>
         </div>
 
         <div className={'col col-4'}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum a deserunt, earum debitis, obcaecati rerum quia culpa molestias necessitatibus sequi corrupti magnam quidem? Odit non deleniti necessitatibus ea consequatur, quia est pariatur, quaerat quasi vero aliquam excepturi, delectus harum doloremque placeat blanditiis! Officia a nulla dolores earum ad quod adipisci!</p>
+          <p>In this case I'm improving a process which is in dire need of design intervention. Through my own frustrations in travel planning, my survey results and various interviews, I've identified places within the travel planning process to intervene.</p>
         </div>
       </div>
 
       <img 
         className={'img-fullscreen'}
-        src={`${process.env.PUBLIC_URL}/images/LocalPost/lp1.png`} 
-        alt={''}  
+        src={`${process.env.PUBLIC_URL}/images/roamio/roamio1.png`} 
+        alt={''}
+        style={{marginTop: '-25px'}}  
       />
 
       <div className={'row'}>

@@ -33,8 +33,8 @@ const routes:any = {
   localpost: { component: Localpost, themeColor: '#E52354'},
   metro: { component: Metro, themeColor: '#d9dde0', dotColor: 'rgba(0, 0, 0, 0.1)' },
   veronica: { component: Veronica, themeColor: '#f0ddd1', dotColor: 'rgba(0, 0, 0, 0.1)' },
-  sda: { component: SDA, themeColor: '#407EC9', dotColor: 'rgba(0, 0, 0, 0.1)' },
-  roamio: { component: Roamio, themeColor: '#f0ddd1'}
+  sda: { component: SDA, themeColor: '#DFE1DF', dotColor: 'rgba(0, 0, 0, 0.1)' },
+  roamio: { component: Roamio, themeColor: '#e33145'}
 }
 
 const App: React.FC = () => {
