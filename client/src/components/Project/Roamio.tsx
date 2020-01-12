@@ -106,8 +106,37 @@ const Localpost: React.FC = () => {
 
       </div>
 
+      <div className={'row'}>
+
+        <div className={'col col-3'}>
+          <h3>Digital Prototyping</h3>
+        </div>
+
+        <div className={'col col-3'}>
+          <p>
+            A full list of functions needed and the ideal user process in hand, I began protoyping digitally. This was done firstly as a low fidelity prototype in Adobe XD, and then later as a high fidelity protoype with
+          </p>
+        </div>
+
+        <div className={'col col-3'}>
+          <p>
+          full animation style and interaction in Principle. The final prototype would operate the whole process of planning a trip with friends in one scenerio. See the video for the full user experience. 
+          </p>
+        </div>
+
+        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio6.gif`} alt={''} style={{marginTop: '100px'}}/></div>
+
+      </div>
+
       <div id={'video-wrapper'}>
         <iframe src="https://player.vimeo.com/video/384099008?api=1" title={'metro-video'}></iframe>
+      </div>
+
+      <div className={'row'}>
+
+        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio7.png`} alt={''} style={{marginTop: '100px'}}/></div>
+        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio8.png`} alt={''} style={{marginTop: '100px'}}/></div>
+
       </div>
 
     </div>

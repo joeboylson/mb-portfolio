@@ -11,9 +11,13 @@ ARGS:
 const illustrationItems = [
   { image: `${process.env.PUBLIC_URL}/images/illustration/neilArmstong1.jpeg`},
   { image: `${process.env.PUBLIC_URL}/images/illustration/illustration1.jpg`, cropOffset: -100},
-  { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
-  { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
-  { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`}
+  { image: `${process.env.PUBLIC_URL}/images/illustration/illustration2.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/illustration/illustration3.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/illustration/illustration6.jpg` },
+  { image: `${process.env.PUBLIC_URL}/images/illustration/illustration7.jpg`, cropOffset: -75},
+  { image: `${process.env.PUBLIC_URL}/images/illustration/illustration8.jpg` },
+  { image: `${process.env.PUBLIC_URL}/images/illustration/illustration9.jpg` },
+  { image: `${process.env.PUBLIC_URL}/images/illustration/illustration10.jpg`, cropOffset: -75}
 ]
 
 const Illustration: React.FC = () => {

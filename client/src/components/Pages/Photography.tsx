@@ -4,11 +4,27 @@ import React from 'react';
 import Grid from '../Grid/Grid';
 
 const photograpyItems = [
-  { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
-  { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
-  { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
-  { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`},
-  { image: `${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`}
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography1.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography2.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography3.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography4.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography5.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography6.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography7.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography8.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography9.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography10.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography11.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography12.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography13.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography14.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography15.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography16.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography17.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography18.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography19.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography20.jpg`},
+  { image: `${process.env.PUBLIC_URL}/images/photography/photography21.jpg`}
 ]
 
 const Photography: React.FC = () => {
