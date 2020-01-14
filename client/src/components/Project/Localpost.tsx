@@ -30,7 +30,7 @@ const Localpost: React.FC = () => {
       </div>
 
       <img 
-        className={'img-fullscreen'}
+        className={'img-fullscreen localpost1'}
         src={`${process.env.PUBLIC_URL}/images/LocalPost/lp2.png`} 
         alt={''}  
       />
@@ -82,7 +82,7 @@ const Localpost: React.FC = () => {
           <p>
             As much as its a restaurant, it's a bar.
             So obviously, we needed to develop some coasters.
-            </p>
+          </p>
         </div>
 
         <div className={'col col-3'}>
@@ -140,14 +140,14 @@ const Localpost: React.FC = () => {
 
         </div>
 
-        <div className={'row'} style={{marginTop: '200px'}}>
+        {/* <div className={'row'} style={{marginTop: '200px'}}>
           <div className={'col col-10'}>
             <h2>&lt; &emsp; Motion Design</h2>
           </div>
           <div className={'col col-10'} style={{textAlign: "right"}}>
             <h2>Cincinnati Metro &emsp; &gt;</h2>
           </div>
-        </div>
+        </div> */}
 
     </div>
     
