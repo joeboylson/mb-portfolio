@@ -31,7 +31,7 @@ const Illustration: React.FC = () => {
         </div>
 
         <div className={'col col-12'}>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, molestias sed? Minima iusto inventore labore eveniet? A suscipit amet repudiandae veniam! Culpa voluptatem vero eum reprehenderit saepe. Commodi, animi iusto? Atque, nihil.</p>
+          <p>Over the years I have had opportunities to refine my illustrative abilities. Many were personal projects, and some were commissioned works. I hope to continue to refine and develop my skills and include more physical mediums to stretch my toolkit.</p>
         </div>
 
       </div>

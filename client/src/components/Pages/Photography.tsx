@@ -38,7 +38,7 @@ const Photography: React.FC = () => {
         </div>
 
         <div className={'col col-12'}>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque, molestias sed? Minima iusto inventore labore eveniet? A suscipit amet repudiandae veniam! Culpa voluptatem vero eum reprehenderit saepe. Commodi, animi iusto? Atque, nihil.</p>
+          <p>Photography is a huge personal passion of mine. I shoot primarily on 4x5, 120mm and 35mm film cameras, but also shoot plenty of digital photos as well. The aspects of composition, light, color, etc. translate easily over from my other creative abilities.</p>
         </div>
 
       </div>

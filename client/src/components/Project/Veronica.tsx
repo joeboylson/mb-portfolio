@@ -54,9 +54,12 @@ const Localpost: React.FC = () => {
       </div>
 
       </div>
-      <div className={'row'}>
-      <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/menu.png`} alt={''} style={{marginTop: '-100px'}}/></div>
-      </div>
+      
+      <img 
+        className={'img-fullscreen'}
+        src={`${process.env.PUBLIC_URL}/images/vs/vs2.png`} 
+        alt={''}  
+      />
 
 
       <div className={'row'}>
