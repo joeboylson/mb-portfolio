@@ -3,6 +3,8 @@ import React from 'react';
 
 const About: React.FC = () => {
 
+  const [displayGosling, setDisplayGosling] = React.useState(false);
+
   const getAnimationDelay = (number:number) => {
     return {animationDelay: `${number/10}s`} as React.CSSProperties;
   }
@@ -34,10 +36,10 @@ const About: React.FC = () => {
         </div>
 
         <div id={'image'} className={'col col-8'}>
-          <img src={`${process.env.PUBLIC_URL}/images/about/aboutPortrait.png`} alt={''}/>
+          <img src={`${process.env.PUBLIC_URL}/images/about/aboutPortrait${displayGosling ? 'RYANGOSLING' : ''}.png`} alt={''}/>
           <label htmlFor="image">
             If you don't want to look at my face, <span className={'fake-link'}>
-              <strong>click here</strong>
+              <strong onClick={() => setDisplayGosling(!displayGosling)}>click here</strong>
             </span> to change the
             photo to a <strong>very believable</strong> photo-manipulation that will replace
             my face with someone who has a nicer face than me. Note, I cannot do this trick
