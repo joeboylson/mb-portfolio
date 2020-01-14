@@ -188,10 +188,16 @@ button:focus {
   margin: 0;
 }
 
+#contact-form .input-wrapper {
+  width: calc(100% - 16px);
+  position: relative;
+}
+
 #contact-form input, #contact-form textarea {
   padding: 8px;
   margin-bottom: calc(var(--unit)/2);
   color: black;
+  width: 100%;
 }
 
 #contact-form textarea {
@@ -208,8 +214,23 @@ button:focus {
   background-color: rgba(255, 255, 255, 0.5);
 }
 
-.invalid { background-color: red !important; }
-.valid { background-color: green !important; }
+.invalid::after, .valid::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 29px;
+  height: 29px;
+  margin-left: 5px;
+}
+
+.invalid::after {
+  background-image: url("../svg/alert.svg");
+}
+
+.valid::after {
+  background-image: url("../svg/confirm.svg");
+}
 
 @media only screen and (max-width: 1200px) {
   #contact #content {

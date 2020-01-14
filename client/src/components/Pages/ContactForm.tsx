@@ -1,5 +1,11 @@
 import React from 'react';
+
+// utils
 import { doPost } from '../utils/doPost';
+
+// svg
+import { ReactComponent as Alert } from '../../svg/alert.svg';
+
 
 const ContactForm: React.FC = () => {
 
@@ -12,17 +18,15 @@ const ContactForm: React.FC = () => {
   const [message, setMessage] = React.useState();
   const [mol, setMol] = React.useState();
 
-  
-
   const [emailInputClass, setEmailInputClass] = React.useState('')
   const [subjectInputClass, setSubjectInputClass] = React.useState('')
   const [messageInputClass, setMessageInputClass] = React.useState('')
   const [molInputClass, setMolInputClass] = React.useState('')
 
-  const emailInputRef: any = React.useRef(null)
-  const subjectInputRef: any = React.useRef(null)
-  const messageInputRef: any = React.useRef(null)
-  const molInputRef: any = React.useRef(null)
+  const emailInputRef: any = React.useRef(null);
+  const subjectInputRef: any = React.useRef(null);
+  const messageInputRef: any = React.useRef(null);
+  const molInputRef: any = React.useRef(null);
 
   const handleSubmit = (e: any) => {
 
@@ -209,38 +213,43 @@ const ContactForm: React.FC = () => {
 
                   {/* EMAIL */}
                   <h3>Email</h3>
-                  <input
-                    className={emailInputClass}
-                    onChange={(e) => handleEmailChange(e.target.value)}
-                    ref={emailInputRef}
-                    type="email"
-                  />
+                  <div className={`input-wrapper ${emailInputClass}`}>
+                    <input
+                      onChange={(e) => handleEmailChange(e.target.value)}
+                      ref={emailInputRef}
+                      type="email"
+                    />
+                  </div>
 
                   {/* SUBJECT */}
                   <h3>Subject</h3>
-                  <input
-                    className={subjectInputClass}
-                    onChange={(e) => handleSubjectChange(e.target.value)}
-                    ref={subjectInputRef}
-                    type="text"
-                  />
+                  <div className={`input-wrapper ${subjectInputClass}`}>
+                    <input
+                      onChange={(e) => handleSubjectChange(e.target.value)}
+                      ref={subjectInputRef}
+                      type="text"
+                    />
+                  </div>
 
                   {/* MESSAGE */}
                   <h3>Message</h3>
-                  <textarea
-                    className={messageInputClass}
-                    ref={messageInputRef}
-                    onChange={(e) => handleMessageChange(e.target.value)}
-                  ></textarea>
+                  <div className={`input-wrapper ${messageInputClass}`}>
+                    <textarea
+                      ref={messageInputRef}
+                      onChange={(e) => handleMessageChange(e.target.value)}
+                    ></textarea>
+                  </div>
 
 
                   {/* MEANING OF LIFE */}
                   <h3>What is the meaning of life? (optional)</h3>
-                  <textarea
-                    className={molInputClass}
-                    ref={molInputRef}
-                    onChange={(e) => handleMolChange(e.target.value)}
-                  ></textarea>
+                  <div className={'input-wrapper'}>
+                    <textarea
+                      className={molInputClass}
+                      ref={molInputRef}
+                      onChange={(e) => handleMolChange(e.target.value)}
+                    ></textarea>
+                  </div>
                   <button onClick={(e) => handleSubmit(e)}>Submit</button>
                 </div>
               )}
