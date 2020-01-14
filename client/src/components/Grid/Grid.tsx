@@ -27,7 +27,11 @@ const Grid: React.FC<GridProps> = (Props) => {
             className={'grid-item fadeUp'}
             style={{ animationDelay: `${(index+1)/10}s`}} 
           >
-            <Lightbox image={item.image} cropOffset={item.cropOffset}/>
+            <Lightbox 
+              image={item.image} 
+              moveVertical={item.moveVertical}
+              moveHorizontal={item.moveHorizontal}  
+            />
           </div>
 
         )
