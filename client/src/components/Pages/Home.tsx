@@ -17,7 +17,7 @@ const projects = [
     image: `${process.env.PUBLIC_URL}/images/home/metro.png`,
     title: 'Cincinnati Metro',
     info: <span>Branding<br/>June 2016</span>,
-    description: 'Partnering with a local restaurant and bar to refresh their look and name, I developed an inspired brand ecosystem that brought an idea to life. See how.',
+    description: 'In a three month long project with Lillian Clifton, Alyssa Gardner and Emily Hofmeyer, we were faced with the challenge of increasing ridership on the Cincinnati Metro.',
     themeColor: '#B6BCBF'
   },
   {

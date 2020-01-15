@@ -69,15 +69,13 @@ const Localpost: React.FC = () => {
 
         <div className={'col col-3'}>
           <p>
-            One of the activation strategies we created was a series of Local Post post cards.
-            These takeaways are organic marketing materials that customers
+            Sketching took me to a number of interesting places when trying to find the right mark for Veronica. A lot of concepts were developed around her
           </p>
         </div>
 
         <div className={'col col-3'}>
           <p>
-            of Local Post can mail to their friends and family. They can simply leave it and the Local
-            Post staff will mail it.  
+          roots, both in her family and her roots style of music. Others were inspired by her strong ties to her home in Pennsylvania and Nashville.  
           </p>
         </div>
 
@@ -96,13 +94,13 @@ const Localpost: React.FC = () => {
 
         <div className={'col col-3'}>
           <p>
-            With a "build your own" pizza offering the highest profit margin to the restaurant, we wanted
+            In the end, the logo represented Veronica's love of heritage and her roots. A simplier monogram was also created so the brand could scale to different applications.
             </p>
         </div>
 
         <div className={'col col-3'}>
           <p>
-            to make that experience more interactive and fun to encourage customers to order this way.
+            The classic style of typography lent well to the idea of making a woodcut print, so I had the logo laser cut onto a wood for block printing.
           </p>
         </div>
 
