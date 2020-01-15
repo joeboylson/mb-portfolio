@@ -178,6 +178,48 @@
   border: none;
 }
 
+/* ----- ----- ---- ----- */
+/* Veronica               */
+/* ----- ----- ---- ----- */
+
+#veronica .container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+#veronica .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* ----- ----- ---- ----- */
+/* Motion               */
+/* ----- ----- ---- ----- */
+
+
+#motion #video-wrapper {
+  width: var(--grid-width);
+  height: calc( (var(--grid-width) / 16) * 9);
+  margin-bottom: 50px;
+}
+
+#motion #video-wrapper iframe {
+  width: var(--grid-width);
+  height: calc( (var(--grid-width) / 16) * 9);
+  border: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  #motion #header {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 
 
 /* ----- ----- ---- ----- */

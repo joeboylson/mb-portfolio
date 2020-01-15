@@ -52,7 +52,7 @@ const Nav: React.FC<NavProps> = (Props) => {
     <div id='nav-links'>
       <h2 onClick={() => setRoute('home')}>HOME</h2>
       <h2 onClick={() => setRoute('about')}>ABOUT</h2>
-      <h2 onClick={() => setRoute('reel')}>REEL</h2>
+      <h2 onClick={() => setRoute('motion')}>REEL</h2>
       <h2 onClick={() => setRoute('illustration')}>ILLUSTRATION</h2>
       <h2 onClick={() => setRoute('photography')}>PHOTOGRAPHY</h2>
       <h2 onClick={() => setRoute('contact')}>CONTACT</h2>

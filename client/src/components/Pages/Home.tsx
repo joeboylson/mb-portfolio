@@ -48,13 +48,13 @@ const projects = [
     themeColor: '#E52354' 
   },
   {
-    route: 'localpost',
+    route: 'motion',
     cursorText: '06',
     image: `${process.env.PUBLIC_URL}/images/home/motion.gif`,
     title: 'Kinetic Reel',
     info: <span>Motion Design<br/>Continuous</span>,
     description: 'If a photo is worth a thousand words, what is a video worth? I have had a great deal of experience working on motion design projects.',
-    themeColor: '#E52354' 
+    themeColor: '#0a506a' 
   }
 ]
 

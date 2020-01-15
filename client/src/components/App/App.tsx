@@ -20,6 +20,7 @@ import Metro from '../Project/Metro'
 import Veronica from '../Project/Veronica'
 import SDA from '../Project/SDA'
 import Roamio from '../Project/Roamio'
+import Motion from '../Project/Motion'
 
 const apiUrl = process.env.NODE_ENV !== 'production' ? 'http://localhost:5000' : ''
 
@@ -34,7 +35,8 @@ const routes:any = {
   metro: { component: Metro, themeColor: '#d9dde0', dotColor: 'rgba(0, 0, 0, 0.1)' },
   veronica: { component: Veronica, themeColor: '#f0ddd1', dotColor: 'rgba(0, 0, 0, 0.1)' },
   sda: { component: SDA, themeColor: '#DFE1DF', dotColor: 'rgba(0, 0, 0, 0.1)' },
-  roamio: { component: Roamio, themeColor: '#e33145'}
+  roamio: { component: Roamio, themeColor: '#e33145'},
+  motion: { component: Motion, themeColor: '#0a506a'}
 }
 
 const App: React.FC = () => {
