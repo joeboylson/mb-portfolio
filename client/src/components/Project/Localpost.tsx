@@ -21,11 +21,11 @@ const Localpost: React.FC = () => {
         </div>
 
         <div className={'col col-4'}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum a deserunt, earum debitis, obcaecati rerum quia culpa molestias necessitatibus sequi corrupti magnam quidem? Odit non deleniti necessitatibus ea consequatur, quia est pariatur, quaerat quasi vero aliquam excepturi, delectus harum doloremque placeat blanditiis! Officia a nulla dolores earum ad quod adipisci!</p>
+          <p>A proposed rebrand for a local restaurant (that is located in an old post office), my work for Local Post hoped to refresh and rejuvinate a brand when it was changing its name in 2018. While the management didn't end up coming to an agreement on the brand, I decided to finish it as a portfolio piece.</p>
         </div>
 
         <div className={'col col-4'}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum a deserunt, earum debitis, obcaecati rerum quia culpa molestias necessitatibus sequi corrupti magnam quidem? Odit non deleniti necessitatibus ea consequatur, quia est pariatur, quaerat quasi vero aliquam excepturi, delectus harum doloremque placeat blanditiis! Officia a nulla dolores earum ad quod adipisci!</p>
+          <p>The brand was inspired by historic postal service photos and a diluge of resources found on LOC.gov. Utilizing this free public domain resource, I developed a beautiful graphic language system that easily adapted to all brand expressions. The postal-themed brand is easily recognizable and understatedly nostalgic.</p>
         </div>
       </div>
 

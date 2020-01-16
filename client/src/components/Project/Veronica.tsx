@@ -21,11 +21,11 @@ const Localpost: React.FC = () => {
         </div>
 
         <div className={'col col-4'}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum a deserunt, earum debitis, obcaecati rerum quia culpa molestias necessitatibus sequi corrupti magnam quidem? Odit non deleniti necessitatibus ea consequatur, quia est pariatur, quaerat quasi vero aliquam excepturi, delectus harum doloremque placeat blanditiis! Officia a nulla dolores earum ad quod adipisci!</p>
+          <p><a href="https://www.veronicastanton.com/" target="blank">Veronica Stanton</a> is a folk musician out Music City, Nashville, TN. Through mutual friends we met and began talking about the possibility of working togather. I love music and love using design as a way to be closer to it. We talked abut gig posters, branding, music videos and photography. As my abilities</p>
         </div>
 
         <div className={'col col-4'}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum a deserunt, earum debitis, obcaecati rerum quia culpa molestias necessitatibus sequi corrupti magnam quidem? Odit non deleniti necessitatibus ea consequatur, quia est pariatur, quaerat quasi vero aliquam excepturi, delectus harum doloremque placeat blanditiis! Officia a nulla dolores earum ad quod adipisci!</p>
+          <p>encapsulate all of those things, I was able to help her with them. What resulted was the creation of a brand, both logos and brand expression through various mediums. I hope to work more with amazing artists like Veronica in the future.</p>
         </div>
       </div>
 

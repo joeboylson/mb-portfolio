@@ -15,17 +15,17 @@ const Localpost: React.FC = () => {
           <h4>Project Type:</h4>
           <h3>Branding</h3>
           <h4>Client:</h4>
-          <h3>Society of Design Administrators</h3>
+          <h3>Society for Design Administration</h3>
           <h4>Tools Used:</h4>
           <h3>Illustrator</h3>
         </div>
 
         <div className={'col col-4'}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum a deserunt, earum debitis, obcaecati rerum quia culpa molestias necessitatibus sequi corrupti magnam quidem? Odit non deleniti necessitatibus ea consequatur, quia est pariatur, quaerat quasi vero aliquam excepturi, delectus harum doloremque placeat blanditiis! Officia a nulla dolores earum ad quod adipisci!</p>
+          <p>While at Intrinzic, I was able to lead a rebrand of a great organization called SDA. SDA is a members organization that offers certification, education and more for those working in administrative roles at architecture, engineering and construction (A/E/C) firms. When they approached us, they were going by The Society of Design Administration and wnated to shed the old image had through renaming and rebranding.</p>
         </div>
 
         <div className={'col col-4'}>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum a deserunt, earum debitis, obcaecati rerum quia culpa molestias necessitatibus sequi corrupti magnam quidem? Odit non deleniti necessitatibus ea consequatur, quia est pariatur, quaerat quasi vero aliquam excepturi, delectus harum doloremque placeat blanditiis! Officia a nulla dolores earum ad quod adipisci!</p>
+          <p>We suggested remaining close to their original by remaining SDA but only going as that. From there, we created a fresh young design system that would help move them into the 21st century and attract more young administrators into their membership.</p>
         </div>
       </div>
 
