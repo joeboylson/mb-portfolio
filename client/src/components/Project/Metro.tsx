@@ -29,7 +29,11 @@ const Metro: React.FC = () => {
         </div>
       </div>
 
-      <img src={`${process.env.PUBLIC_URL}/images/metro/metro1.png`} alt={''}/>
+      <img 
+        src={`${process.env.PUBLIC_URL}/images/metro/metro1.png`} 
+        alt={''}
+        className={'img-fullscreen-mobile'}
+      />
 
       <img 
         className={'img-fullscreen'}
