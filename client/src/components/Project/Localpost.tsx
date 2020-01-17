@@ -20,7 +20,7 @@ const Localpost: React.FC = () => {
           <h3>Illustrator, Photoshop, Cinema 4D</h3>
         </div>
 
-        <div className={'col col-8 text-columns'}>
+        <div className={'col col-8 text-columns lpParagraph1'}>
           <p>
             A proposed rebrand for a local restaurant (that is located in an old post office), 
             my work for Local Post hoped to refresh and rejuvinate a brand when it was changing its name in 2018. 
@@ -44,7 +44,7 @@ const Localpost: React.FC = () => {
         <h3>Menu</h3>
       </div>
 
-      <div className={'col col-6 text-columns'}>
+      <div className={'col col-6 text-columns lpParagraph2'}>
         <p>
           Essential to a restaurant and bar with such diverse and interesting offerings, 
           the menu we created clearly and simply displays the delicious items availble, 
@@ -54,7 +54,7 @@ const Localpost: React.FC = () => {
 
       </div>
       <div className={'row'}>
-      <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/menu.png`} alt={''} style={{marginTop: '-100px'}}/></div>
+      <div className={'col col-20'}><img className="localpost2" src={`${process.env.PUBLIC_URL}/images/LocalPost/menu.png`} alt={''} style={{marginTop: '-100px'}}/></div>
       </div>
 
       {/* <div>
@@ -66,18 +66,18 @@ const Localpost: React.FC = () => {
 
       <div className={'row'}>
 
-        <div className={'col col-10'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/LocalPost/coasters.png`} alt={''}/></div>
+        <div className={'col col-10'}><img className={'img-fullscreen-mobile img-fullscreen-tablet localpost3'} src={`${process.env.PUBLIC_URL}/images/LocalPost/coasters.png`} alt={''}/></div>
 
         {/* <div className={'col col-8'}>
           <canvas ref={coasterCanvasRef} id={'coaster-canvas'}></canvas>
           <div style={{height: `640px`}}></div>
         </div> */}
 
-        <div className={'col col-3'}>
+        <div className={'col col-3 lpParagraph3'}>
           <h3>Coasters</h3>
         </div>
 
-        <div className={'col col-6 text-columns'}>
+        <div className={'col col-6 text-columns lpParagraph4'}>
           <p>
             As much as its a restaurant, it's a bar.
             So obviously, we needed to develop some coasters.
@@ -89,11 +89,11 @@ const Localpost: React.FC = () => {
 
       <div className={'row'}>
 
-        <div className={'col col-6'}>
+        <div className={'col col-6 lpParagraph5'}>
           <h3>Post Cards</h3>
         </div>
 
-        <div className={'col col-6 text-columns'}>
+        <div className={'col col-6 text-columns lpParagraph6'}>
           <p>
             One of the activation strategies we created was a series of Local Post post cards.
             These takeaways are organic marketing materials that customers of Local Post can mail 
@@ -103,18 +103,18 @@ const Localpost: React.FC = () => {
 
       </div>
       <div className={'row'}>
-        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/postcard.png`} alt={''}/></div>
+        <div className={'col col-20'}><img className={'localpost4'} src={`${process.env.PUBLIC_URL}/images/LocalPost/postcard.png`} alt={''}/></div>
       </div>
 
       <div className={'row'}>
 
-        <div className={'col col-10'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/LocalPost/byop.png`} alt={''}/></div>
+        <div className={'col col-10'}><img className={'img-fullscreen-mobile img-fullscreen-tablet localpost3'} src={`${process.env.PUBLIC_URL}/images/LocalPost/byop.png`} alt={''}/></div>
 
-        <div className={'col col-3'} style={{marginTop: '150px'}}>
+        <div className={'col col-3 lpParagraph7'} style={{marginTop: '150px'}}>
           <h3>Build Your Own Pizza Worksheet</h3>
         </div>
 
-        <div className={'col col-6 text-columns'} style={{marginTop: '150px'}}>
+        <div className={'col col-6 text-columns lpParagraph8'} style={{marginTop: '150px'}}>
           <p>
             With a "build your own" pizza offering the highest profit margin to the restaurant, 
             we wanted to make that experience more interactive and fun to encourage customers to order this way.

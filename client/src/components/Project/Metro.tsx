@@ -20,7 +20,7 @@ const Metro: React.FC = () => {
           <h3>Illustrator, Photoshop, After Effects</h3>
         </div>
 
-        <div className={'col col-8 text-columns'}>
+        <div className={'col col-8 text-columns metroParagraph1'}>
           <p>
             In a three month long project with <a href="http://www.lillianclifton.com/" target="blank">Lillian Clifton,</a>&nbsp; 
             <a href="http://alyssagardner.com/index.html" target="blank">Alyssa Gardner</a> and&nbsp; 
@@ -35,7 +35,7 @@ const Metro: React.FC = () => {
       <img 
         src={`${process.env.PUBLIC_URL}/images/metro/metro1.png`} 
         alt={''}
-        className={'img-fullscreen-mobile img-fullscreen-tablet'}
+        className={'img-fullscreen-mobile img-fullscreen-tablet metro1'}
       />
 
       <img 
@@ -47,11 +47,11 @@ const Metro: React.FC = () => {
 
         <div className={'row'}>
 
-        <div className={'col col-3'}>
+        <div className={'col col-3 metroParagraph2'}>
           <h3>Bus Schedule</h3>
         </div>
 
-        <div className={'col col-6 text-columns'}>
+        <div className={'col col-6 text-columns metroParagraph3'}>
           <p>
             Overhauling the existing schedule and map was essential to making ridership simpler for people.
             The two core colors are used to seperate inbound vs outbound busses, and this treatment follows on to the signage.  
@@ -60,23 +60,23 @@ const Metro: React.FC = () => {
 
         </div>
         <div className={'row'}>
-        <div className={'col col-20'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/metro/metro3.png`} alt={''} style={{marginTop: '-100px'}}/></div>
+        <div className={'col col-20'}><img className={'img-fullscreen-mobile img-fullscreen-tablet metro2'} src={`${process.env.PUBLIC_URL}/images/metro/metro3.png`} alt={''} style={{marginTop: '-100px'}}/></div>
         </div>
         <img 
-          className={'img-fullscreen'}
+          className={'img-fullscreen metro3'}
           src={`${process.env.PUBLIC_URL}/images/metro/metro4.png`} 
           alt={''}
           style={{marginBottom: '-200px', marginTop: '200px'}}  
         />
       <div className={'row'}>
 
-        <div className={'col col-8'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/metro/metro5.png`} alt={''}/></div>
+        <div className={'col col-8'}><img className={'img-fullscreen-mobile img-fullscreen-tablet metro4'} src={`${process.env.PUBLIC_URL}/images/metro/metro5.png`} alt={''}/></div>
 
-        <div className={'col col-3'} style={{marginTop: '200px'}}>
+        <div className={'col col-3 metroParagraph4'} style={{marginTop: '200px'}}>
           <h3>Bus Stop Signs</h3>
         </div>
 
-        <div className={'col col-6 text-columns'} style={{marginTop: '200px'}}>
+        <div className={'col col-6 text-columns metroParagraph5'} style={{marginTop: '200px'}}>
           <p>
             As stated above, the inbound and outbound routes are differentiated on the schedule and in the
             environment, using the blue and red – the two primary Metro brand colors.
@@ -85,18 +85,18 @@ const Metro: React.FC = () => {
 
       </div>
 
-      <div className={'video-wrapper'}>
+      <div className={'video-wrapper metroVideo1'}>
         <iframe src="https://player.vimeo.com/video/383131613?api=1" title={'metro-video'}></iframe>
       </div>
 
 
       <div className={'row'}>
 
-        <div className={'col col-3'}>
+        <div className={'col col-3 metroParagraph6'}>
           <h3>Bus Graphics</h3>
         </div>
 
-        <div className={'col col-6 text-columns'}>
+        <div className={'col col-6 text-columns metroParagraph7'}>
           <p>
             A great expression of the pattern we created was on the wraps on the bus.
             This familiar graphic asset helps reinforce the new brand and it's new processes.
@@ -118,7 +118,7 @@ const Metro: React.FC = () => {
           <h3>Onboard Digital Signage</h3>
         </div>
 
-        <div className={'col col-6 text-columns'}>
+        <div className={'col col-6 text-columns metroParagraph7'}>
           <p>
             While the rider is on the bus, a companion to the bus stop signs and the map helps guide them to their stop.
             This screen informs the rider what stops are upcoming, what busses stop there, and what things there are to see around it.
