@@ -103,18 +103,13 @@ const Metro: React.FC = () => {
           </p>
         </div>
 
-      <img 
-          className={'img-fullscreen'}
-          src={`${process.env.PUBLIC_URL}/images/metro/metro6.png`} 
-          alt={''}
-          style={{marginBottom: '-200px', marginTop: '200px'}}  
-        />
+        <div className={'col col-20'}><img className={'img-fullscreen-mobile img-fullscreen-tablet metro5'} src={`${process.env.PUBLIC_URL}/images/metro/metro6.png`} alt={''}/></div>
 
       </div>
 
       <div className={'row'}>
 
-        <div className={'col col-3'}>
+        <div className={'col col-3 metroParagraph8'}>
           <h3>Onboard Digital Signage</h3>
         </div>
 
