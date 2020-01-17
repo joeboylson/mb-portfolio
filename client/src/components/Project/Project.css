@@ -83,6 +83,11 @@
   opacity: 0.1;
 }
 
+@media only screen and (max-width: 800px) {
+  .in-view, .out-view, .is-hovered, .is-not-hovered {
+    opacity: 1;
+  }
+}
 
 
 /* ----- ----- ---- ----- */
