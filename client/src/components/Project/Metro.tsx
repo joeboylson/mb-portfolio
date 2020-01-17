@@ -94,7 +94,7 @@ const Metro: React.FC = () => {
 
       </div>
 
-      <div id={'video-wrapper'}>
+      <div className={'video-wrapper'}>
         <iframe src="https://player.vimeo.com/video/383131613?api=1" title={'metro-video'}></iframe>
       </div>
 
@@ -144,7 +144,7 @@ const Metro: React.FC = () => {
           </p>
         </div>
 
-        <div id={'video-wrapper'}>
+        <div className={'video-wrapper'}>
           <iframe src="https://player.vimeo.com/video/383624951?api=1" title={'metro-video'} style={{marginTop: '100px'}}></iframe>
         </div>
 

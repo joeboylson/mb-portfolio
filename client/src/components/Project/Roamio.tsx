@@ -128,7 +128,7 @@ const Localpost: React.FC = () => {
 
       </div>
 
-      <div id={'video-wrapper'}>
+      <div className={'video-wrapper'}>
         <iframe src="https://player.vimeo.com/video/384099008?api=1" title={'metro-video'}></iframe>
       </div>
 

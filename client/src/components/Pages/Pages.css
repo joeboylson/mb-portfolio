@@ -91,12 +91,12 @@
   margin-right: 150px;
 }
 
-#reel #video-wrapper {
+#reel .video-wrapper {
   width: var(--grid-width);
   height: calc( (var(--grid-width) / 16) * 9);
 }
 
-#reel #video-wrapper iframe {
+#reel .video-wrapper iframe {
   width: var(--grid-width);
   height: calc( (var(--grid-width) / 16) * 9);
   border: none;

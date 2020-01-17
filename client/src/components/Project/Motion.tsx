@@ -29,35 +29,35 @@ const Localpost: React.FC = () => {
         </div>
       </div>
 
-        <div id={'video-wrapper'}>
+        <div className={'video-wrapper'}>
           <iframe src="https://player.vimeo.com/video/220997936?api=1" title={'motion-reel'}></iframe>
         </div>
 
-        <div id={'video-wrapper'}>
+        <div className={'video-wrapper'}>
           <iframe src="https://player.vimeo.com/video/207307627?api=1" title={'motion-reel'}></iframe>
         </div>
 
-        <div id={'video-wrapper'}>
+        <div className={'video-wrapper'}>
           <iframe src="https://player.vimeo.com/video/207331603?api=1" title={'motion-reel'}></iframe>
         </div>
 
-        <div id={'video-wrapper'}>
+        <div className={'video-wrapper'}>
           <iframe src="https://player.vimeo.com/video/193949135?api=1" title={'motion-reel'}></iframe>
         </div>
 
-        <div id={'video-wrapper'}>
+        <div className={'video-wrapper'}>
           <iframe src="https://player.vimeo.com/video/207308447?api=1" title={'motion-reel'}></iframe>
         </div>
 
-        <div id={'video-wrapper'}>
+        <div className={'video-wrapper'}>
           <iframe src="https://player.vimeo.com/video/207308454?api=1" title={'motion-reel'}></iframe>
         </div>
 
-        <div id={'video-wrapper'}>
+        <div className={'video-wrapper'}>
           <iframe src="https://player.vimeo.com/video/207308473?api=1" title={'motion-reel'}></iframe>
         </div>
 
-        <div id={'video-wrapper'}>
+        <div className={'video-wrapper'}>
           <iframe src="https://player.vimeo.com/video/207308465?api=1" title={'motion-reel'}></iframe>
         </div>
 
