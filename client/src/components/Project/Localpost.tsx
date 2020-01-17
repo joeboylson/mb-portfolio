@@ -20,12 +20,15 @@ const Localpost: React.FC = () => {
           <h3>Illustrator, Photoshop, Cinema 4D</h3>
         </div>
 
-        <div className={'col col-4'}>
-          <p>A proposed rebrand for a local restaurant (that is located in an old post office), my work for Local Post hoped to refresh and rejuvinate a brand when it was changing its name in 2018. While the management didn't end up coming to an agreement on the brand, I decided to finish it as a portfolio piece.</p>
-        </div>
-
-        <div className={'col col-4'}>
-          <p>The brand was inspired by historic postal service photos and a diluge of resources found on LOC.gov. Utilizing this free public domain resource, I developed a beautiful graphic language system that easily adapted to all brand expressions. The postal-themed brand is easily recognizable and understatedly nostalgic.</p>
+        <div className={'col col-8 text-columns'}>
+          <p>
+            A proposed rebrand for a local restaurant (that is located in an old post office), 
+            my work for Local Post hoped to refresh and rejuvinate a brand when it was changing its name in 2018. 
+            While the management didn't end up coming to an agreement on the brand, I decided to finish it as a portfolio piece. 
+            The brand was inspired by historic postal service photos and a diluge of resources found on LOC.gov. 
+            Utilizing this free public domain resource, I developed a beautiful graphic language system that easily adapted to all brand expressions. 
+            The postal-themed brand is easily recognizable and understatedly nostalgic.
+          </p>
         </div>
       </div>
 
@@ -41,15 +44,11 @@ const Localpost: React.FC = () => {
         <h3>Menu</h3>
       </div>
 
-      <div className={'col col-3'}>
+      <div className={'col col-6 text-columns'}>
         <p>
-          Essential to a restaurant and bar with such diverse and interesting offerings, the menu we created
-        </p>
-      </div>
-
-      <div className={'col col-3'}>
-        <p>
-          clearly and simply displays the delicious items availble, leveraging the brand in effective ways.  
+          Essential to a restaurant and bar with such diverse and interesting offerings, 
+          the menu we created clearly and simply displays the delicious items availble, 
+          leveraging the brand in effective ways.  
         </p>
       </div>
 
@@ -78,15 +77,10 @@ const Localpost: React.FC = () => {
           <h3>Coasters</h3>
         </div>
 
-        <div className={'col col-3'}>
+        <div className={'col col-6 text-columns'}>
           <p>
             As much as its a restaurant, it's a bar.
             So obviously, we needed to develop some coasters.
-          </p>
-        </div>
-
-        <div className={'col col-3'}>
-          <p>
             Another cheap takeaway for customers, these coasters serve a dual purpose.
           </p>
         </div>
@@ -95,21 +89,15 @@ const Localpost: React.FC = () => {
 
       <div className={'row'}>
 
-        <div className={'col col-3'}>
+        <div className={'col col-6'}>
           <h3>Post Cards</h3>
         </div>
 
-        <div className={'col col-3'}>
+        <div className={'col col-6 text-columns'}>
           <p>
             One of the activation strategies we created was a series of Local Post post cards.
-            These takeaways are organic marketing materials that customers
-          </p>
-        </div>
-
-        <div className={'col col-3'}>
-          <p>
-            of Local Post can mail to their friends and family. They can simply leave it and the Local
-            Post staff will mail it.  
+            These takeaways are organic marketing materials that customers of Local Post can mail 
+            to their friends and family. They can simply leave it and the LocalPost staff will mail it.  
           </p>
         </div>
 
@@ -126,15 +114,10 @@ const Localpost: React.FC = () => {
           <h3>Build Your Own Pizza Worksheet</h3>
         </div>
 
-        <div className={'col col-3'} style={{marginTop: '150px'}}>
+        <div className={'col col-6 text-columns'} style={{marginTop: '150px'}}>
           <p>
-            With a "build your own" pizza offering the highest profit margin to the restaurant, we wanted
-            </p>
-        </div>
-
-        <div className={'col col-3'} style={{marginTop: '150px'}}>
-          <p>
-            to make that experience more interactive and fun to encourage customers to order this way.
+            With a "build your own" pizza offering the highest profit margin to the restaurant, 
+            we wanted to make that experience more interactive and fun to encourage customers to order this way.
           </p>
         </div>
 

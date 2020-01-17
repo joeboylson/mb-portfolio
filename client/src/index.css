@@ -292,3 +292,21 @@ mobile: 750--
     transform: rotate(360deg);
   }
 }
+
+
+
+/* ----- ----- ---- ----- */
+/* TEXT COLUMNS           */
+/* ----- ----- ---- ----- */
+
+.text-columns {
+  column-count: 2;
+  column-gap: var(--unit);
+}
+
+@media only screen and (max-width: 800px) {
+  .text-columns {
+    column-count: 1;
+    column-gap: var(--unit);
+  }
+}

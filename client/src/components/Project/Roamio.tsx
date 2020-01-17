@@ -20,12 +20,11 @@ const Localpost: React.FC = () => {
           <h3>Sketch, Adobe XD, Principle, Illustrator, After Effects</h3>
         </div>
 
-        <div className={'col col-4'}>
-          <p>Roamio is a travel planning and collaboration app I designed for my senior capstone at the University of Cincinnati's College of Design. I am continually working on Roamio and meeting with developers and investors. I created Roamio because I am obsessed with two things – travel and improving things.</p>
-        </div>
-
-        <div className={'col col-4'}>
-          <p>In this case I'm improving a process which is in dire need of design intervention. Through my own frustrations in travel planning, my survey results and various interviews, I've identified places within the travel planning process to intervene.</p>
+        <div className={'col col-8 text-columns'}>
+          <p>
+            Roamio is a travel planning and collaboration app I designed for my senior capstone at the University of Cincinnati's College of Design. I am continually working on Roamio and meeting with developers and investors. I created Roamio because I am obsessed with two things – travel and improving things.
+            In this case I'm improving a process which is in dire need of design intervention. Through my own frustrations in travel planning, my survey results and various interviews, I've identified places within the travel planning process to intervene.
+          </p>
         </div>
       </div>
 
@@ -44,14 +43,9 @@ const Localpost: React.FC = () => {
           <h3>Interviews &amp; Surveys</h3>
         </div>
 
-        <div className={'col col-3'}>
+        <div className={'col col-6 text-columns'}>
           <p>
             After determining the subject of the app, I began interviewing individuals and collecting survey results.
-          </p>
-        </div>
-
-        <div className={'col col-3'}>
-          <p>
             These experiences were incredibly insightful and directed much of the trajectory of Roamio.
           </p>
         </div>
@@ -64,14 +58,9 @@ const Localpost: React.FC = () => {
           <h3>Personas &amp; Journey Mapping</h3>
         </div>
 
-        <div className={'col col-3'}>
+        <div className={'col col-6 text-columns'}>
           <p>
             The result of the interviews and surveys was the creation of three unique personas. Each decision made from here would be with these three – the synthesis of my research, in consideration.
-          </p>
-        </div>
-
-        <div className={'col col-3'}>
-          <p>
             Using these personas, I created a series of user journey maps, both current and ideal states. Identifying each step of the user journey and what is working and what isn't was essential to determining the scope of Roamio. 
           </p>
         </div>
@@ -92,14 +81,9 @@ const Localpost: React.FC = () => {
           <h3>Wireframe Sketching &amp; Rapid Prototyping</h3>
         </div>
 
-        <div className={'col col-3'}>
+        <div className={'col col-6 text-columns'}>
           <p>
             The next step was to begin designing some of the functions I decided were essential for the app. A great deal of hand sketching wireframes,
-          </p>
-        </div>
-
-        <div className={'col col-3'}>
-          <p>
             rapid prototyping and user testing with paper prototypes revealed tons of opportunities for the design.
           </p>
         </div>
@@ -112,15 +96,10 @@ const Localpost: React.FC = () => {
           <h3>Digital Prototyping</h3>
         </div>
 
-        <div className={'col col-3'}>
+        <div className={'col col-6 text-columns'}>
           <p>
             A full list of functions needed and the ideal user process in hand, I began protoyping digitally. This was done firstly as a low fidelity prototype in Adobe XD, and then later as a high fidelity protoype with
-          </p>
-        </div>
-
-        <div className={'col col-3'}>
-          <p>
-          full animation style and interaction in Principle. The final prototype would operate the whole process of planning a trip with friends in one scenerio. See the video for the full user experience. 
+            full animation style and interaction in Principle. The final prototype would operate the whole process of planning a trip with friends in one scenerio. See the video for the full user experience. 
           </p>
         </div>
 

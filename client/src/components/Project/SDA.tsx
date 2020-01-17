@@ -20,12 +20,11 @@ const Localpost: React.FC = () => {
           <h3>Illustrator</h3>
         </div>
 
-        <div className={'col col-4'}>
-          <p>While at Intrinzic, I was able to lead a rebrand of a great organization called SDA. SDA is a members organization that offers certification, education and more for those working in administrative roles at architecture, engineering and construction (A/E/C) firms. When they approached us, they were going by The Society of Design Administration and wnated to shed the old image had through renaming and rebranding.</p>
-        </div>
-
-        <div className={'col col-4'}>
-          <p>We suggested remaining close to their original by remaining SDA but only going as that. From there, we created a fresh young design system that would help move them into the 21st century and attract more young administrators into their membership.</p>
+        <div className={'col col-8 text-columns'}>
+          <p>
+            While at Intrinzic, I was able to lead a rebrand of a great organization called SDA. SDA is a members organization that offers certification, education and more for those working in administrative roles at architecture, engineering and construction (A/E/C) firms. When they approached us, they were going by The Society of Design Administration and wnated to shed the old image had through renaming and rebranding.
+            We suggested remaining close to their original by remaining SDA but only going as that. From there, we created a fresh young design system that would help move them into the 21st century and attract more young administrators into their membership.
+          </p>
         </div>
       </div>
 
@@ -47,15 +46,10 @@ const Localpost: React.FC = () => {
           <h3>SDA Icon Language</h3>
         </div>
 
-        <div className={'col col-3'} style={{marginTop: '75px'}}>
+        <div className={'col col-6 text-columns'} style={{marginTop: '75px'}}>
           <p>
             With a broad offering of services, from certifcation to professional education and beyond, it was
-            </p>
-        </div>
-
-        <div className={'col col-3'} style={{marginTop: '75px'}}>
-          <p>
-          important to create an ownable icon language that could scale across all their applications.
+            important to create an ownable icon language that could scale across all their applications.
           </p>
         </div>
 
@@ -75,14 +69,9 @@ const Localpost: React.FC = () => {
           <h3>Application Example</h3>
         </div>
 
-        <div className={'col col-3'}>
+        <div className={'col col-6 text-columns'}>
           <p>
             Within the scope of this project was an example of how the new brand elements could come to life in an application.
-          </p>
-        </div>
-
-        <div className={'col col-3'}>
-          <p>
             The use of photography, pattern, type and iconography creates a warm and inviting image of the new SDA.  
           </p>
         </div>
