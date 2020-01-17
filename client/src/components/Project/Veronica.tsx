@@ -22,7 +22,7 @@ const Localpost: React.FC = () => {
 
         <div className={'col col-8 text-columns'}>
           <p>
-            <a href="https://www.veronicastanton.com/" target="blank">Veronica Stanton</a> 
+            <a href="https://www.veronicastanton.com/" target="blank">Veronica Stanton</a>&nbsp; 
             is a folk musician out Music City, Nashville, TN. Through mutual friends we met and began 
             talking about the possibility of working togather. I love music and love using design as a way to be closer to it. 
             We talked abut gig posters, branding, music videos and photography. As my abilities encapsulate all of those things, 
@@ -75,12 +75,12 @@ const Localpost: React.FC = () => {
 
       </div>
       <div className={'row'}>
-        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/vs/vs3.png`} alt={''}/></div>
+        <div className={'col col-20'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/vs/vs3.png`} alt={''}/></div>
       </div>
 
       <div className={'row'}>
 
-        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/vs/vs4.png`} alt={''}/></div>
+        <div className={'col col-10'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/vs/vs4.png`} alt={''}/></div>
 
         <div className={'col col-3'}>
           <h3>Final Monogram &amp; Logo</h3>
@@ -119,9 +119,9 @@ const Localpost: React.FC = () => {
 
       <div className={'row'}>
 
-        <div className={'col col-6'}><img src={`${process.env.PUBLIC_URL}/images/vs/vs6.jpg`} alt={''}/></div>
-        <div className={'col col-6'}><img src={`${process.env.PUBLIC_URL}/images/vs/vs8.jpg`} alt={''}/></div>
-        <div className={'col col-6'}><img src={`${process.env.PUBLIC_URL}/images/vs/vs7.jpg`} alt={''}/></div>
+        <div className={'col col-6'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/vs/vs6.jpg`} alt={''}/></div>
+        <div className={'col col-6'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/vs/vs8.jpg`} alt={''}/></div>
+        <div className={'col col-6'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/vs/vs7.jpg`} alt={''}/></div>
         
       </div>
 
@@ -159,7 +159,7 @@ const Localpost: React.FC = () => {
         </p>
       </div>
 
-      <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/vs/vs10.png`} alt={''}/></div>
+      <div className={'col col-8'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/vs/vs10.png`} alt={''}/></div>
 
       </div>
 

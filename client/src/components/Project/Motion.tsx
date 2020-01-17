@@ -25,7 +25,7 @@ const Localpost: React.FC = () => {
         </div>
 
         <div className={'col col-4'}>
-          <p>Weather for marketing purposes, or simply an additional brand expression in an ever-increasing digital age, motion design is an excellent skill to have as a graphic or UX designer.</p>
+          <p>Whether for marketing purposes, or simply an additional brand expression in an ever-increasing digital age, motion design is an excellent skill to have as a graphic or UX designer.</p>
         </div>
       </div>
 

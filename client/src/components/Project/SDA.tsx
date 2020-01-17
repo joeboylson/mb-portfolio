@@ -53,7 +53,7 @@ const Localpost: React.FC = () => {
           </p>
         </div>
 
-        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/sda/sda3.png`} alt={''}/></div>
+        <div className={'col col-10'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/sda/sda3.png`} alt={''}/></div>
 
       </div>
 

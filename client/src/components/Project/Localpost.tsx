@@ -66,7 +66,7 @@ const Localpost: React.FC = () => {
 
       <div className={'row'}>
 
-        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/coasters.png`} alt={''}/></div>
+        <div className={'col col-10'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/LocalPost/coasters.png`} alt={''}/></div>
 
         {/* <div className={'col col-8'}>
           <canvas ref={coasterCanvasRef} id={'coaster-canvas'}></canvas>
@@ -108,7 +108,7 @@ const Localpost: React.FC = () => {
 
       <div className={'row'}>
 
-        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/LocalPost/byop.png`} alt={''}/></div>
+        <div className={'col col-10'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/LocalPost/byop.png`} alt={''}/></div>
 
         <div className={'col col-3'} style={{marginTop: '150px'}}>
           <h3>Build Your Own Pizza Worksheet</h3>

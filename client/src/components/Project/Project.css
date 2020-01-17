@@ -321,8 +321,8 @@
   }
   
   .img-fullscreen-tablet {
-    width: 100vw !important;
-    transform: translateX(calc((-100% + var(--grid-width)) + ((100vw - var(--grid-width)) / 2) - 25px)) translateY(-200px);
+    width: 75vw !important;
+    transform: translateX(calc((-100% + var(--grid-width)) + ((75vw - var(--grid-width)) / 2) - 25px)) translateY(-200px);
     margin-bottom: -100px;
     margin-top: 100px;
   }
@@ -340,7 +340,7 @@
   }
 
   .img-fullscreen-mobile {
-    width: 100vw !important;
+    width: 75vw !important;
     transform: translateX(calc((-100% + var(--grid-width)) + ((100vw - var(--grid-width)) / 2) - 50px)) translateY(-200px);
     margin-bottom: -100px;
     margin-top: 100px;

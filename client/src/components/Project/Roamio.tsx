@@ -37,7 +37,7 @@ const Localpost: React.FC = () => {
 
       <div className={'row'}>
 
-        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio2.gif`} alt={''}/></div>
+        <div className={'col col-10'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/roamio/roamio2.gif`} alt={''}/></div>
 
         <div className={'col col-3'}>
           <h3>Interviews &amp; Surveys</h3>
@@ -65,17 +65,17 @@ const Localpost: React.FC = () => {
           </p>
         </div>
 
-        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio3.png`} alt={''}/></div>
+        <div className={'col col-10'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/roamio/roamio3.png`} alt={''}/></div>
 
       </div>
 
       <div className={'row'}>
-        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio4.png`} alt={''} style={{marginTop: '-75px'}}/></div>
+        <div className={'col col-20'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/roamio/roamio4.png`} alt={''} style={{marginTop: '-75px'}}/></div>
       </div>
 
       <div className={'row'}>
 
-        <div className={'col col-10'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio5.png`} alt={''}/></div>
+        <div className={'col col-10'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/roamio/roamio5.png`} alt={''}/></div>
 
         <div className={'col col-3'}>
           <h3>Wireframe Sketching &amp; Rapid Prototyping</h3>
@@ -103,7 +103,7 @@ const Localpost: React.FC = () => {
           </p>
         </div>
 
-        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/roamio/roamio6.gif`} alt={''} style={{marginTop: '100px'}}/></div>
+        <div className={'col col-20'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/roamio/roamio6.gif`} alt={''} style={{marginTop: '100px'}}/></div>
 
       </div>
 

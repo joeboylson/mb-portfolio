@@ -15,16 +15,16 @@ const Metro: React.FC = () => {
           <h4>Project Type:</h4>
           <h3>Branding</h3>
           <h4>Client:</h4>
-          <h3> Student Work</h3>
+          <h3>Student Work</h3>
           <h4>Tools Used:</h4>
           <h3>Illustrator, Photoshop, After Effects</h3>
         </div>
 
         <div className={'col col-8 text-columns'}>
           <p>
-            In a three month long project with <a href="http://www.lillianclifton.com/" target="blank">Lillian Clifton,</a> 
-            <a href="http://alyssagardner.com/index.html" target="blank">Alyssa Gardner</a> and 
-            <a href="https://www.emilyhofmeyer.co/" target="blank">Emily Hofmeyer,</a> 
+            In a three month long project with <a href="http://www.lillianclifton.com/" target="blank">Lillian Clifton,</a>&nbsp; 
+            <a href="http://alyssagardner.com/index.html" target="blank">Alyssa Gardner</a> and&nbsp; 
+            <a href="https://www.emilyhofmeyer.co/" target="blank">Emily Hofmeyer,</a>&nbsp; 
             we were faced with the challenge of increasing ridership on the Cincinnati Metro. 
             We planned to accomplish this by improving processes of the Metro. With the proposed changes in processes, 
             a proposed rebrand was very important. That was my focus on the project. Below is the result of the rebrand I managed.
@@ -35,7 +35,7 @@ const Metro: React.FC = () => {
       <img 
         src={`${process.env.PUBLIC_URL}/images/metro/metro1.png`} 
         alt={''}
-        className={'img-fullscreen-mobile'}
+        className={'img-fullscreen-mobile img-fullscreen-tablet'}
       />
 
       <img 
@@ -60,7 +60,7 @@ const Metro: React.FC = () => {
 
         </div>
         <div className={'row'}>
-        <div className={'col col-20'}><img src={`${process.env.PUBLIC_URL}/images/metro/metro3.png`} alt={''} style={{marginTop: '-100px'}}/></div>
+        <div className={'col col-20'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/metro/metro3.png`} alt={''} style={{marginTop: '-100px'}}/></div>
         </div>
         <img 
           className={'img-fullscreen'}
@@ -70,7 +70,7 @@ const Metro: React.FC = () => {
         />
       <div className={'row'}>
 
-        <div className={'col col-8'}><img src={`${process.env.PUBLIC_URL}/images/metro/metro5.png`} alt={''}/></div>
+        <div className={'col col-8'}><img className={'img-fullscreen-mobile img-fullscreen-tablet'} src={`${process.env.PUBLIC_URL}/images/metro/metro5.png`} alt={''}/></div>
 
         <div className={'col col-3'} style={{marginTop: '200px'}}>
           <h3>Bus Stop Signs</h3>
