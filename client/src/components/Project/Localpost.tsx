@@ -97,7 +97,7 @@ const Localpost: React.FC = () => {
           <p>
             One of the activation strategies we created was a series of Local Post post cards.
             These takeaways are organic marketing materials that customers of Local Post can mail 
-            to their friends and family. They can simply leave it and the LocalPost staff will mail it.  
+            to their friends and family. They can simply leave it and the Local Post staff will mail it.  
           </p>
         </div>
 

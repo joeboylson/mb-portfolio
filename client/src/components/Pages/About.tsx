@@ -203,10 +203,7 @@ const About: React.FC = () => {
             <li>Have space pizza with Elon Musk</li>
             <li>Become proficient at woodcut and linoleum printing</li>
             <li>Teach part-time at my alma-mater (DAAP)</li>
-            <li>
-              Take pictures of my child every day for 18 years so I can create an awesome
-              timelapse of a human being growing to adulthood
-            </li>
+            <li>Take pictures of my child every day for 18 years so I can create an awesome timelapse of a human being growing to adulthood.</li>
             <li>Have a child</li>
             <li>Produce a script for an original feature length film</li>
           </ol>

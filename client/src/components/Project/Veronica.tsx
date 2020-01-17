@@ -23,8 +23,8 @@ const Localpost: React.FC = () => {
         <div className={'col col-8 text-columns vsParagraph1'}>
           <p>
             <a href="https://www.veronicastanton.com/" target="blank">Veronica Stanton</a> is a folk musician out of Music City, Nashville, TN. Through mutual friends we met and began 
-            talking about the possibility of working togather. I love music and love using design as a way to be closer to it. 
-            We talked abut gig posters, branding, music videos and photography. As my abilities encapsulate all of those things, 
+            talking about the possibility of working together. I love music and love using design as a way to be closer to it. 
+            We talked about gig posters, branding, music videos and photography. As my abilities encapsulate all of those things, 
             I was able to help her with them. What resulted was the creation of a brand, 
             both logos and brand expression through various mediums. I hope to work more with amazing artists like Veronica in the future.
           </p>
@@ -154,7 +154,7 @@ const Localpost: React.FC = () => {
       <div className={'col col-6 text-columns vsParagraph13'}>
         <p>
           Partnering with the profoundly talented <a href="https://nathanpowelldesign.com/" target="blank">Nathan Powell</a> (co-producer and editor), I created the concept for, filmed and directed the final music video below.
-          The track from Veronica's EP, Wildflower talked a desire to be seen and loved, but the fear of as she puts it "dying in a vase". The footage was superimposed to a double exposure affect with beautiful results.
+          The track from Veronica's EP, Wildflower talked a desire to be seen and loved, but the fear of, as she puts it, "dying in a vase". The footage was superimposed to a double exposure effect with beautiful results.
         </p>
       </div>
 

@@ -22,7 +22,7 @@ const Localpost: React.FC = () => {
 
         <div className={'col col-8 text-columns sdaParagraph1'}>
           <p>
-            While at Intrinzic, I was able to lead a rebrand of a great organization called SDA. SDA is a members organization that offers certification, education and more for those working in administrative roles at architecture, engineering and construction (A/E/C) firms. When they approached us, they were going by The Society of Design Administration and wanted to shed the old image had through renaming and rebranding.
+            While at Intrinzic, I was able to lead a rebrand of a great organization called SDA. SDA is a members organization that offers certification, education and more for those working in administrative roles at architecture, engineering and construction (A/E/C) firms. When they approached us, they were going by The Society of Design Administration and wanted to shed the old image they had through renaming and rebranding.
             We suggested remaining close to their original by remaining SDA but only going as that. From there, we created a fresh young design system that would help move them into the 21st century and attract more young administrators into their membership.
           </p>
         </div>
