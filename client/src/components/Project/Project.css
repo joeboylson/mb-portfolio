@@ -334,6 +334,92 @@
   color: #2B2D30;
 }
 
+@media only screen and (max-width: 800px) {
+  .vs1 {
+    margin-top: 150px !important;
+  }
+  .vs2 {
+  }
+  .vs3 {
+    margin-top: 150px !important;
+  }
+  .vs4 {
+    margin-top: 500px !important;
+  }
+  .vs5 {
+    margin-top: 0px !important;
+  }
+  .vs6 {
+    margin-top: 100px !important;
+  }
+  .vsParagraph2 {
+  }
+  .vsParagraph3 {
+    margin-top: -75px !important;
+  }
+  .vsParagraph4 {
+  }
+  .vsParagraph5 {
+    margin-top: -75px !important;
+  }
+  .vsParagraph6 {
+    margin-top: -975px !important;
+  }
+  .vsParagraph7 {
+    margin-top: -900px !important;
+  }
+  .vsParagraph8 {
+  }
+  .vsParagraph9 {
+    margin-top: -75px !important;
+  }
+  .vsParagraph10 {
+    margin-top: -75px !important;
+  }
+  .vsParagraph11 {
+    margin-top: -75px !important;
+  }
+  .vsParagraph12 {
+  }
+  .vsParagraph13 {
+    margin-top: -75px !important;
+  }
+  .container {
+    margin-top: -150px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 801px) {
+  .vsParagraph1 {
+    margin-top: 50px !important;
+  }
+  .vsParagraph6 {
+    margin-top: -1200px !important;
+  }
+  .vsParagraph7 {
+    margin-top: -1200px !important;
+  }
+
+  .vs4 {
+    margin-top: 400px !important;
+  }
+  .vs5 {
+    margin-top: 0px !important;
+  }
+  .vs6 {
+    margin-top: 100px !important;
+  }
+  .vs9 {
+    margin-top: 150px !important;
+  }
+  .vs10 {
+    margin-top: 150px !important;
+  }
+  .container {
+    margin-top: -150px !important;
+  }
+}
+
 /* ----- ----- ---- ----- */
 /* SDA               */
 /* ----- ----- ---- ----- */
