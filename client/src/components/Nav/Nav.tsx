@@ -16,13 +16,18 @@ const Nav: React.FC<NavProps> = (Props) => {
   }
 
   return (
-    <div id="nav" className={navIsOpen ? 'nav-open' : ''}>
+    <div 
+      id="nav" 
+      className={navIsOpen ? 'nav-open' : ''}
+      onClick={() => setNavIsOpen(!navIsOpen)}
+    >
 
-    <div id='sidebar'
-    onMouseEnter={() => setNavIsOpen(!navIsOpen)}>
-      <div 
-        id='nav-toggle'
-      >
+    <div 
+      id='sidebar' 
+      onMouseEnter={() => setNavIsOpen(!navIsOpen)}
+      onClick={() => setNavIsOpen(!navIsOpen)}
+    >
+      <div id='nav-toggle'>
 
         <span id='toggle-1' className={navIsOpen ? 'toggle-1-open' : ''}>
           <svg width="20" height="2">

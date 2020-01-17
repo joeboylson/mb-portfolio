@@ -65,7 +65,7 @@ const App: React.FC = () => {
   }, [Component])
 
   const mainStyle = {
-    transform: `translate${mainPosition} 0)`
+    transform: `translate(${mainPosition}, 0)`
   } as React.CSSProperties;
   
   return (
