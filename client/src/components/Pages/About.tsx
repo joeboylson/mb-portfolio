@@ -61,7 +61,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/cincyState.png`} alt={''}/>
+                <img src={`${process.env.PUBLIC_URL}/images/about/cincyState.svg`} alt={''}/>
               </div>
               <div>
                 <p>Associates in Graphic Design</p>
@@ -72,7 +72,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/gaig.png`} alt={''}/>
+                <img src={`${process.env.PUBLIC_URL}/images/about/gaig.svg`} alt={''}/>
               </div>
               <div>
                 <p>Design Intern</p>
@@ -83,7 +83,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/lpk.png`} alt={''}/>
+                <img src={`${process.env.PUBLIC_URL}/images/about/lpk.svg`} alt={''}/>
               </div>
               <div>
                 <p>Design Intern Folger's Team</p>
@@ -94,7 +94,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/hasbro.png`} alt={''}/>
+                <img src={`${process.env.PUBLIC_URL}/images/about/hasbro.svg`} alt={''}/>
               </div>
               <div>
                 <p>Design Intern, NERF Team</p>
@@ -104,7 +104,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/uc.png`} alt={''}/>
+                <img src={`${process.env.PUBLIC_URL}/images/about/uc.svg`} alt={''}/>
               </div>
               <div>
                 <p>BA in Communication Design</p>
@@ -115,7 +115,7 @@ const About: React.FC = () => {
 
             <div className={'item'}>
               <div>
-                <img src={`${process.env.PUBLIC_URL}/images/about/z.png`} alt={''}/>
+                <img src={`${process.env.PUBLIC_URL}/images/about/z.svg`} alt={''}/>
               </div>
               <div>
                 <p>Graphic Designer</p>
@@ -128,8 +128,8 @@ const About: React.FC = () => {
 
       </div>
       <div className={'row fadeUp'} style={getAnimationDelay(2)}>
-        <div className={'col col-16'}>
-          <h1>
+        <div className={'col col-16'} style={{marginTop: '175px'}}>
+          <h1 className={'likesIntro'}>
             You may be considering to spend 8+ hours a day with me, so you better like me.
             Here's some things I like, some things I dislike, some things I've done,
             and some things I'd like to do.

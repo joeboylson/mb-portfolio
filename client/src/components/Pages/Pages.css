@@ -404,6 +404,11 @@ mobile: 750--
   #about {
     margin-bottom: -100px;
   }
+  
+  .likesIntro {
+    font-size: 28px !important;
+    line-height: 40px !important;
+  }
 
   .row {
     margin-bottom: 0
@@ -412,6 +417,10 @@ mobile: 750--
   #list h1 { 
     text-align: left;
     width: 80%; 
+  }
+
+  #list li {
+    font-size: 18px;
   }
 
   .col {

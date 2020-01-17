@@ -20,12 +20,11 @@ const Localpost: React.FC = () => {
           <h3>After Effects, Premiere, Illustrator, Cinema 4D</h3>
         </div>
 
-        <div className={'col col-4'}>
-          <p>Throughout my schooling and my professional career, I have been able to refine and hone in on my motion design skills. These skills enhance my ability to develop robust assets for a brand.</p>
-        </div>
-
-        <div className={'col col-4'}>
-          <p>Whether for marketing purposes, or simply an additional brand expression in an ever-increasing digital age, motion design is an excellent skill to have as a graphic or UX designer.</p>
+        <div className={'col col-8 text-columns roamioParagraph1'}>
+          <p>
+          Throughout my schooling and my professional career, I have been able to refine and hone in on my motion design skills. These skills enhance my ability to develop robust assets for a brand.
+          Whether for marketing purposes, or simply an additional brand expression in an ever-increasing digital age, motion design is an excellent skill to have as a graphic or UX designer.
+          </p>
         </div>
       </div>
 

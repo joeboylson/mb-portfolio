@@ -22,7 +22,7 @@ const Localpost: React.FC = () => {
 
         <div className={'col col-8 text-columns vsParagraph1'}>
           <p>
-            <a href="https://www.veronicastanton.com/" target="blank">Veronica Stanton</a> is a folk musician out Music City, Nashville, TN. Through mutual friends we met and began 
+            <a href="https://www.veronicastanton.com/" target="blank">Veronica Stanton</a> is a folk musician out of Music City, Nashville, TN. Through mutual friends we met and began 
             talking about the possibility of working togather. I love music and love using design as a way to be closer to it. 
             We talked abut gig posters, branding, music videos and photography. As my abilities encapsulate all of those things, 
             I was able to help her with them. What resulted was the creation of a brand, 

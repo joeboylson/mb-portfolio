@@ -273,7 +273,7 @@
   .metroParagraph8 {
     margin-top: -150px !important;
   }
-  .video-wrapper {
+  #metro .video-wrapper {
     margin-top: -200px !important;
   }
 }
@@ -297,7 +297,7 @@
   .metroParagraph7 {
     margin-top: -75px !important;
   }
-  .video-wrapper {
+  #metro .video-wrapper {
     margin-top: -200px !important;
   }
 }
@@ -428,6 +428,33 @@
   color: #2B2D30;
 }
 
+@media only screen and (max-width: 800px) {
+  .sda4 {
+    margin-top: 0px !important;
+  }
+  .sda5 {
+    margin-top: 150px !important;
+  }
+  .sdaParagraph2 {
+    margin-top: -25px !important;
+  }
+  .sdaParagraph3 {
+    margin-top: -75px !important;
+  }
+  .sdaParagraph5 {
+    margin-top: -75px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 801px) {
+  .sda3 {
+    margin-top: 200px !important;
+  }
+  .sdaParagraph1 {
+    margin-top: 50px !important;
+  }
+}
+
 /* ----- ----- ---- ----- */
 /* Roamio               */
 /* ----- ----- ---- ----- */
@@ -442,6 +469,98 @@
   height: calc( (var(--grid-width) / 16) * 12);
   border: none;
 }
+
+@media only screen and (max-width: 800px) {
+  .roamio1 {
+    margin-top: 100px !important;
+  }
+  .roamio2 {
+    margin-top: 500px !important;
+  }
+  .roamio3 {
+    margin-top: 150px !important;
+  }
+  .roamio4 {
+    margin-top: 50px !important;
+  }
+  .roamio5 {
+    margin-top: 500px !important;
+  }
+  .roamio6 {
+    margin-top: 150px !important;
+  }
+  .roamio8 {
+    margin-top: -75px !important;
+  }
+  .roamioParagraph2 {
+    margin-top: -800px !important;
+  }
+  .roamioParagraph3 {
+    margin-top: -725px !important;
+  }
+  .roamioParagraph4 {
+    margin-top: -50px !important;
+  }
+  .roamioParagraph5 {
+    margin-top: -75px !important;
+  }
+  .roamioParagraph6 {
+    margin-top: -850px !important;
+  }
+  .roamioParagraph7 {
+    margin-top: -750px !important;
+  }
+  .roamioParagraph8 {
+    margin-top: -50px !important;
+  }
+  .roamioParagraph9 {
+    margin-top: -75px !important;
+  }
+  .roamioVideo1 {
+    margin-top: -100px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 801px) {
+  .roamioParagraph1 {
+    margin-top: 50px !important;
+  }
+  .roamio1 {
+    margin-top: 150px !important;
+  }
+  .roamio2 {
+    margin-top: 400px !important;
+  }
+  .roamio3 {
+    margin-top: 250px !important;
+  }
+  .roamio4 {
+    margin-top: 50px !important;
+  }
+  .roamio5 {
+    margin-top: 500px !important;
+  }
+  .roamio6 {
+    margin-top: 300px !important;
+  }
+  .roamioParagraph2 {
+    margin-top: -800px !important;
+  }
+  .roamioParagraph3 {
+    margin-top: -800px !important;
+  }
+  .roamioParagraph6 {
+    margin-top: -850px !important;
+  }
+  .roamioParagraph7 {
+    margin-top: -850px !important;
+  }
+  .roamioVideo1 {
+    margin-top: -100px !important;
+  }
+
+}
+
 
 /* ----- ----- ---- ----- */
 /* Veronica               */
