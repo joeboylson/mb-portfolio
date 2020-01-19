@@ -1,8 +1,19 @@
 const express = require('express');
-const app = express();
+const https = require('https')
 const port = process.env.PORT || 5000;
 const fs = require('fs');
 const path = require('path');
+
+// https server
+const app = express();
+
+const options = {
+  key: fs.readFileSync('./sec.key'),
+  cert: fs.readFileSync('./www_mattboylson_com.crt'),
+  ca: fs.readFileSync('./www_mattboylson_com.ca-bundle')
+};
+
+const httpServer = https.createServer(options, app)
 
 
 // DOWNLOADABLE FILES
@@ -90,4 +101,4 @@ app.post('/contact', async (req, res) => {
 
 app.get('/*', (req, res) => res.sendFile(`${__dirname}/client/build/index.html`));
 
-app.listen(port, () => console.log(`::: ${port}`))
+httpServer.listen(port, 'mattboylson.com')
