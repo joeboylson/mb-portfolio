@@ -254,6 +254,10 @@ button:focus {
 /* ABOUT            */
 /* ----- ----- ---- */
 
+.aboutList p {
+  padding-bottom: 0px !important;
+}
+
 #about {
   padding: 0 calc(var(--unit)/2);
   margin-bottom: -300px;

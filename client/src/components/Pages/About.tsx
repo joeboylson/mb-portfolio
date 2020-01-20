@@ -211,6 +211,21 @@ const About: React.FC = () => {
 
       </div>
 
+      <div className={'row'}>
+
+        <div className={'col col-3'}>
+          <h3>&nbsp;</h3>
+        </div>
+
+      </div>
+      <div className={'row'}>
+
+        <div className={'col col-3'}>
+          <h3>&nbsp;</h3>
+        </div>
+
+        </div>
+
     </div>
   );
 }
