@@ -44,7 +44,7 @@ const projects = [
     image: `${process.env.PUBLIC_URL}/images/home/roamio.png`,
     title: 'Roamio',
     info: <span>UX Design<br/>Continuous</span>,
-    description: 'What began as a senior capstone in college is now my personal obsession. I continue to develop it and work to have it made availble to the public.',
+    description: 'What began as a senior capstone in college is now my personal obsession. I continue to develop it and work to have it made available to the public.',
     themeColor: '#E52354' 
   },
   {
