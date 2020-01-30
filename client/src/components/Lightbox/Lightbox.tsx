@@ -13,6 +13,7 @@ export interface LightboxProps {
 const Lightbox: React.FC<LightboxProps> = (Props) => {
 
   const [isVisible, setIsVisible] = React.useState(false)
+  const [loaded, setLoaded] = React.useState(false);
   const imageRef:any = React.useRef(null);
 
   const lightBoxStyle = {
@@ -27,10 +28,6 @@ const Lightbox: React.FC<LightboxProps> = (Props) => {
       image.src = irc.src;
 
       if (image.width > image.height) {
-
-        console.log(irc.style)
-        console.log(Props.moveHorizontal)
-
         irc.style.transform = `translateX(${Props.moveHorizontal || 0}px)`;
         irc.classList.remove('crop-horizontal');
         irc.classList.add('crop-vertical');
@@ -50,6 +47,7 @@ const Lightbox: React.FC<LightboxProps> = (Props) => {
         alt={''}
         className={`lightbox-image crop-horizontal`}
         onClick={() => setIsVisible(true)} 
+        onLoad={() => setLoaded(true)}
         style={lightBoxStyle}
       />
 
