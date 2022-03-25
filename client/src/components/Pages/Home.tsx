@@ -3,8 +3,15 @@ import Project from '../Project/Project';
 
 const projects = [
   {
+    route: 'illustration',
+    image: `${process.env.PUBLIC_URL}/images/home/Illustration_Thumb.jpeg`,
+    title: 'Illustration',
+    info: null,
+    description: 'Over the years I have had opportunities to refine my illustrative abilities. Many were personal projects, and some were commissioned works. I hope to continue to refine and develop my skills and include more physical mediums to stretch my toolkit.',
+    themeColor: '#00d5ff'    
+  },
+  {
     route: 'localpost',
-    cursorText: '01',
     image: `${process.env.PUBLIC_URL}/images/home/localPost.png`,
     title: 'Local Post',
     info: <span>Branding<br/>June 2019</span>,
@@ -13,7 +20,6 @@ const projects = [
   },
   {
     route: 'metro',
-    cursorText: '02',
     image: `${process.env.PUBLIC_URL}/images/home/metro.png`,
     title: 'Cincinnati Metro',
     info: <span>Branding<br/>June 2016</span>,
@@ -22,7 +28,6 @@ const projects = [
   },
   {
     route: 'veronica',
-    cursorText: '03',
     image: `${process.env.PUBLIC_URL}/images/home/vs.png`,
     title: 'Veronica Stanton',
     description: 'Veronica, an incredible artist out of Nashville, came to me for help developing her brand. We created an identity, photography, a music video, a gig poster and more.',
@@ -31,7 +36,6 @@ const projects = [
   },
   {
     route: 'sda',
-    cursorText: '04',
     image: `${process.env.PUBLIC_URL}/images/home/sda.png`,
     title: 'SDA',
     info: <span>Branding<br/>February 2019</span>,
@@ -40,7 +44,6 @@ const projects = [
   },
   {
     route: 'roamio',
-    cursorText: '05',
     image: `${process.env.PUBLIC_URL}/images/home/roamio.png`,
     title: 'Roamio',
     info: <span>UX Design<br/>Continuous</span>,
@@ -49,7 +52,6 @@ const projects = [
   },
   {
     route: 'motion',
-    cursorText: '06',
     image: `${process.env.PUBLIC_URL}/images/home/motion.gif`,
     title: 'Kinetic Reel',
     info: <span>Motion Design<br/>Continuous</span>,
@@ -71,7 +73,7 @@ const Home: React.FC<HomeProps> = (Props) => {
           <Project 
             key={index}
             route={project.route}
-            cursorText={project.cursorText}
+            cursorText={`0${index + 1}`}
             image={project.image}
             index={index}
             title={project.title}

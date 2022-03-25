@@ -46,6 +46,10 @@
   flex: 0 0 40%;
 }
 
+.project-text .description.full-width {
+  flex: 0 0 calc(25% + 40%);
+}
+
 .project-footer {
   height: 20px;
   width: 50%;
