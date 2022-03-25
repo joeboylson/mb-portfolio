@@ -57,11 +57,6 @@ const Localpost: React.FC = () => {
       <div className={'col col-20'}><img className="localpost2" src={`${process.env.PUBLIC_URL}/images/LocalPost/menu.png`} alt={''} style={{marginTop: '-100px'}}/></div>
       </div>
 
-      {/* <div>
-        <canvas ref={overviewCanvasRef} id={'overview-canvas'}></canvas>
-        <div style={{height: `${window.innerHeight*3}px`}}></div>
-      </div> */}
-
       {/* COASTERS */}
 
       <div className={'row'}>

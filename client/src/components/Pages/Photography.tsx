@@ -4,6 +4,15 @@ import React from 'react';
 import Grid from '../Grid/Grid';
 
 const photograpyItems = [
+  { image: `${process.env.PUBLIC_URL}/images/photography/67108140_10157507845621202_9132086617261998080_n.jpeg` },
+  { image: `${process.env.PUBLIC_URL}/images/photography/168440557_10159685113296202_4649561477333849836_n.jpeg` },
+  { image: `${process.env.PUBLIC_URL}/images/photography/174414286_10159685673611202_558195404005015880_n.jpeg` },
+  { image: `${process.env.PUBLIC_URL}/images/photography/175710226_10159685113271202_1447448368633957655_n.jpeg` },
+  { image: `${process.env.PUBLIC_URL}/images/photography/191083614_10159685113326202_1543274413721416713_n.jpeg` },
+  { image: `${process.env.PUBLIC_URL}/images/photography/193283338_10159599491591202_8475695989743741255_n.jpeg` },
+  { image: `${process.env.PUBLIC_URL}/images/photography/200363244_10159685113336202_5601697629625958561_n.jpeg` },
+  { image: `${process.env.PUBLIC_URL}/images/photography/261337786_10159965647361202_4092920651829590712_n.jpeg` },
+  { image: `${process.env.PUBLIC_URL}/images/photography/LF100418-6edit.JPG` },
   { image: `${process.env.PUBLIC_URL}/images/photography/photography1.jpg`},
   { image: `${process.env.PUBLIC_URL}/images/photography/photography2.jpg`},
   { image: `${process.env.PUBLIC_URL}/images/photography/photography3.jpg`},

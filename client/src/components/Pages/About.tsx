@@ -123,6 +123,16 @@ const About: React.FC = () => {
               </div>
             </div>
 
+            <div className={'item'}>
+              <div>
+                <img src={`${process.env.PUBLIC_URL}/images/about/2021_Newsy_Logo_RGB.png`} alt={''}/>
+              </div>
+              <div>
+                <p>Graphic Designer</p>
+                <p className={'collapse-2'}>February 2020 - Present</p>
+              </div>
+            </div>
+
           </div>
         </div>
 
